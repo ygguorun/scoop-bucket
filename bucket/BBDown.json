@@ -1,0 +1,22 @@
+{
+    "homepage": "https://github.com/nilaoda/BBDown",
+    "description": "一款命令行式哔哩哔哩下载器. Bilibili Downloader.",
+    "license": "MIT",
+    "version": "1.3.5",
+    "url": "https://github.com/nilaoda/BBDown/releases/download/1.3.5/BBDown_v1.3.5_20201116.zip",
+    "hash": "F7603203C903E279B8ADE338DF7E424B98A9815F17DED135DC41F9DDDA31D26A",
+    "bin": [
+        [
+            "BBDown.exe",
+            "BBDown"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/nilaoda/BBDown/releases/latest",
+        "re": "\"tag_name\": \"(.*)\","
+    },
+    "post_install": "del $dir\\ffmpeg.exe",
+    "autoupdate": {
+        "url": "https://github.com/zu1k/nali/releases/download/$version/nali-windows-amd64-$version.zip"
+    }
+}
