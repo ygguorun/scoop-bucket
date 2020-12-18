@@ -1,0 +1,18 @@
+{
+    "homepage": "http://www.wofficebox.com",
+    "description": "万彩办公大师是一款办公必备的小工具百宝箱。软件里集合了60+个小工具，一个软件即可搞定90%的工作需求。",
+    "license": "Unkown",
+    "version": "3.0.6",
+    "url": "http://files.wofficebox.com/officebox/download/OfficeBox%E5%AE%98%E6%96%B9%E7%BB%BF%E8%89%B2%E7%89%88.zip",
+    "hash": "3058D34C2553FCA1F46234ACC8ACECF4578CC73D65626055E536C2085E96ACC2",
+    "shortcuts": [
+        [
+            "Officebox.exe",
+            "万彩办公大师"
+        ],
+        [
+            "Officebox.exe",
+            "Officebox"
+        ]
+    ]
+}

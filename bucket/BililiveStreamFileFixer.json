@@ -1,0 +1,18 @@
+{
+    "homepage": "https://github.com/Genteure/BililiveStreamFileFixer",
+    "description": "本工具可以修复一部分B站直播录像的问题",
+    "license": "Unknown",
+    "version": "1.0.0",
+    "url": "https://gitee.com/ladengweisi/scoop-attachment/raw/master/BililiveStreamFileFixer.zip",
+    "hash": "71B3F1A5C711B4432930445F4D00F57468EDED83500326A0FA17BC27492664E7",
+    "bin": [
+        [
+            "BililiveStreamFileFixer.exe",
+            "BililiveStreamFileFixer"
+        ],
+        [
+            "BililiveStreamFileFixer.exe",
+            "bsff"
+        ]
+    ]
+}
