@@ -1,0 +1,36 @@
+{
+    "version": "0.2.7b",
+    "description": "日本麻将助手：牌效+防守+记牌（支持雀魂、天凤）",
+    "homepage": "https://github.com/EndlessCheng/mahjong-helper",
+    "license": "MIT",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/EndlessCheng/mahjong-helper/releases/download/v0.2.7b/mahjong-helper-v0.2.7b-win32-x86.zip",
+            "hash": "d5721adaabdea6534755b22593d8551fe98683d607888cfb26af89f7aff60763"
+        },
+        "64bit": {
+            "url": "https://github.com/EndlessCheng/mahjong-helper/releases/download/v0.2.7b/mahjong-helper-v0.2.7b-win64-x64.zip",
+            "hash": "6f88121e654874612eb8d543e5f5e461e3c1263ea68a549d7f927c5686cd0422"
+        }
+    },
+    "bin": [
+        [
+            "mahjong-helper.exe",
+            "mahjong-helper"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/EndlessCheng/mahjong-helper/releases/latest",
+        "regex": "v([a-zA-Z\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/EndlessCheng/mahjong-helper/releases/download/v$version/mahjong-helper-v$version-win32-x86.zip"
+            },
+            "64bit": {
+                "url": "https://github.com/EndlessCheng/mahjong-helper/releases/download/v$version/mahjong-helper-v$version-win64-x64.zip"
+            }
+        }
+    }
+}
