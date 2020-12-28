@@ -6,6 +6,11 @@
     "url": "https://srf.xunfei.cn/winpc/#dl.7z",
     "hash": "7AF935FE5316008FB87C56925447D5DD665201DC8BED79C88E5D46A84C0371E1",
     "extract_dir": "3.0.1725",
+    "post_install": [
+        "Remove-Item -Recurse $dir\\esr",
+        "Remove-Item -Recurse $dir\\phn",
+        "Remove-Item -Recurse $dir\\x64"
+    ],
     "shortcuts": [
         [
             "iFlyVoice.exe",
