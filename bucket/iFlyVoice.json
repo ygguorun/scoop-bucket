@@ -1,0 +1,15 @@
+{
+    "version": "3.0.1725",
+    "description": "讯飞输入法 语音输入",
+    "homepage": "https://srf.xunfei.cn/",
+    "license": "Unknown",
+    "url": "https://srf.xunfei.cn/winpc/#dl.7z",
+    "hash": "7AF935FE5316008FB87C56925447D5DD665201DC8BED79C88E5D46A84C0371E1",
+    "extract_dir": "3.0.1725",
+    "shortcuts": [
+        [
+            "iFlyVoice.exe",
+            "讯飞语音输入"
+        ]
+    ]
+}
