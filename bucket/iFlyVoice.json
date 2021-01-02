@@ -16,5 +16,8 @@
             "iFlyVoice.exe",
             "讯飞语音输入"
         ]
-    ]
+    ],
+    "checkver": {
+        "regex": "pcver = \"v([\\d.]+)\""
+    }
 }
