@@ -5,11 +5,11 @@
     "license": "Unknown",
     "architecture": {
         "32bit": {
-            "url": "https://ml.jinxingxu.com/file/5ffa94e462093f004434afc9/#Teambition.exe",
+            "url": "https://ml.jinxingxu.com/file/5ffa94e462093f004434afc9#/Teambition.exe",
             "hash": "F0E81F3601EF47EE94A87954015C67A8EB359ECD8F1A1DD0D8428E3CAE1FAB42"
         },
         "64bit": {
-            "url": "https://ml.jinxingxu.com/file/5ffa94e462093f004434afcc/#Teambition.exe",
+            "url": "https://ml.jinxingxu.com/file/5ffa94e462093f004434afcc#/Teambition.exe",
             "hash": "D5F84D888306517DACB75CD9CE17C311877A2F72E97DA225FC7F02972F33470A"
         }
     }
