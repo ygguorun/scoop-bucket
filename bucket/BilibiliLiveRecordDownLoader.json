@@ -1,16 +1,16 @@
 {
-    "version": "3.4.1",
+    "version": "3.4.2",
     "description": "Bilibili 直播录制与回放下载",
     "homepage": "https://github.com/HMBSbige/BilibiliLiveRecordDownLoader",
     "license": "GNU Affero General Public License v3.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases/download/3.4.1/BilibiliLiveRecordDownLoader-Win32-3.4.1.7z",
-            "hash": "518c9e3db46203689a919d0a00c95850e2707b351f47d8498da89c55a2a814de"
+            "url": "https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases/download/3.4.2/BilibiliLiveRecordDownLoader-Win32-3.4.2.7z",
+            "hash": "4aa1e9994989e59c7b1989debd284332e448f031b3e83ba78e5e8e21dab1b2e7"
         },
         "64bit": {
-            "url": "https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases/download/3.4.1/BilibiliLiveRecordDownLoader-Win64-3.4.1.7z",
-            "hash": "5d34c7ba3fc092030b7d4cdc97ce09232870b02fc45e2467530a84f7c03831ba"
+            "url": "https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases/download/3.4.2/BilibiliLiveRecordDownLoader-Win64-3.4.2.7z",
+            "hash": "bf2e35b3628713eeb15dac119a8286963a7ada00ff7ae6e3370948f46abb056a"
         }
     },
     "pre_install": [
