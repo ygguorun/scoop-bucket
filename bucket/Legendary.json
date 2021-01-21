@@ -12,5 +12,5 @@
     "autoupdate": {
         "url": "https://github.com/derrod/legendary/releases/download/$version/legendary.exe"
     },
-    "notes": "We don't persist your Legendary data, they are still storaged in '%APPDATA%\\.config\\legendary'."
+    "notes": "We don't persist your Legendary data, they are still storaged in '~\\.config\\legendary'."
 }
