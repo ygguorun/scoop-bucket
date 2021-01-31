@@ -1,0 +1,43 @@
+{
+    "version": "3.0.14",
+    "description": "EmbyTheater. Media browser for Emby",
+    "homepage": "https://emby.media/emby-theater.html",
+    "license": {
+        "identifier": "GPL-2.0-only",
+        "url": "https://github.com/MediaBrowser/emby-theater-windows/blob/master/LICENSE.md"
+    },
+    "changelog": "https://github.com/MediaBrowser/emby-theater-windows/releases/tag/3.0.14",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/MediaBrowser/emby-theater-windows/releases/download/3.0.14/emby-theater-x64.zip",
+            "hash": "eb3fd4caf2777567551c1bbd2ebb570e9091acbdb5475bbfddca3b145a10df63"
+        },
+        "32bit": {
+            "url": "https://github.com/MediaBrowser/emby-theater-windows/releases/download/3.0.14/emby-theater-x86.zip",
+            "hash": "d8102f77b2740463cf69022345a8a28c63020fe336f886737da30bf9f6bdfc30"
+        }
+    },
+    "shortcuts": [
+        [
+            "Emby.Theater.exe",
+            "Emby Theater"
+        ]
+    ],
+    "post_install":[
+        "sed -i 's/https:\\/\\/tv.emby.media/https:\\/\\/tv.emby.neko.re/g' $dir\\electronapp\\main.js"
+    ],
+    "checkver": {
+        "github": "https://github.com/MediaBrowser/emby-theater-windows"
+    },
+    "autoupdate": {
+        "changelog": "https://github.com/MediaBrowser/emby-theater-windows/releases/tag/$version",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/MediaBrowser/emby-theater-windows/releases/download/$version/emby-theater-x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/MediaBrowser/emby-theater-windows/releases/download/$version/emby-theater-x86.zip"
+            }
+        }
+    }
+}

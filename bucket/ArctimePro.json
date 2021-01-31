@@ -23,7 +23,7 @@
     ],
     "checkver": {
         "url": "https://arctime.org/download.html",
-        "regex": "ArcTime Pro ([\\d.]+)"
+        "regex": "Pro ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
