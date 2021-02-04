@@ -1,16 +1,16 @@
 {
-    "version": "1.4.7",
+    "version": "1.4.8",
     "description": "测试 Cloudflare CDN 延迟和速度，获取最快 IP (IPv4+IPv6)！",
     "homepage": "https://github.com/XIU2/CloudflareSpeedTest",
     "license": "GNU General Public License v3.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v1.4.7/CloudflareST_windows_386.zip",
-            "hash": "98983fff159230a9d6f68db4fbf3abdad2a97a03c23809a4d115163a08072431"
+            "url": "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v1.4.8/CloudflareST_windows_386.zip",
+            "hash": "f411d55b23d681f1596114cc14ba54a4a3f83579209b3c30e03eb0445aa9730d"
         },
         "64bit": {
-            "url": "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v1.4.7/CloudflareST_windows_amd64.zip",
-            "hash": "0eed2db5358ee4e2b8cd6c7d4c990f677bf496c98e31ed4bc9514bc127e75cad"
+            "url": "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v1.4.8/CloudflareST_windows_amd64.zip",
+            "hash": "39d11fa93caa8b220218090d479142a02e51c9f6f0c8649e18c56c5b725a95de"
         }
     },
     "bin": "CloudflareST.exe",
