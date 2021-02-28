@@ -1,0 +1,42 @@
+{
+    "version": "0.9.40",
+    "description": "cqhttp的golang实现，轻量、原生跨平台.",
+    "homepage": "https://github.com/Mrs4s/go-cqhttp",
+    "license": "GNU Affero General Public License v3.0",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/Mrs4s/go-cqhttp/releases/download/v0.9.40/go-cqhttp-v0.9.40-windows-386.exe#/cqhttp.exe",
+            "hash": "md5:7b222da2de31d763bc3c837e68129ea3",
+            "bin": "cqhttp.exe"
+        },
+        "64bit": {
+            "url": "https://github.com/Mrs4s/go-cqhttp/releases/download/v0.9.40/go-cqhttp-v0.9.40-windows-amd64.exe#/cqhttp.exe",
+            "hash": "md5:eacb83c901921dc231f9b349fd395334",
+            "bin": "cqhttp.exe"
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/Mrs4s/go-cqhttp"
+    },
+    "notes": "We don't persist your CQHTTP data such as \"config.hjson\" and \"device.json\", please pay attention to backup.",
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/Mrs4s/go-cqhttp/releases/download/v$version/go-cqhttp-v$version-windows-386.exe",
+                "hash": {
+                    "url": "$url.md5",
+                    "mode": "extract",
+                    "regex": "$md5"
+                }
+            },
+            "64bit": {
+                "url": "https://github.com/Mrs4s/go-cqhttp/releases/download/v$version/go-cqhttp-v$version-windows-amd64.exe",
+                "hash": {
+                    "url": "$url.md5",
+                    "mode": "extract",
+                    "regex": "$md5"
+                }
+            }
+        }
+    }
+}
