@@ -25,7 +25,9 @@
     },
     "persist": "config.yml",
     "checkver": {
-        "github": "https://github.com/hr3lxphr6j/bililive-go"
+        "url": "https://api.github.com/repos/hr3lxphr6j/bililive-go/releases/latest",
+        "jp": "$.tag_name",
+        "regex": "v(.*)"
     },
     "autoupdate": {
         "architecture": {
