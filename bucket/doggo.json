@@ -1,12 +1,12 @@
 {
-    "version": "0.3.5",
+    "version": "0.3.6",
     "description": "Command-line DNS Client for Humans. Written in Golang",
     "homepage": "https://github.com/mr-karan/doggo",
     "license": "GNU General Public License v3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mr-karan/doggo/releases/download/v0.3.5/doggo_0.3.5_windows_amd64.tar.gz",
-            "hash": "4101a5caed695f05c36838b34e95e41f7b36b490222e1d83ee7f8d3d33bf3cf5"
+            "url": "https://github.com/mr-karan/doggo/releases/download/v0.3.6/doggo_0.3.6_windows_amd64.tar.gz",
+            "hash": "2eb06850e6fed679da444340c3e36ccbff9d8c20ce375496fb7bb3ffeced4350"
         }
     },
     "bin": "doggo.exe",
