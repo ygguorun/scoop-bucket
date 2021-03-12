@@ -1,6 +1,6 @@
 {
     "version": "0.9.40-fix4",
-    "description": "cqhttp的golang实现，轻量、原生跨平台.",
+    "description": "cqhttp 的 golang 实现，轻量、原生跨平台.",
     "homepage": "https://github.com/Mrs4s/go-cqhttp",
     "license": "GNU Affero General Public License v3.0",
     "architecture": {
