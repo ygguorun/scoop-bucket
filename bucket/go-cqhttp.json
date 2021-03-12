@@ -16,7 +16,8 @@
         }
     },
     "checkver": {
-        "github": "https://github.com/Mrs4s/go-cqhttp"
+        "url": "https://github.com/Mrs4s/go-cqhttp/releases",
+        "regex": "v([\\d\\w-.]+)</span>"
     },
     "notes": "We don't persist your CQHTTP data such as \"config.hjson\" and \"device.json\", please pay attention to backup.",
     "autoupdate": {
