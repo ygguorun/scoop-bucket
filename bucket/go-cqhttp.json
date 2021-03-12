@@ -1,17 +1,17 @@
 {
-    "version": "0.9.40",
+    "version": "0.9.40-fix4",
     "description": "cqhttp的golang实现，轻量、原生跨平台.",
     "homepage": "https://github.com/Mrs4s/go-cqhttp",
     "license": "GNU Affero General Public License v3.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/Mrs4s/go-cqhttp/releases/download/v0.9.40/go-cqhttp-v0.9.40-windows-386.exe#/cqhttp.exe",
-            "hash": "md5:7b222da2de31d763bc3c837e68129ea3",
+            "url": "https://github.com/Mrs4s/go-cqhttp/releases/download/v0.9.40-fix4/go-cqhttp-v0.9.40-fix4-windows-386.exe",
+            "hash": "md5:8c8bfc7a3c098d3d6b77e5263231a5bf",
             "bin": "cqhttp.exe"
         },
         "64bit": {
-            "url": "https://github.com/Mrs4s/go-cqhttp/releases/download/v0.9.40/go-cqhttp-v0.9.40-windows-amd64.exe#/cqhttp.exe",
-            "hash": "md5:eacb83c901921dc231f9b349fd395334",
+            "url": "https://github.com/Mrs4s/go-cqhttp/releases/download/v0.9.40-fix4/go-cqhttp-v0.9.40-fix4-windows-amd64.exe",
+            "hash": "md5:6079ea00a8eed5df4338bfaa70a4f8a4",
             "bin": "cqhttp.exe"
         }
     },
