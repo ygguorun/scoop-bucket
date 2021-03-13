@@ -8,8 +8,10 @@
             "url": "https://github.com/hr3lxphr6j/bililive-go/releases/download/v0.6.0-rc.2/bililive-windows-386.zip",
             "hash": "0c1d1badcbc787bd7fc935e4adfba2effd585dd13f814029a8ada6f75f427cbc",
             "bin": [
-                "bililive-windows-386.exe",
-                "bililive"
+                [
+                    "bililive-windows-386.exe",
+                    "bililive"
+                ]
             ]
         },
         "64bit": {
