@@ -10,5 +10,9 @@
             "silk2mp3.exe",
             "silk2mp3"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://kn007.net/topics/batch-convert-silk-v3-audio-files-to-mp3-in-windows/",
+        "regex": "[\u4e00-\u9fa5](\\d\\.\\d\\.\\d\\.\\d)[\u4e00-\u9fa5]"
+    }
 }
