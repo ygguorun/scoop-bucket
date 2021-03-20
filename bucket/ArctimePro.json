@@ -2,7 +2,7 @@
     "version": "2.4.1",
     "description": "简单、强大、高效的跨平台字幕制作软件",
     "homepage": "https://arctime.org",
-    "license": "Unknown",
+    "license": "Freeware",
     "architecture": {
         "32bit": {
             "url": "http://dl.arctime.cn/ARCTIME_PRO_2.4.1_WIN32.rar",

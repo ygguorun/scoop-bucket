@@ -2,7 +2,7 @@
     "version": "0.0.8",
     "description": "A .NET Framework based GUI Proxy For Windows",
     "homepage": "https://github.com/ClashDotNetFramework/ClashDotNetFramework",
-    "license": "Unknown",
+    "license": "Freeware",
     "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v0.0.8/CDF-v0.0.8.7z",
     "hash": "3c5093f2b750ec3f15e5e21de0cd64abb5a4b67bd579fa371104e5e5cbab2da1",
     "extract_dir": "Clash .NET Framework",
