@@ -1,16 +1,16 @@
 {
-    "version": "2.52",
+    "version": "2.6",
     "description": "流媒体NetFlix解锁检测脚本 / A script used to determine whether your network can watch native Netflix movies or not",
     "homepage": "https://github.com/sjlleo/netflix-verify",
     "license": "GNU General Public License v3.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/sjlleo/netflix-verify/releases/download/2.52/nf_2.52_windows_386.exe#/netflix-verify.exe",
-            "hash": "3ab3b7c4a2bc394adc5f6b2095153a60c87f1b3d55a00b8570327b67138dcad2"
+            "url": "https://github.com/sjlleo/netflix-verify/releases/download/2.6/nf_2.6_windows_386.exe#/netflix-verify.exe",
+            "hash": "80da5bdb1cc054b5d09b181068c4a3d46a1e8405309cb2bc0ce332b375d2492c"
         },
         "64bit": {
-            "url": "https://github.com/sjlleo/netflix-verify/releases/download/2.52/nf_2.52_windows_amd64.exe#/netflix-verify.exe",
-            "hash": "c9b3f268425a9007cadcfa6700cd54674e9b79d632a53710e1738ec0d72cd935"
+            "url": "https://github.com/sjlleo/netflix-verify/releases/download/2.6/nf_2.6_windows_amd64.exe#/netflix-verify.exe",
+            "hash": "80b12d3e266043323658cba1c8dd3b45c6e894a64d69ce6ddc3750d565d69283"
         }
     },
     "bin": "netflix-verify.exe",
