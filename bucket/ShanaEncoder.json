@@ -1,10 +1,10 @@
 {
-    "version": "5.2.0.3",
+    "version": "5.2.0.4",
     "description": "ShanaEncoder is audio/video encoding program based on FFmpeg.",
     "homepage": "https://shana.pe.kr",
     "license": "Freeware",
-    "url": "https://sourceforge.net/projects/shanaencoder/files/ShanaEncoder5.2.0.3.exe#/dl.7z",
-    "hash": "sha1:77459f7f41ad080c7dfb2dcd6c2a14fd6b7f6b0b",
+    "url": "https://sourceforge.net/projects/shanaencoder/files/ShanaEncoder5.2.0.4.exe#/dl.7z",
+    "hash": "sha1:a14c25014a56057c0c1969779ce4f0484728e6ce",
     "shortcuts": [
         [
             "ShanaEncoder.exe",
