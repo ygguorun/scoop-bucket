@@ -163,19 +163,15 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/Mrs4s/go-cqhttp/releases/download/v$version/go-cqhttp-v$version-windows-386.exe#/cqhttp.exe",
+                "url": "https://github.com/Mrs4s/go-cqhttp/releases/download/v$version/go-cqhttp_windows_386.zip",
                 "hash": {
-                    "url": "$url.md5",
-                    "mode": "extract",
-                    "regex": "$md5"
+                    "url": "$baseurl/go-cqhttp_checksums.txt"
                 }
             },
             "64bit": {
-                "url": "https://github.com/Mrs4s/go-cqhttp/releases/download/v$version/go-cqhttp-v$version-windows-amd64.exe#/cqhttp.exe",
+                "url": "https://github.com/Mrs4s/go-cqhttp/releases/download/v$version/go-cqhttp_windows_amd64.zip",
                 "hash": {
-                    "url": "$url.md5",
-                    "mode": "extract",
-                    "regex": "$md5"
+                    "url": "$baseurl/go-cqhttp_checksums.txt"
                 }
             }
         }
