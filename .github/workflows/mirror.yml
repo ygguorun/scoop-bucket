@@ -10,5 +10,5 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
         with:
-          source-repo: "git@github.com:ygguorun/scoop-bucket.git"
+          source-repo: "https://github.com/ygguorun/scoop-bucket.git"
           destination-repo: "git@gitee.com:ladengweisi/scoop-bucket.git"
