@@ -1,15 +1,12 @@
-name: Sync To Gitee
-on:
-# 如果需要PR触发把push前的#去掉
-  push:
-  schedule:
-    # 每天北京时间9点跑
-    - cron:  '0 1 * * *'
+name: Mirror to Gitee Repo
+
+on: [ push, delete, create ]
+
 jobs:
-  sync:
+  git-mirror:
     runs-on: ubuntu-latest
     steps:
-      - uses: wearerequired/git-mirror-action@master
+      - uses: wearerequired/git-mirror-action@v1
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
         with:
