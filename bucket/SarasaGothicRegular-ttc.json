@@ -1,9 +1,9 @@
 {
-    "version": "0.21.0",
+    "version": "0.30.0",
     "license": "OFL-1.1",
     "homepage": "https://github.com/be5invis/Sarasa-Gothic",
-    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v0.21.0/sarasa-gothic-ttc-unhinted-0.21.0.7z",
-    "hash": "97724cd8df93f196f98f6869380b15865123f363dda525ae6159debe6cd86111",
+    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v0.30.0/sarasa-gothic-ttc-unhinted-0.30.0.7z",
+    "hash": "0b8859bf2e6853decf9d64bd33c2eec1a90eff311d78915e60baa10add62e83f",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v$version/sarasa-gothic-ttc-unhinted-$version.7z"
