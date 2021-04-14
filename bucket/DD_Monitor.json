@@ -1,0 +1,23 @@
+{
+    "version": "2.6",
+    "description": "DD监控室",
+    "homepage": "https://github.com/zhimingshenjun/DD_Monitor",
+    "license": "GNU Lesser General Public License v2.1",
+    "url": "https://github.com/zhimingshenjun/DD_Monitor/releases/download/DD_Monitor2.6/DD.v2.6.VLC3.0.zip",
+    "hash": "4bd528128b09e6871f1fda176e61f39a633671168e3f815bf9fc0a2a6fddf5dd",
+    "extract_dir": "DD监控室v2.6 (VLC3.0内核)",
+    "shortcuts": [
+        [
+            "DD监控室.exe",
+            "DD监控室"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/zhimingshenjun/DD_Monitor/releases/latest",
+        "regex": "DD_Monitor([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/zhimingshenjun/DD_Monitor/releases/download/DD_Monitor$version/DD.v$version.VLC3.0.zip",
+        "extract_dir": "DD监控室v$version (VLC3.0内核)"
+    }
+}
