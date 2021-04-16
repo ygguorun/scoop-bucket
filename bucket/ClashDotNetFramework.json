@@ -5,31 +5,41 @@
     "license": "Freeware",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.0/Clash.NET.1.0.0-x86.7z",
-            "hash": "6c8a9a3d1531e2d913382611d7e4992df8d86e3dda0016f47c51329611a55605"
+            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.0/Clash.NET.Setup.1.0.0.x86.exe",
+            "hash": "d592afdf4280f4100ceb81f7f3d5a872a3b7b5369056fb897a4cef898eb76b2e"
         },
         "64bit": {
-            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.0/Clash.NET.1.0.0-x64.7z",
-            "hash": "056d01709751b90ee728845cb2343f274711736ab4ef5ba17d6064ebce5e0eaf"
+            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.0/Clash.NET.Setup.1.0.0.x64.exe",
+            "hash": "7e0b4ff5b745b9c4bbba5be76c83331a543330de7c7b5c3daa69e7e8ec46c55f"
         }
     },
-    "extract_dir": "Clash .NET",
-    "shortcuts": [
-        [
-            "ClashDotNet.exe",
-            "ClashDotNet"
+    "installer": {
+        "args": [
+            "/currentuser",
+            "/verysilent",
+            "/nocancel",
+            "/norestart",
+            "/dir=$dir"
         ]
-    ],
+    },
+    "uninstaller": {
+        "file": "unins000.exe",
+        "args": [
+            "/verysilent",
+            "/nocancel",
+            "/norestart"
+        ]
+    },
     "checkver": {
         "github": "https://github.com/ClashDotNetFramework/ClashDotNetFramework"
     },
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.$version-x86.7z"
+                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.Setup.$version.x86.exe"
             },
             "64bit": {
-                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.$version-x64.7z"
+                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.Setup.$version.x64.exe"
             }
         }
     }
