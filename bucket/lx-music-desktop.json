@@ -3,11 +3,10 @@
     "description": "一个基于 electron 的音乐软件",
     "homepage": "https://github.com/lyswhut/lx-music-desktop",
     "license": "Apache License 2.0",
-    "pre_install": "if (!(Test-Path \"$dir\\lx-music-desktop.exe\")) { New-Item \"$dir\\lx-music-desktop.exe\" | Out-Null }",
     "architecture": {
         "32bit": {
             "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v1.8.2/lx-music-desktop-v1.8.2-x86_64-Setup.exe#/dl.7z",
-            "hash": "7d45c38360dc92f8b326220da0c3dbfe61335029ca2c54c59b38e37a18acd883",
+            "hash": "sha512:045792ede7943e3d20faa286ef86fd32e8f97777076c919462dc49b8649d7b512d832765157b73af5c5ec491a70df3ea22ad5fa23f3718fc86c0e16c12c43576",
             "extract_dir": "$PLUGINSDIR",
             "post_install": [
                 "Remove-Item $dir\\*.dll",
@@ -21,7 +20,7 @@
         },
         "64bit": {
             "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v1.8.2/lx-music-desktop-v1.8.2-x86_64-Setup.exe#/dl.7z",
-            "hash": "7d45c38360dc92f8b326220da0c3dbfe61335029ca2c54c59b38e37a18acd883",
+            "hash": "sha512:045792ede7943e3d20faa286ef86fd32e8f97777076c919462dc49b8649d7b512d832765157b73af5c5ec491a70df3ea22ad5fa23f3718fc86c0e16c12c43576",
             "extract_dir": "$PLUGINSDIR",
             "post_install": [
                 "Remove-Item $dir\\*.dll",
@@ -34,6 +33,7 @@
             ]
         }
     },
+    "pre_install": "if (!(Test-Path \"$dir\\lx-music-desktop.exe\")) { New-Item \"$dir\\lx-music-desktop.exe\" | Out-Null }",
     "shortcuts": [
         [
             "lx-music-desktop.exe",
@@ -46,10 +46,18 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v$version/lx-music-desktop-v$version-x86_64-Setup.exe#/dl.7z"
+                "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v$version/lx-music-desktop-v$version-x86_64-Setup.exe#/dl.7z",
+                "hash": {
+                    "url": "$baseurl/latest.yml",
+                    "regex": "sha512: $base64"
+                }
             },
             "64bit": {
-                "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v$version/lx-music-desktop-v$version-x86_64-Setup.exe#/dl.7z"
+                "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v$version/lx-music-desktop-v$version-x86_64-Setup.exe#/dl.7z",
+                "hash": {
+                    "url": "$baseurl/latest.yml",
+                    "regex": "sha512: $base64"
+                }
             }
         }
     }
