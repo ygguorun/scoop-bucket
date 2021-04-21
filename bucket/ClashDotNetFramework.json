@@ -1,16 +1,16 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A .NET Framework based GUI Proxy For Windows",
     "homepage": "https://github.com/ClashDotNetFramework/ClashDotNetFramework",
     "license": "Freeware",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.0/Clash.NET.Setup.1.0.0.x86.exe",
-            "hash": "d592afdf4280f4100ceb81f7f3d5a872a3b7b5369056fb897a4cef898eb76b2e"
+            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.1/Clash.NET.1.0.1.x86.Setup.exe",
+            "hash": "20bdde3df7b1b50416afeef3150a018ccfddf54b5aa2a0411b1afc9ed826832d"
         },
         "64bit": {
-            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.0/Clash.NET.Setup.1.0.0.x64.exe",
-            "hash": "7e0b4ff5b745b9c4bbba5be76c83331a543330de7c7b5c3daa69e7e8ec46c55f"
+            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.1/Clash.NET.1.0.1.x64.Setup.exe",
+            "hash": "51e07e8e8f428ae71322caebedaf2df3da94cc6011b2bbb541d4add72ecfa30f"
         }
     },
     "installer": {
@@ -36,10 +36,18 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.Setup.$version.x86.exe"
+                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.$version.x86.Setup.exe",
+                "hash": {
+                    "url": "$baseurl/checksum",
+                    "regex": "$basename $sha256"
+                }
             },
             "64bit": {
-                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.Setup.$version.x64.exe"
+                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.$version.x64.Setup.exe",
+                "hash": {
+                    "url": "$baseurl/checksum",
+                    "regex": "$basename $sha256"
+                }
             }
         }
     }
