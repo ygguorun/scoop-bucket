@@ -5,6 +5,7 @@
     "license": "MIT",
     "url": "https://github.com/nilaoda/BBDown/releases/download/1.3.8/BBDown_v1.3.8_20210330.zip",
     "hash": "669d339a5a7cf62620a2c86a851c138cc039707773868a4b48a0d18b1fea294a",
+    "depends": "ffmpeg",
     "bin": [
         [
             "BBDown.exe",
@@ -15,7 +16,7 @@
         "url": "https://api.github.com/repos/nilaoda/BBDown/releases/latest",
         "regex": "https://github.com/nilaoda/BBDown/releases/download/(?<version>[\\d.]+)/BBDown_v.*_(?<data>[\\d]+).zip"
     },
-    "post_install": "del $dir\\ffmpeg.exe",
+    "post_install": "Remove-Item $dir\\ffmpeg.exe",
     "autoupdate": {
         "url": "https://github.com/nilaoda/BBDown/releases/download/$version/BBDown_v$version_$matchData.zip"
     }
