@@ -12,6 +12,10 @@
             "DD监控室"
         ]
     ],
+    "persist":[
+        "utils",
+        "logs"
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/zhimingshenjun/DD_Monitor/releases/latest",
         "regex": "DD_Monitor([\\d.]+)"
