@@ -7,33 +7,24 @@
         "32bit": {
             "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v1.8.2/lx-music-desktop-v1.8.2-x86_64-Setup.exe#/dl.7z",
             "hash": "sha512:045792ede7943e3d20faa286ef86fd32e8f97777076c919462dc49b8649d7b512d832765157b73af5c5ec491a70df3ea22ad5fa23f3718fc86c0e16c12c43576",
-            "extract_dir": "$PLUGINSDIR",
-            "post_install": [
-                "Remove-Item $dir\\*.dll",
-                "Remove-Item $dir\\*.bmp",
-                "Remove-Item $dir\\app-64.7z",
-                "7z x -aoa $dir\\app-32.7z -olx_music_desktop_tmp",
-                "Move-Item -Force lx_music_desktop_tmp/* $dir",
-                "Remove-Item lx_music_desktop_tmp",
-                "Remove-Item $dir\\app-32.7z"
-            ]
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
+                ]
+            }
         },
         "64bit": {
             "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v1.8.2/lx-music-desktop-v1.8.2-x86_64-Setup.exe#/dl.7z",
             "hash": "sha512:045792ede7943e3d20faa286ef86fd32e8f97777076c919462dc49b8649d7b512d832765157b73af5c5ec491a70df3ea22ad5fa23f3718fc86c0e16c12c43576",
-            "extract_dir": "$PLUGINSDIR",
-            "post_install": [
-                "Remove-Item $dir\\*.dll",
-                "Remove-Item $dir\\*.bmp",
-                "Remove-Item $dir\\app-32.7z",
-                "7z x -aoa $dir\\app-64.7z -olx_music_desktop_tmp",
-                "Move-Item -Force lx_music_desktop_tmp/* $dir",
-                "Remove-Item lx_music_desktop_tmp",
-                "Remove-Item $dir\\app-64.7z"
-            ]
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
+                ]
+            }
         }
     },
-    "pre_install": "if (!(Test-Path \"$dir\\lx-music-desktop.exe\")) { New-Item \"$dir\\lx-music-desktop.exe\" | Out-Null }",
     "shortcuts": [
         [
             "lx-music-desktop.exe",
