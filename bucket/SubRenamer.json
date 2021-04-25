@@ -3,7 +3,7 @@
     "description": "番剧字幕文件自动化一键批量重命名（改名）工具：自动匹配，正则过滤，手动精选，一键操作；Rename Subtitles Automatically to Match Videos Easily through the SubRenamer Tool.",
     "homepage": "https://github.com/qwqcode/SubRenamer",
     "license": "GNU General Public License v2.0",
-    "url": "https://github.com/qwqcode/SubRenamer/releases/download/0.4.0/SubRenamer.v0.4.exe",
+    "url": "https://github.com/qwqcode/SubRenamer/releases/download/0.4.0/SubRenamer.v0.4.exe#/SubRenamer.exe",
     "hash": "402fa39e6fba0d54c9ca027186da2113a4be4e8859b5d9dfd99d183c14d1b302",
     "shortcuts": [
         [
@@ -15,6 +15,6 @@
         "github": "https://github.com/qwqcode/SubRenamer"
     },
     "autoupdate": {
-        "url": "https://github.com/qwqcode/SubRenamer/releases/download/$version/SubRenamer.v$majorVersion.$minorVersion.exe"
+        "url": "https://github.com/qwqcode/SubRenamer/releases/download/$version/SubRenamer.v$majorVersion.$minorVersion.exe#/SubRenamer.exe"
     }
 }
