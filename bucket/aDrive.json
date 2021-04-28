@@ -1,0 +1,19 @@
+{
+    "version": "2.1.2",
+    "description": "阿里云盘是一款速度快、不打扰、够安全、易于分享的网盘，由阿里巴巴集团出品",
+    "homepage": "https://www.aliyundrive.com/",
+    "license": "Unknown",
+    "url": "https://tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com/desktop/aDrive/2.1.2/update/win32/ia32/aDrive-2.1.2.exe#/dl.7z",
+    "hash": "FEA99CB2D53D06FB6438AAC50364C56211010DDAA100DE8F66DBAFB22B82242C",
+    "shortcuts": [
+        [
+            "aDrive.exe",
+            "阿里云盘"
+        ]
+    ],
+    "post_install": [
+        "Remove-Item -Force -Recurse \"$dir\\`$PLUGINSDIR\"",
+        "Remove-Item -Force -Recurse \"$dir\\`$TEMP\""
+    ],
+    "notes": "We don't persist your aDrive data, they are still storaged in '%APPDATA%\\aDrive'."
+}
