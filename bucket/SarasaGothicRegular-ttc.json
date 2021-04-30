@@ -1,7 +1,8 @@
 {
     "version": "0.31.0",
-    "license": "OFL-1.1",
+    "description": "Sarasa Gothic / 更纱黑体 / 更紗黑體 / 更紗ゴシック / 사라사 고딕",
     "homepage": "https://github.com/be5invis/Sarasa-Gothic",
+    "license": "OFL-1.1",
     "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v0.31.0/sarasa-gothic-ttc-unhinted-0.31.0.7z",
     "hash": "e473c8c24568fc6df03b30be5b25df71c2d4493be682ce93fddb9dd2a36b5c1f",
     "checkver": "github",
