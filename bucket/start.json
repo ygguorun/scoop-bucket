@@ -31,5 +31,5 @@
             "regex": "hashcode.*?$md5"
         }
     },
-    "notes": "We don't persist your STSRT data, they are still storaged in '%APPDATA%\\Tencent\\START'."
+    "notes": "Scoop doesn't persist your STSRT data, they are still storaged in '%APPDATA%\\Tencent\\START'."
 }

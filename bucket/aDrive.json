@@ -15,5 +15,5 @@
         "Remove-Item -Force -Recurse \"$dir\\`$PLUGINSDIR\"",
         "Remove-Item -Force -Recurse \"$dir\\`$TEMP\""
     ],
-    "notes": "We don't persist your aDrive data, they are still storaged in '%APPDATA%\\aDrive'."
+    "notes": "Scoop doesn't persist your aDrive data, they are still storaged in '%APPDATA%\\aDrive'."
 }
