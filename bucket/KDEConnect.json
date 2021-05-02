@@ -1,10 +1,10 @@
 {
-    "version": "1.4-576",
+    "version": "1.4-577",
     "description": "Enabling communication between all your devices. Made for people like you.",
     "homepage": "https://kdeconnect.kde.org",
     "license": "GPL-2.0-or-later",
-    "url": "https://binary-factory.kde.org/job/kdeconnect-kde_Release_win64/576/artifact/kdeconnect-kde-1.4-576-windows-msvc2019_64-cl.7z",
-    "hash": "33d2c05f4e5a68ae91fc7a22b478083482441b14fc9488ee46e6f7ca36447d8c",
+    "url": "https://binary-factory.kde.org/job/kdeconnect-kde_Release_win64/577/artifact/kdeconnect-kde-1.4-577-windows-msvc2019_64-cl.7z",
+    "hash": "059e79f9cf58985f2e463705a3f32037156414e8071601921b023c36d2eb435d",
     "bin": "bin\\kdeconnect-cli.exe",
     "shortcuts": [
         [
