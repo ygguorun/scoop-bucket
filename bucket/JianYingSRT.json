@@ -1,10 +1,10 @@
 {
-    "version": "1.3.1",
+    "version": "1.6.0",
     "description": "用于剪映中包含字幕信息的 Json 文件提取导出转换为 .srt 格式",
     "homepage": "https://guihet.com/jianying.html",
     "license": "Freeware",
-    "url": "https://raw.githubusercontent.com/zhuping96119/scoop-attachment/master/JianYingSRT-v1.3.1.zip",
-    "hash": "a43355cad23e23b42a2a0239b2c6bd8c33f09d4715a770e1d5ac730aeb0dfdcc",
+    "url": "https://raw.githubusercontent.com/zhuping96119/scoop-attachment/master/JianYingSRT-v1.6.0.zip",
+    "hash": "8d84e75129dfce6b79f97a7de5545e856ea39a3dab6c25e01f29f0e1db657463",
     "extract_dir": "JianYingSRT",
     "shortcuts": [
         [
@@ -14,7 +14,8 @@
     ],
     "persist": "config.ini",
     "checkver": {
-        "regex": "content=\"JianYingSRT.*?([\\d.]+).*?\""
+        "url": "https://guihet.com/?s=jianyingsrt",
+        "regex": "JianYingSRT.*?v([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://raw.githubusercontent.com/zhuping96119/scoop-attachment/master/JianYingSRT-v$version.zip"
