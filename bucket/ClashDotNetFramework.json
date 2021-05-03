@@ -37,17 +37,13 @@
         "architecture": {
             "32bit": {
                 "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.$version.x86.Setup.exe",
-                "hash": {
-                    "url": "$baseurl/checksum",
-                    "regex": "$basename.*$sha256"
-                }
             },
             "64bit": {
                 "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.$version.x64.Setup.exe",
-                "hash": {
-                    "url": "$baseurl/checksum",
-                    "regex": "$basename.*$sha256"
-                }
+            },
+            "hash": {
+                "url": "$baseurl/checksum",
+                "regex": "$basename.*$sha256"
             }
         }
     },
