@@ -1,16 +1,16 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A .NET Framework based GUI Proxy For Windows",
     "homepage": "https://github.com/ClashDotNetFramework/ClashDotNetFramework",
     "license": "Freeware",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.2/Clash.NET.1.0.2.x86.Setup.exe",
-            "hash": "3750020c509f585ab2b45bbefb03c8ff81c99d3ed325c5f1ec3e189f080053cf"
+            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.3/Clash.NET.1.0.3.x86.Setup.exe",
+            "hash": "df81a2b6966f63aac93ae516bb00e3b206e10b1238548507db4444a040be9e53"
         },
         "64bit": {
-            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.2/Clash.NET.1.0.2.x64.Setup.exe",
-            "hash": "e64c45065fe5c18da14ab58463e0f662b4bfa57bb72b738166598e7dfc923933"
+            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.0.3/Clash.NET.1.0.3.x64.Setup.exe",
+            "hash": "99ee8d93cd1b497c9e1177ef7c09f140928349b0bfd0dd7cf03cb6fdae293e4c"
         }
     },
     "installer": {
@@ -36,10 +36,10 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.$version.x86.Setup.exe",
+                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.$version.x86.Setup.exe"
             },
             "64bit": {
-                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.$version.x64.Setup.exe",
+                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.$version.x64.Setup.exe"
             },
             "hash": {
                 "url": "$baseurl/checksum",
