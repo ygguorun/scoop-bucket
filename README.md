@@ -18,7 +18,6 @@ Self-use scoop bucket repository.
 - [**hash**](http://keir.net/hash.html) Hash is a small GUI tool designed to perform MD5, SHA1 and CRC32 hashing functions on a number of files.
 - [**iFlyVoice**](https://srf.xunfei.cn/) 讯飞输入法 语音输入
 - [**JianYingSRT**](https://guihet.com/jianying.html) 用于剪映中包含字幕信息的 Json 文件提取导出转换为 .srt 格式
-- [**KDEConnect**](https://kdeconnect.kde.org/) Enabling communication between all your devices. Made for people like you.
 - [**Legendary**](https://github.com/derrod/legendary) Legendary - A free and open-source replacement for the Epic Games Launcher
 - [**lx-music-desktop**](https://github.com/lyswhut/lx-music-desktop) 一个基于 electron 的音乐软件
 - [**LyricTools**](https://gitee.com/ying32/MakeLyric/) 支持qrc、krc、trc、网易云音乐的歌词相互转，支持输出krc、qrc、trc、网易云音乐、srt、smi、lrc、ksc、ssa、foobar2000插件eslyric格式
@@ -41,3 +40,12 @@ Self-use scoop bucket repository.
 - [**triangula**](https://github.com/RH12503/triangula) Generate high-quality triangulated art from images.
 - [**WindowTop**](https://github.com/gileli121/WindowTop) Set window on top, make it dark, transparent and more
 - [**大拍档剪辑助手**](http://spdpd.net) 大拍档剪辑助手是整合了视频剪辑中非常实用的功能于一体的桌面程序。
+
+<details>
+<summary><strong>Deprecated</strong></summary>
+
+These manifests have been removed from this bucket because there are better/maintained alternatives in other buckets, or no longer installable via Scoop.
+
+- [**KDEConnect**](https://kdeconnect.kde.org/): available in `chawyehsu/dorado` bucket as `kdeconnect`
+
+</details>
