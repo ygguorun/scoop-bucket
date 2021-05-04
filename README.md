@@ -14,6 +14,7 @@ Self-use scoop bucket repository.
 - [**DDMonitor**](https://github.com/zhimingshenjun/DD_Monitor) DD监控室
 - [**doggo**](https://github.com/mr-karan/doggo) Command-line DNS Client for Humans. Written in Golang
 - [**EmbyTheater**](https://emby.media/emby-theater.html) EmbyTheater. Media browser for Emby
+- [**FontLoaderSub**](https://github.com/yzwduck/FontLoaderSub) OpenType font loader for subtitles (ASS/SSA). Copy from `kidonng/sushi/bucket/fontloadersub.json`
 - [**go-cqhttp**](https://github.com/Mrs4s/go-cqhttp) cqhttp 的 golang 实现，轻量、原生跨平台.
 - [**hash**](http://keir.net/hash.html) Hash is a small GUI tool designed to perform MD5, SHA1 and CRC32 hashing functions on a number of files.
 - [**iFlyVoice**](https://srf.xunfei.cn/) 讯飞输入法 语音输入
