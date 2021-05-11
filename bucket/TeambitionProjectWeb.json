@@ -12,8 +12,5 @@
             "url": "https://ml.jinxingxu.com/file/5ffa94e462093f004434afcc#/Teambition.exe",
             "hash": "D5F84D888306517DACB75CD9CE17C311877A2F72E97DA225FC7F02972F33470A"
         }
-    },
-    "checkver":{
-        "regex": "<title>Teambition.*?([\\d.]+).*</title>"
     }
 }
