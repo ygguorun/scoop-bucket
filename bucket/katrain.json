@@ -22,5 +22,5 @@
     "autoupdate": {
         "url": "https://github.com/sanderland/katrain/releases/download/$version/KaTrainWindows.zip"
     },
-    "notes": "Scoop doesn't persist your STSRT data, they are still storaged in '~\\.katrain'."
+    "notes": "Scoop doesn't persist your KaTrain data, they are still storaged in '~\\.katrain'."
 }
