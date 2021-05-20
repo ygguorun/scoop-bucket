@@ -6,7 +6,7 @@
     "architecture": {
         "32bit": {
             "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v1.10.0/lx-music-desktop-v1.10.0-x86_64-Setup.exe#/dl.7z",
-            "hash": "sha512:5fc35bed188b55015844c7d6043acbe29821e4087ecbef3f01082e1008ccacbd261a9e0d591f3d95ba6cc7c120b275e88d79076f8ce52256630debf5972a4cc9",
+            "hash": "sha512:499f240fbaeaef71d6470b2bab6079ef15cdd1b8d59b2e2acbaa3d47fa5a109b76ee2fa795804c9601b8ee2a55a9ec86dd30bd46170df9a0e47315f460b0fe81",
             "installer": {
                 "script": [
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
@@ -16,7 +16,7 @@
         },
         "64bit": {
             "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v1.10.0/lx-music-desktop-v1.10.0-x86_64-Setup.exe#/dl.7z",
-            "hash": "sha512:5fc35bed188b55015844c7d6043acbe29821e4087ecbef3f01082e1008ccacbd261a9e0d591f3d95ba6cc7c120b275e88d79076f8ce52256630debf5972a4cc9",
+            "hash": "sha512:499f240fbaeaef71d6470b2bab6079ef15cdd1b8d59b2e2acbaa3d47fa5a109b76ee2fa795804c9601b8ee2a55a9ec86dd30bd46170df9a0e47315f460b0fe81",
             "installer": {
                 "script": [
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
