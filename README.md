@@ -19,6 +19,7 @@ Self-use scoop bucket repository.
 - [**hash**](http://keir.net/hash.html) Hash is a small GUI tool designed to perform MD5, SHA1 and CRC32 hashing functions on a number of files.
 - [**iFlyVoice**](https://srf.xunfei.cn/) 讯飞输入法 语音输入
 - [**JianYingSRT**](https://guihet.com/jianying.html) 用于剪映中包含字幕信息的 Json 文件提取导出转换为 .srt 格式
+- [**katrain**](https://github.com/sanderland/katrain) Improve your Baduk skills by training with KataGo!
 - [**Legendary**](https://github.com/derrod/legendary) Legendary - A free and open-source replacement for the Epic Games Launcher
 - [**lx-music-desktop**](https://github.com/lyswhut/lx-music-desktop) 一个基于 electron 的音乐软件
 - [**LyricTools**](https://gitee.com/ying32/MakeLyric/) 支持qrc、krc、trc、网易云音乐的歌词相互转，支持输出krc、qrc、trc、网易云音乐、srt、smi、lrc、ksc、ssa、foobar2000插件eslyric格式
