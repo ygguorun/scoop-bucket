@@ -1,0 +1,26 @@
+{
+    "version": "1.8.4",
+    "description": "Improve your Baduk skills by training with KataGo!",
+    "homepage": "https://github.com/sanderland/katrain",
+    "license": "Unknown",
+    "url": "https://github.com/sanderland/katrain/releases/download/1.8.4/KaTrainWindows.zip",
+    "hash": "ea170cf73f87c3c5e1f6c1201c0aa6fa4aad05dce6e92d5b80d17d72ed23606f",
+    "extract_dir": "KaTrain",
+    "shortcuts": [
+        [
+            "KaTrain.exe",
+            "KaTrain"
+        ],
+        [
+            "DebugKaTrain.exe",
+            "DebugKaTrain"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/sanderland/katrain"
+    },
+    "autoupdate": {
+        "url": "https://github.com/sanderland/katrain/releases/download/$version/KaTrainWindows.zip"
+    },
+    "notes": "Scoop doesn't persist your STSRT data, they are still storaged in '~\\.katrain'."
+}
