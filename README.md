@@ -8,7 +8,6 @@ Self-use scoop bucket repository.
 - [**BBDown**](https://github.com/nilaoda/BBDown) 一款命令行式哔哩哔哩下载器. Bilibili Downloader.
 - [**BilibiliLiveRecordDownLoader**](https://github.com/HMBSbige/BilibiliLiveRecordDownLoader) Bilibili 直播录制与回放下载
 - [**bililive-go**](https://github.com/hr3lxphr6j/bililive-go) 一个直播录制工具
-- [**BililiveStreamFileFixer**](https://github.com/Genteure/BililiveStreamFileFixer) 本工具可以修复一部分B站直播录像的问题
 - [**ClashDotNetFramework**](https://github.com/ClashDotNetFramework/ClashDotNetFramework) A .NET Framework based GUI Proxy For Windows
 - [**CloudflareSpeedTest**](https://github.com/XIU2/CloudflareSpeedTest) 测试 Cloudflare CDN 延迟和速度，获取最快 IP (IPv4+IPv6)！
 - [**DDMonitor**](https://github.com/zhimingshenjun/DD_Monitor) DD监控室
@@ -48,6 +47,7 @@ Self-use scoop bucket repository.
 
 These manifests have been removed from this bucket because there are better/maintained alternatives in other buckets, or no longer installable via Scoop.
 
+- [**BililiveStreamFileFixer**](https://github.com/Genteure/BililiveStreamFileFixer) have been integrated in `chawyehsu/dorado/bililiverecorder.json` since version 1.3.1
 - [**KDEConnect**](https://kdeconnect.kde.org/): available in `chawyehsu/dorado` bucket as `kdeconnect`
 
 </details>
