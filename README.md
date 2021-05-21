@@ -23,6 +23,7 @@ Self-use scoop bucket repository.
 - [**lx-music-desktop**](https://github.com/lyswhut/lx-music-desktop) 一个基于 electron 的音乐软件
 - [**LyricTools**](https://gitee.com/ying32/MakeLyric/) 支持qrc、krc、trc、网易云音乐的歌词相互转，支持输出krc、qrc、trc、网易云音乐、srt、smi、lrc、ksc、ssa、foobar2000插件eslyric格式
 - [**mahjong-helper**](https://github.com/EndlessCheng/mahjong-helper) 日本麻将助手：牌效+防守+记牌（支持雀魂、天凤）
+- [**majsoul-ex**](https://github.com/moxcomic/majsoul-ex) 支持全平台的第三方雀魂客户端, 支持安装自定义扩展
 - [**Malware-Patch**](https://github.com/the1812/Malware-Patch) 阻止中国流氓软件的管理员授权. / Prevent UAC authorization of Chinese malware.
 - [**NatTypeTester**](https://github.com/HMBSbige/NatTypeTester) 测试当前网络的 NAT 类型（STUN）
 - [**netflix-verify**](https://github.com/sjlleo/netflix-verify) 流媒体NetFlix解锁检测脚本 / A script used to determine whether your network can watch native Netflix movies or not

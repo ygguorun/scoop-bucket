@@ -1,0 +1,57 @@
+{
+    "version": "1.0.57",
+    "description": "支持全平台的第三方雀魂客户端, 支持安装自定义扩展",
+    "homepage": "https://github.com/moxcomic/majsoul-ex",
+    "license": "Mozilla Public License 2.0",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/moxcomic/majsoul-ex/releases/download/3.2.0.52/majsoulex_win32_1_0_57.exe#/majsoulex.exe",
+            "hash": "cdc1780b59909a393964fc61ccce90b9777411e7d0eb351f66a1b6ab6e03d8b3"
+        },
+        "64bit": {
+            "url": "https://github.com/moxcomic/majsoul-ex/releases/download/3.2.0.52/majsoulex_win64_1_0_57.exe#/majsoulex.exe",
+            "hash": "3ae94aef79cbd751f56ceb7c0290ef77926969a1379b3149257c7b6a32fd090d"
+        }
+    },
+    "pre_install": [
+        "# Create files for persisting",
+        "if (!(Test-Path \"$persist_dir\\config.json\")) {",
+        "    New-Item \"$dir\\config.json\" -Type File | Out-Null",
+        "}"
+    ],
+    "bin": "majsoulex.exe",
+    "shortcuts": [
+        [
+            "majsoulex.exe",
+            "majsoulex"
+        ]
+    ],
+    "persist": [
+        "config.json",
+        "UserData",
+        "Character",
+        "ChromeExtensions",
+        "Extensions",
+        "JSLog",
+        "LaunchScreen",
+        "MainScript",
+        "Patch",
+        "Package",
+        "Replace",
+        "Script"
+    ],
+    "checkver": {
+        "url": "https://github.com/moxcomic/majsoul-ex/releases",
+        "regex": "release-(?<release>[\\d.]+).*[\\s\\S].*Windows-([\\d.]+).*"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/moxcomic/majsoul-ex/releases/download/$matchRelease/majsoulex_win32_$underscoreVersion.exe#/majsoulex.exe"
+            },
+            "64bit": {
+                "url": "https://github.com/moxcomic/majsoul-ex/releases/download/$matchRelease/majsoulex_win64_$underscoreVersion.exe#/majsoulex.exe"
+            }
+        }
+    }
+}
