@@ -1,0 +1,22 @@
+{
+    "version": "10.0.0-beta.5",
+    "description": "Foreign language reading and translation assistant based on copy and translate.",
+    "homepage": "https://github.com/CopyTranslator/CopyTranslator",
+    "license": "Unknown",
+    "url": "https://github.com/CopyTranslator/CopyTranslator/releases/download/v10.0.0-beta.5/copytranslator-10.0.0-beta.5-win.zip",
+    "hash": "1d04ae94a0250e44a5da3777c2c45d520ded5a11c1b73d2bd6cebc980d810e03",
+    "shortcuts": [
+        [
+            "copytranslator.exe",
+            "CopyTranslator"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/CopyTranslator/CopyTranslator/releases",
+        "regex": "\"tag_name\":\"v(.*?)\""
+    },
+    "autoupdate": {
+        "url": "https://github.com/CopyTranslator/CopyTranslator/releases/download/v$version/copytranslator-$version-win.zip"
+    },
+    "notes": "Scoop doesn't persist your CopyTranslator data, they are still storaged in '%APPDATA%\\copytranslator'."
+}

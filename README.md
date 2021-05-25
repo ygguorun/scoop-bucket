@@ -10,6 +10,7 @@ Self-use scoop bucket repository.
 - [**bililive-go**](https://github.com/hr3lxphr6j/bililive-go) 一个直播录制工具
 - [**ClashDotNetFramework**](https://github.com/ClashDotNetFramework/ClashDotNetFramework) A .NET Framework based GUI Proxy For Windows
 - [**CloudflareSpeedTest**](https://github.com/XIU2/CloudflareSpeedTest) 测试 Cloudflare CDN 延迟和速度，获取最快 IP (IPv4+IPv6)！
+- [**CopyTranslator**](https://github.com/CopyTranslator/CopyTranslator) Foreign language reading and translation assistant based on copy and translate.
 - [**DDMonitor**](https://github.com/zhimingshenjun/DD_Monitor) DD监控室
 - [**doggo**](https://github.com/mr-karan/doggo) Command-line DNS Client for Humans. Written in Golang
 - [**EmbyTheater**](https://emby.media/emby-theater.html) EmbyTheater. Media browser for Emby
