@@ -1,13 +1,13 @@
 {
-    "version": "5.4.2",
+    "version": "5.4.3",
     "description": "Set window on top, make it dark, transparent and more",
     "homepage": "https://github.com/gileli121/WindowTop",
     "license": {
         "identifier": "Unknown",
         "url": "https://github.com/gileli121/WindowTop/blob/master/LICENSE"
     },
-    "url": "https://github.com/gileli121/WindowTop/releases/download/v5.4.2/WindowTop.5.4.2.-.Portable.zip",
-    "hash": "05272bfd39e66208127d5152499b152d633680f0deaad5e4dcca02ef4cd1478b",
+    "url": "https://github.com/gileli121/WindowTop/releases/download/v5.4/WindowTop.5.4.3.-.Portable.zip",
+    "hash": "7bb942e75a190e8e89131fffa3e83378fb95434d1c5a4f9be26df8d5723e26b5",
     "shortcuts": [
         [
             "WindowTop.exe",
@@ -19,6 +19,6 @@
         "regex": "WindowTop v([\\d.]+) Portable"
     },
     "autoupdate": {
-        "url": "https://github.com/gileli121/WindowTop/releases/download/v$version/WindowTop.$version.-.Portable.zip"
+        "url": "https://github.com/gileli121/WindowTop/releases/download/v$majorVersion.$minorVersion/WindowTop.$version.-.Portable.zip"
     }
 }
