@@ -1,10 +1,10 @@
 {
-    "version": "2.1.2",
+    "version": "2.1.7",
     "description": "阿里云盘是一款速度快、不打扰、够安全、易于分享的网盘，由阿里巴巴集团出品",
     "homepage": "https://www.aliyundrive.com/",
     "license": "Unknown",
-    "url": "https://tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com/desktop/aDrive/2.1.2/update/win32/ia32/aDrive-2.1.2.exe#/dl.7z",
-    "hash": "FEA99CB2D53D06FB6438AAC50364C56211010DDAA100DE8F66DBAFB22B82242C",
+    "url": "https://yunpan.aliyun.com/downloads/apps/desktop/aDrive.exe#/dl.7z",
+    "hash": "cd3f5f7a1f93401aa64cf7feff9df4df9479a2ae4635208d73f3567cc987466f",
     "shortcuts": [
         [
             "aDrive.exe",
@@ -15,5 +15,12 @@
         "Remove-Item -Force -Recurse \"$dir\\`$PLUGINSDIR\"",
         "Remove-Item -Force -Recurse \"$dir\\`$TEMP\""
     ],
+    "checkver": {
+        "url": "https://www.aliyundrive.com/download",
+        "regex": "latest_version: 'V([\\d.]+)'"
+    },
+    "autoupdate": {
+        "url": "https://yunpan.aliyun.com/downloads/apps/desktop/aDrive.exe#/dl.7z"
+    },
     "notes": "Scoop doesn't persist your aDrive data, they are still storaged in '%APPDATA%\\aDrive'."
 }
