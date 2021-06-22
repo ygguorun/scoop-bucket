@@ -1,16 +1,16 @@
 {
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "A .NET Framework based GUI Proxy For Windows",
     "homepage": "https://github.com/ClashDotNetFramework/ClashDotNetFramework",
     "license": "Freeware",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.2.0/Clash.NET.1.2.0.x86.Setup.exe",
-            "hash": "68d9e5055d845b93e65f4701869d0d70356a80ddebbdd5961b822e2141ac4fdb"
+            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.2.1/Clash.NET.1.2.1.x86.Setup.exe",
+            "hash": "e5c8596620045bbe2a0a4e2af33856412d638001eeda641659fc47b5307cda3c"
         },
         "64bit": {
-            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.2.0/Clash.NET.1.2.0.x64.Setup.exe",
-            "hash": "71f5fe271be65939485a1cb69e7032cc1a90dd9e6d415761dba27725808dc517"
+            "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v1.2.1/Clash.NET.1.2.1.x64.Setup.exe",
+            "hash": "1b9ade094f707316620c483636c8192be269908d3de44d132e3a8b6d276a8a54"
         }
     },
     "installer": {
