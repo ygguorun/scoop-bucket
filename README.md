@@ -36,6 +36,7 @@ Self-use scoop bucket repository.
 - [**Sandboxie-Plus**](https://github.com/sandboxie-plus/Sandboxie) Sandboxie community maintained version
 - [**SarasaGothic-ttc**](https://github.com/be5invis/Sarasa-Gothic) Sarasa Gothic / 更纱黑体 / 更紗黑體 / 更紗ゴシック / 사라사 고딕
 - [**SarasaGothicRegular-ttc**](https://github.com/be5invis/Sarasa-Gothic) Sarasa Gothic / 更纱黑体 / 更紗黑體 / 更紗ゴシック / 사라사 고딕
+- [**ShadowExplorer**](https://www.shadowexplorer.com/) ShadowExplorer allows you to browse the Shadow Copies created by the Windows Vista / 7 / 8 / 10 Volume Shadow Copy Service. 从系统还原点卷影文件还原特定文件。
 - [**ShadowsocksR**](https://github.com/HMBSbige/ShadowsocksR-Windows) An Internet censorship circumventing tunnel tool, forked from shadowsocksR, maintained now by HMBSbige.   
 - [**ShanaEncoder**](https://shana.pe.kr) ShanaEncoder is audio/video encoding program based on FFmpeg.
 - [**silk2mp3**](https://kn007.net/topics/batch-convert-silk-v3-audio-files-to-mp3-in-windows/) Decode silk v3 audio files (like wechat amr, aud files, qq slk files) and convert to other format (like mp3).
