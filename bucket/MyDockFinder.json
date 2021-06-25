@@ -13,7 +13,7 @@
         "        New-Item \"$dir\\$file\" -Type File | Out-Null",
         "    }",
         "}",
-        "@('config.ini','ico.ini','keyboard.ini','weather.ini') | ForEach-Object { PersistsFile $_ }"
+        "@('config.ini','ico.ini','keyboard.ini') | ForEach-Object { PersistsFile $_ }"
     ],
     "shortcuts": [
         [
@@ -29,7 +29,8 @@
         "weather",
         "config.ini",
         "ico.ini",
-        "keyboard.ini"
+        "keyboard.ini",
+        "weather.ini"
     ],
     "checkver": {
         "github": "https://github.com/mydockfinder/mydockfinder"
