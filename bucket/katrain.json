@@ -1,10 +1,10 @@
 {
-    "version": "1.9.1",
+    "version": "1.8.4",
     "description": "Improve your Baduk skills by training with KataGo!",
     "homepage": "https://github.com/sanderland/katrain",
     "license": "Unknown",
-    "url": "https://github.com/sanderland/katrain/releases/download/1.9.1/KaTrainWindows.zip",
-    "hash": "03bc0844b0e2465de05ded9e7b236149461a9906eb7de5fb6275b8ec9aead3eb",
+    "url": "https://github.com/sanderland/katrain/releases/download/1.8.4/KaTrainWindows.zip",
+    "hash": "ea170cf73f87c3c5e1f6c1201c0aa6fa4aad05dce6e92d5b80d17d72ed23606f",
     "extract_dir": "KaTrain",
     "shortcuts": [
         [
