@@ -1,10 +1,10 @@
 {
-    "version": "1.6.21",
+    "version": "1.6.29",
     "description": "一款第三方的阿里云盘客户端，支持 Windows、macOS",
     "homepage": "https://github.com/liupan1890/aliyunpan",
     "license": "Unknown",
-    "url": "https://github.com/liupan1890/aliyunpan/releases/download/v1.6.21/Win.v1.6.21.zip",
-    "hash": "afbfee055f696ca63ef0b23d27d4fddf3a9259f02f8cef2df24aebfd55f5dc21",
+    "url": "https://github.com/liupan1890/aliyunpan/releases/download/v1.6.29/Win.v1.6.29.zip",
+    "hash": "8d316f67a4cbbd1f3969a1f38788028dddf158d0ddd666781c7d132424aaf441",
     "pre_install": [
         "    # Rename",
         "Get-ChildItem -r \"$dir\\阿里云盘小白羊版*.exe\" | Rename-Item -newname \"$dir\\阿里云盘小白羊版.exe\"",
