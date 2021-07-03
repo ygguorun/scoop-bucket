@@ -18,7 +18,6 @@ Self-use scoop bucket repository.
 - [**FontLoaderSub**](https://github.com/yzwduck/FontLoaderSub) OpenType font loader for subtitles (ASS/SSA). Copy from `kidonng/sushi/bucket/fontloadersub.json`
 - [**go-cqhttp**](https://github.com/Mrs4s/go-cqhttp) cqhttp 的 golang 实现，轻量、原生跨平台.
 - [**hash**](http://keir.net/hash.html) Hash is a small GUI tool designed to perform MD5, SHA1 and CRC32 hashing functions on a number of files.
-- [**iFlyVoice**](https://srf.xunfei.cn/) 讯飞输入法 语音输入
 - [**JianYingSRT**](https://guihet.com/jianying.html) 用于剪映中包含字幕信息的 Json 文件提取导出转换为 .srt 格式
 - [**katrain**](https://github.com/sanderland/katrain) Improve your Baduk skills by training with KataGo!
 - [**Legendary**](https://github.com/derrod/legendary) Legendary - A free and open-source replacement for the Epic Games Launcher
@@ -32,7 +31,6 @@ Self-use scoop bucket repository.
 - [**netflix-verify**](https://github.com/sjlleo/netflix-verify) 流媒体NetFlix解锁检测脚本 / A script used to determine whether your network can watch native Netflix movies or not
 - [**noMeiryoUI**](https://github.com/Tatsu-syo/noMeiryoUI) No!! MeiryoUI is Windows system font setting tool on Windows 8.1/10.
 - [**officebox**](http://www.wofficebox.com) 万彩办公大师是一款办公必备的小工具百宝箱。软件里集合了60+个小工具，一个软件即可搞定90%的工作需求。
-- [**OneCommander**](http://onecommander.com) Modern file manager with dual-pane browsing, tabs, columns navigation, editable themes, built-in preview, and much more.
 - [**PotPlayer-old**](https://potplayer.daum.net) Highly customizable media player, this version is the last version without advertisements.
 - [**RevokeMsgPatcher**](https://github.com/huiyadanli/RevokeMsgPatcher) A hex editor for WeChat/QQ/TIM - PC版微信/QQ/TIM防撤回补丁（我已经看到了，撤回也没用了）
 - [**Sandboxie-Plus**](https://github.com/sandboxie-plus/Sandboxie) Sandboxie community maintained version
@@ -56,6 +54,8 @@ Self-use scoop bucket repository.
 These manifests have been removed from this bucket because there are better/maintained alternatives in other buckets, or no longer installable via Scoop.
 
 - [**BililiveStreamFileFixer**](https://github.com/Genteure/BililiveStreamFileFixer) have been integrated in `chawyehsu/dorado/bililiverecorder.json` since version 1.3.1
+- [**iFlyVoice**](https://srf.xunfei.cn/) There are some problems when checking or getting the latest version, temporarily removing.
 - [**KDEConnect**](https://kdeconnect.kde.org/): available in `chawyehsu/dorado` bucket as `kdeconnect`
+- [**OneCommander**](http://onecommander.com) There are some problems when checking or getting the latest version, temporarily removing.
 
 </details>
