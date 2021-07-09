@@ -1,16 +1,16 @@
 {
-    "version": "1.0.69",
+    "version": "1.0.70",
     "description": "支持全平台的第三方雀魂客户端, 支持安装自定义扩展",
     "homepage": "https://github.com/moxcomic/majsoul-ex",
     "license": "Mozilla Public License 2.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/moxcomic/majsoul-ex/releases/download/3.2.0.64/majsoulex_win32_1_0_69.exe#/majsoulex.exe",
-            "hash": "f525716f8150b8a21b719ffbb94f8748ad57503e9a7deb80c40670a9a7d1c943"
+            "url": "https://github.com/moxcomic/majsoul-ex/releases/download/3.2.0.65/majsoulex_win32_1_0_70.exe#/majsoulex.exe",
+            "hash": "d547243074806d0f5142cbac1df413c7c8d3e7acf1dfdd9c4e872a466cdc5841"
         },
         "64bit": {
-            "url": "https://github.com/moxcomic/majsoul-ex/releases/download/3.2.0.64/majsoulex_win64_1_0_69.exe#/majsoulex.exe",
-            "hash": "7ba3718a5914f44489d20a99cab5781d5196c3c901097c369233ec93c55b98a1"
+            "url": "https://github.com/moxcomic/majsoul-ex/releases/download/3.2.0.65/majsoulex_win64_1_0_70.exe#/majsoulex.exe",
+            "hash": "15784307c8f0c0f1bbd7584e1f04f1db78cdd6529f3618c96d300a58ad7f1fed"
         }
     },
     "pre_install": [
