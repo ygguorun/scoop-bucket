@@ -57,6 +57,5 @@ These manifests have been removed from this bucket because there are better/main
 - [**BililiveStreamFileFixer**](https://github.com/Genteure/BililiveStreamFileFixer) have been integrated in `chawyehsu/dorado/bililiverecorder.json` since version 1.3.1
 - [**iFlyVoice**](https://srf.xunfei.cn/) There are some problems when checking or getting the latest version, temporarily removing.
 - [**KDEConnect**](https://kdeconnect.kde.org/): available in `chawyehsu/dorado` bucket as `kdeconnect`
-- [**OneCommander**](http://onecommander.com) There are some problems when checking or getting the latest version, temporarily removing.
 
 </details>
