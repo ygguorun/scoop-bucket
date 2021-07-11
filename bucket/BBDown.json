@@ -1,11 +1,10 @@
 {
-    "version": "1.3.8",
+    "version": "1.4.0",
     "description": "一款命令行式哔哩哔哩下载器. Bilibili Downloader.",
     "homepage": "https://github.com/nilaoda/BBDown",
     "license": "MIT",
-    "url": "https://github.com/nilaoda/BBDown/releases/download/1.3.8/BBDown_v1.3.8_20210330.zip",
-    "hash": "669d339a5a7cf62620a2c86a851c138cc039707773868a4b48a0d18b1fea294a",
-    "depends": "ffmpeg",
+    "url": "https://github.com/nilaoda/BBDown/releases/download/1.4.0/BBDown_v1.4.0_20210710_win-x64_with_ffmpeg_aria2c.zip",
+    "hash": "2121ec16d5632ceb8cdbce6f488eaeb1d78c485cebe151de67353f8538ad933f",
     "bin": [
         [
             "BBDown.exe",
@@ -14,10 +13,10 @@
     ],
     "checkver": {
         "url": "https://api.github.com/repos/nilaoda/BBDown/releases/latest",
-        "regex": "https://github.com/nilaoda/BBDown/releases/download/(?<version>[\\d.]+)/BBDown_v.*_(?<data>[\\d]+).zip"
+        "regex": "https://github.com/nilaoda/BBDown/releases/download/(?<version>[\\d.]+)/BBDown_v.*_(?<data>[\\d]+)_win-x64_with_ffmpeg_aria2c.zip"
     },
-    "post_install": "Remove-Item $dir\\ffmpeg.exe",
     "autoupdate": {
-        "url": "https://github.com/nilaoda/BBDown/releases/download/$version/BBDown_v$version_$matchData.zip"
-    }
+        "url": "https://github.com/nilaoda/BBDown/releases/download/$version/BBDown_v$version_$matchData_win-x64_with_ffmpeg_aria2c.zip"
+    },
+    "note": "In order to prevent shims conflicts, no shims were created for ffmpeg.exe and aria2c.exe"
 }
