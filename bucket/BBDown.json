@@ -18,5 +18,5 @@
     "autoupdate": {
         "url": "https://github.com/nilaoda/BBDown/releases/download/$version/BBDown_v$version_$matchData_win-x64_with_ffmpeg_aria2c.zip"
     },
-    "note": "In order to prevent shims conflicts, no shims were created for ffmpeg.exe and aria2c.exe"
+    "notes": "In order to prevent shims conflicts, no shims were created for ffmpeg.exe and aria2c.exe"
 }
