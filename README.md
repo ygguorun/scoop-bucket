@@ -44,6 +44,7 @@ Self-use scoop bucket repository.
 - [**start**](https://start.qq.com/) 云游戏, 让好玩触手可及
 - [**SubRenamer**](https://github.com/qwqcode/SubRenamer) 番剧字幕文件自动化一键批量重命名（改名）工具：自动匹配，正则过滤，手动精选，一键操作；Rename Subtitles Automatically to Match Videos Easily through the SubRenamer Tool.
 - [**TeambitionProjectWeb**](https://www.52pojie.cn/thread-1348072-1-1.html) Teambition项目直链解析，无需内测码，支持直链列目录加密
+- [**texlive-small**](https://tug.org/texlive/) TeX Live is a cross-platform, free software distribution for the TeX typesetting system. Manifest refers to `dorado/bucket/texlive.json`.
 - [**triangula**](https://github.com/RH12503/triangula) Generate high-quality triangulated art from images.
 - [**WhyNotWin11**](https://github.com/rcmaehl/WhyNotWin11) Detection Script to help identify why your PC isn't Windows 11 ready
 - [**WindowTop**](https://github.com/BiGilSoft/WindowTop) Set window on top, make it dark, transparent and more
