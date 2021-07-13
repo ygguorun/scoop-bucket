@@ -9,6 +9,7 @@ Self-use scoop bucket repository.
 - [**BBDown**](https://github.com/nilaoda/BBDown) 一款命令行式哔哩哔哩下载器. Bilibili Downloader.
 - [**BilibiliLiveRecordDownLoader**](https://github.com/HMBSbige/BilibiliLiveRecordDownLoader) Bilibili 直播录制与回放下载
 - [**bililive-go**](https://github.com/hr3lxphr6j/bililive-go) 一个直播录制工具
+- [**bingdian**](http://www.bingdian001.com) 冰点文库下载无需积分就可以自由下载百度文库和豆丁文库文档，无需注册和登录。下载的文档最终生成高清晰度的pdf格式文档。
 - [**ClashDotNetFramework**](https://github.com/ClashDotNetFramework/ClashDotNetFramework) A .NET Framework based GUI Proxy For Windows
 - [**ClashXW**](https://github.com/ysc3839/ClashXW) This project aims to implement a program with same function as ClashX, running in Windows.
 - [**CloudflareSpeedTest**](https://github.com/XIU2/CloudflareSpeedTest) 测试 Cloudflare CDN 延迟和速度，获取最快 IP (IPv4+IPv6)！
