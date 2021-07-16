@@ -16,6 +16,7 @@ Self-use scoop bucket repository.
 - [**CopyTranslator**](https://github.com/CopyTranslator/CopyTranslator) Foreign language reading and translation assistant based on copy and translate.
 - [**DDMonitor**](https://github.com/zhimingshenjun/DD_Monitor) DD监控室
 - [**doggo**](https://github.com/mr-karan/doggo) Command-line DNS Client for Humans. Written in Golang
+- [**EasyWindowSwitcher**](https://neosmart.net/EasySwitch) Easy Window Switcher is a software that can bring the classic macOS window switching method to Windows. You only need to press the shortcut key "alt + `(button below ESC)" to switch between different windows of the same software.
 - [**EmbyTheater**](https://emby.media/emby-theater.html) EmbyTheater. Media browser for Emby
 - [**FontLoaderSub**](https://github.com/yzwduck/FontLoaderSub) OpenType font loader for subtitles (ASS/SSA). Copy from `kidonng/sushi/bucket/fontloadersub.json`
 - [**go-cqhttp**](https://github.com/Mrs4s/go-cqhttp) cqhttp 的 golang 实现，轻量、原生跨平台.
