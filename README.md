@@ -36,6 +36,7 @@ Self-use scoop bucket repository.
 - [**officebox**](http://www.wofficebox.com) 万彩办公大师是一款办公必备的小工具百宝箱。软件里集合了60+个小工具，一个软件即可搞定90%的工作需求。
 - [**PotPlayer-old**](https://potplayer.daum.net) Highly customizable media player, this version is the last version without advertisements.
 - [**RevokeMsgPatcher**](https://github.com/huiyadanli/RevokeMsgPatcher) A hex editor for WeChat/QQ/TIM - PC版微信/QQ/TIM防撤回补丁（我已经看到了，撤回也没用了）
+- [**RustDesk**](https://rustdesk.com/) Yet another remote desktop software
 - [**Sandboxie-Plus**](https://github.com/sandboxie-plus/Sandboxie) Sandboxie community maintained version
 - [**SarasaGothic-ttc**](https://github.com/be5invis/Sarasa-Gothic) Sarasa Gothic / 更纱黑体 / 更紗黑體 / 更紗ゴシック / 사라사 고딕
 - [**SarasaGothicRegular-ttc**](https://github.com/be5invis/Sarasa-Gothic) Sarasa Gothic / 更纱黑体 / 更紗黑體 / 更紗ゴシック / 사라사 고딕
