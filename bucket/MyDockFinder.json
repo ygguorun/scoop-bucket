@@ -1,10 +1,10 @@
 {
-    "version": "5.9.9.90",
+    "version": "5.9.9.91",
     "description": "欢迎使用 MyDockFinder，体验极致模拟 Mac OS 系统桌面",
     "homepage": "https://www.mydockfinder.com",
     "license": "Unknown",
-    "url": "https://github.com/mydockfinder/mydockfinder/releases/download/5.9.9.90/MyDockFinder.win32.64.setup.zip",
-    "hash": "34f40be22bdd133344ba4ccdffc7b45a0ac23547f601065fc3344686f4ea6ed3",
+    "url": "https://github.com/mydockfinder/mydockfinder/releases/download/5.9.9.91/MyDockFinder.win32.64.setup.zip",
+    "hash": "60ee693e53ea2163bd64de22a2dbf0a7d7d5c08c1f4b2112fcc3131371138396",
     "extract_dir": "MyDock",
     "pre_install": [
         "    # Create files for persisting",
