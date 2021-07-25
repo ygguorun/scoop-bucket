@@ -32,6 +32,7 @@ Self-use scoop bucket repository.
 - [**MyDockFinder**](https://www.mydockfinder.com) 欢迎使用 MyDockFinder，体验极致模拟 Mac OS 系统桌面
 - [**NatTypeTester**](https://github.com/HMBSbige/NatTypeTester) 测试当前网络的 NAT 类型（STUN）
 - [**netflix-verify**](https://github.com/sjlleo/netflix-verify) 流媒体NetFlix解锁检测脚本 / A script used to determine whether your network can watch native Netflix movies or not
+- [**NegativeEncoder**](https://github.com/zyzsdy/NegativeEncoder) NegativeEncoder is a GUI tool for video encoding using QuickSync and NVENC.
 - [**noMeiryoUI**](https://github.com/Tatsu-syo/noMeiryoUI) No!! MeiryoUI is Windows system font setting tool on Windows 8.1/10.
 - [**officebox**](http://www.wofficebox.com) 万彩办公大师是一款办公必备的小工具百宝箱。软件里集合了60+个小工具，一个软件即可搞定90%的工作需求。
 - [**PotPlayer-old**](https://potplayer.daum.net) Highly customizable media player, this version is the last version without advertisements.
