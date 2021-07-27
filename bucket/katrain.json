@@ -6,6 +6,36 @@
     "url": "https://github.com/sanderland/katrain/releases/download/1.9.3/KaTrainWindows.zip",
     "hash": "30e2c35d8b4111b0a17168542d7bc86e8372f59afcc7a531b122e51a36f83b04",
     "extract_dir": "KaTrain",
+    "installer": {
+        "script": [
+            "# handle runtime cache",
+            "if (!(Test-Path $persist_dir)) {",
+            "    New-Item $persist_dir -Type Directory -Force | Out-Null",
+            "}",
+            "$runtimeCache = \"$env:HOMEDRIVE$env:HOMEPATH\\.katrain\"",
+            "$runtimeCachePersist = \"$persist_dir\\appdata\"",
+            "if (Test-Path $runtimeCachePersist) {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "} else {",
+            "    if (Test-Path $runtimeCache) {",
+            "        Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "        New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "    }",
+            "}"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "$runtimeCache = \"$env:HOMEDRIVE$env:HOMEPATH\\.katrain\"",
+            "$runtimeCachePersist = \"$persist_dir\\appdata\"",
+            "if (!(Test-Path $runtimeCachePersist)) {",
+            "    Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "} else {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "}"
+        ]
+    },
     "shortcuts": [
         [
             "KaTrain.exe",
@@ -21,6 +51,5 @@
     },
     "autoupdate": {
         "url": "https://github.com/sanderland/katrain/releases/download/$version/KaTrainWindows.zip"
-    },
-    "notes": "Scoop doesn't persist your KaTrain data, they are still storaged in '~\\.katrain'."
+    }
 }
