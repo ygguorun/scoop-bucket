@@ -5,12 +5,41 @@
     "license": "GNU General Public License v3.0",
     "url": "https://github.com/derrod/legendary/releases/download/0.20.6/legendary.exe",
     "hash": "1d8d148a39f8a1af30ca270251aa7a999ba30c474bbfc79274399cf5b293403f",
+    "installer": {
+        "script": [
+            "# handle runtime cache",
+            "if (!(Test-Path $persist_dir)) {",
+            "    New-Item $persist_dir -Type Directory -Force | Out-Null",
+            "}",
+            "$runtimeCache = \"$env:HOMEDRIVE$env:HOMEPATH\\.config\\legendary\"",
+            "$runtimeCachePersist = \"$persist_dir\\appdata\"",
+            "if (Test-Path $runtimeCachePersist) {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "} else {",
+            "    if (Test-Path $runtimeCache) {",
+            "        Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "        New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "    }",
+            "}"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "$runtimeCache = \"$env:HOMEDRIVE$env:HOMEPATH\\.config\\legendary\"",
+            "$runtimeCachePersist = \"$persist_dir\\appdata\"",
+            "if (!(Test-Path $runtimeCachePersist)) {",
+            "    Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "} else {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "}"
+        ]
+    },
     "bin": "legendary.exe",
     "checkver": {
         "github": "https://github.com/derrod/legendary"
     },
     "autoupdate": {
         "url": "https://github.com/derrod/legendary/releases/download/$version/legendary.exe"
-    },
-    "notes": "We don't persist your Legendary data, they are still storaged in '~\\.config\\legendary'."
+    }
 }
