@@ -11,7 +11,33 @@
             "Remove-Item -Force -Recurse \"$dir\\`$PLUGINSDIR\"",
             "Remove-Item -Force -Recurse \"$dir\\app.7z\"",
             "Remove-Item -Force -Recurse \"$dir\\uninst*\"",
-            "Remove-Item -Force -Recurse \"$dir\\logo*\""
+            "Remove-Item -Force -Recurse \"$dir\\logo*\"",
+            "# handle runtime cache",
+            "if (!(Test-Path $persist_dir)) {",
+            "    New-Item $persist_dir -Type Directory -Force | Out-Null",
+            "}",
+            "$runtimeCache = \"$env:APPDATA\\Tencent\\START\"",
+            "$runtimeCachePersist = \"$persist_dir\\appdata\"",
+            "if (Test-Path $runtimeCachePersist) {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "} else {",
+            "    if (Test-Path $runtimeCache) {",
+            "        Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "        New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "    }",
+            "}"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "$runtimeCache = \"$env:APPDATA\\Tencent\\START\"",
+            "$runtimeCachePersist = \"$persist_dir\\appdata\"",
+            "if (!(Test-Path $runtimeCachePersist)) {",
+            "    Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "} else {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "}"
         ]
     },
     "shortcuts": [
@@ -30,6 +56,5 @@
             "url": "https://api.start.qq.com/cfg/get?biztypes=windows-update-info-0",
             "regex": "hashcode.*?$md5"
         }
-    },
-    "notes": "Scoop doesn't persist your STSRT data, they are still storaged in '%APPDATA%\\Tencent\\START'."
+    }
 }

@@ -5,6 +5,36 @@
     "license": "MIT License",
     "url": "https://github.com/zyzsdy/NegativeEncoder/releases/download/v5.0.2/NegativeEncoderSetup_v5.0.2.exe#/dl.7z",
     "hash": "55414a838162b014b2d4aeea0d95e3d4a32d9da28ad3368cde70f3d299bcf62d",
+    "installer": {
+        "script": [
+            "# handle runtime cache",
+            "if (!(Test-Path $persist_dir)) {",
+            "    New-Item $persist_dir -Type Directory -Force | Out-Null",
+            "}",
+            "$runtimeCache = \"$env:APPDATA\\NegativeEncoder\"",
+            "$runtimeCachePersist = \"$persist_dir\\appdata\"",
+            "if (Test-Path $runtimeCachePersist) {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "} else {",
+            "    if (Test-Path $runtimeCache) {",
+            "        Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "        New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "    }",
+            "}"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "$runtimeCache = \"$env:APPDATA\\NegativeEncoder\"",
+            "$runtimeCachePersist = \"$persist_dir\\appdata\"",
+            "if (!(Test-Path $runtimeCachePersist)) {",
+            "    Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "} else {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "}"
+        ]
+    },
     "shortcuts": [
         [
             "NEbin\\NegativeEncoder.exe",
@@ -17,6 +47,5 @@
     },
     "autoupdate": {
         "url": "https://github.com/zyzsdy/NegativeEncoder/releases/download/v$version/NegativeEncoderSetup_v$version.exe#/dl.7z"
-    },
-    "notes": "Scoop doesn't persist your NegativeEncoder data, they are still storaged in '%APPDATA%\\NegativeEncoder'."
+    }
 }
