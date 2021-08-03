@@ -4,7 +4,7 @@
     "homepage": "https://www.mydockfinder.com",
     "license": "Unknown",
     "url": "https://github.com/mydockfinder/mydockfinder-for-Win10-Win11/releases/download/5.9.9.96/MyDockFinder.zip",
-    "hash": "9393c55a25c0f7c64fe58f3ab31d639f0cf47efd94eb1b32622d3790e7bb0cb1",
+    "hash": "59c0f3f2c8e3674b0496bf575c97cba1447f118aa90db6f0346eba37059c7981",
     "extract_dir": "MyDock",
     "pre_install": [
         "    # Create files for persisting",
