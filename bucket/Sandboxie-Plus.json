@@ -6,11 +6,11 @@
     "architecture": {
         "32bit": {
             "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/0.9.3/Sandboxie-Plus-x86-v0.9.3.exe",
-            "hash": "4d234d83fef25eee112d2d2673fe3fdfa276c6149c37400d14441baa5ba32396"
+            "hash": "ccec4da01d845a05e16f727eb52ff60e1fa5cbd845d2c32f431b9d32be204b3e"
         },
         "64bit": {
             "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/0.9.3/Sandboxie-Plus-x64-v0.9.3.exe",
-            "hash": "cd3adf9639240a0341a2aed977db58e2a6b5d56b78849bc21f5f70fc0890d8e8"
+            "hash": "2d91125f4fbfc17fc27adf780379af185e09d9cf79331a6c1c31d60b3e94460d"
         }
     },
     "pre_install": [
