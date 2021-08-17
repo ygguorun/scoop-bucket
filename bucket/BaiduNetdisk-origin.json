@@ -7,6 +7,8 @@
     "hash": "d7f565b75e921380dfb66087354baf9aa920a9b1398f0af8865b7388227076d0",
     "installer": {
         "script": [
+            "echo $dir",
+            "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
             "# handle runtime cache",
             "if (!(Test-Path $persist_dir)) {",
             "    New-Item $persist_dir -Type Directory -Force | Out-Null",
@@ -27,11 +29,17 @@
             "        }",
             "    }",
             "}",
-            "@(\"$env:APPDATA\\Baidu\",\"$env:APPDATA\\BaiduYunGuanjia\",\"$env:APPDATA\\BaiduYunKernel\") | ForEach-Object { PersistsFolder $_ }"
+            "@(\"$env:APPDATA\\Baidu\",\"$env:APPDATA\\BaiduYunGuanjia\",\"$env:APPDATA\\BaiduYunKernel\") | ForEach-Object { PersistsFolder $_ }",
+            "#  associated browser call items",
+            "regsvr32 /s $dir\\npYunWebDetect.dll",
+            "&$dir\\YunDetectService.exe reg",
+            "taskkill /f /im YunDetectSer*"
         ]
     },
     "uninstaller": {
         "script": [
+            "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo unscoop install $app'\"; exit 1 }",
+            "taskkill /f /im YunDetectSer*",
             "$runtimeCachePersist = \"$persist_dir\\appdata\"",
             "function PersistsFolder([String] $folder) {",
             "    $folderName = $folder.Split(\"\\\")[-1]",
@@ -41,7 +49,10 @@
             "        Remove-Item $folder -Force -Recurse -ErrorAction SilentlyContinue",
             "    }",
             "}",
-            "@(\"$env:APPDATA\\Baidu\",\"$env:APPDATA\\BaiduYunGuanjia\",\"$env:APPDATA\\BaiduYunKernel\") | ForEach-Object { PersistsFolder $_ }"
+            "@(\"$env:APPDATA\\Baidu\",\"$env:APPDATA\\BaiduYunGuanjia\",\"$env:APPDATA\\BaiduYunKernel\") | ForEach-Object { PersistsFolder $_ }",
+            "#  cancel associated browser call items",
+            "regsvr32 /s /u $dir\\npYunWebDetect.dll",
+            "&$dir\\YunDetectService.exe unreg"
         ]
     },
     "shortcuts": [
