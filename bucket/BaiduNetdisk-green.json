@@ -1,0 +1,20 @@
+{
+    "version": "7.6.0.13",
+    "description": "百度网盘 PC 版, 绿色纯净版",
+    "homepage": "https://www.ghxi.com/pcbdwp.html",
+    "license": "Unknown",
+    "url": "https://github.com/zhuping96119/scoop-attachment/releases/download/0.0.1/BaiduNetdisk-green_7.6.0.13.7z",
+    "hash": "30BFAFE11626158CE4027D02DA5ABA5470FBA100622D4313EC01F25414BE777C",
+    "installer": {
+        "file": "!)绿化处理.bat"
+    },
+    "uninstaller": {
+        "file": "!)卸载移除.bat"
+    },
+    "shortcuts": [
+        [
+            "BaiduNetdisk.exe",
+            "百度网盘"
+        ]
+    ]
+}
