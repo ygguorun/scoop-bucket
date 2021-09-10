@@ -38,7 +38,7 @@
     },
     "uninstaller": {
         "script": [
-            "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo unscoop install $app'\"; exit 1 }",
+            "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop uninstall $app'\"; exit 1 }",
             "taskkill /f /im YunDetectSer*",
             "$runtimeCachePersist = \"$persist_dir\\appdata\"",
             "function PersistsFolder([String] $folder) {",
