@@ -7,12 +7,12 @@
         "32bit": {
             "url": "http://dl.arctime.cn/ARCTIME_PRO_3.1_WIN32.rar",
             "hash": "b2286a584edffba498875f1cb92c09adafb4ca381bc18c714adea0053464091d",
-            "extract_dir": "ARCTIME_PRO_2.4.1_WIN32"
+            "extract_dir": "ARCTIME_PRO_3.1_WIN32"
         },
         "64bit": {
             "url": "http://dl.arctime.cn/ARCTIME_PRO_3.1_WIN64.rar",
             "hash": "ac740418f5653941c367c22301f68880ebed35fa2329c333d9a3ad36482f3336",
-            "extract_dir": "ARCTIME_PRO_2.4.1_WIN64"
+            "extract_dir": "ARCTIME_PRO_3.1_WIN64"
         }
     },
     "shortcuts": [
@@ -28,10 +28,12 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "http://dl.arctime.cn/ARCTIME_PRO_$version_WIN32.rar"
+                "url": "http://dl.arctime.cn/ARCTIME_PRO_$version_WIN32.rar",
+                "extract_dir": "ARCTIME_PRO_$version_WIN32"
             },
             "64bit": {
-                "url": "http://dl.arctime.cn/ARCTIME_PRO_$version_WIN64.rar"
+                "url": "http://dl.arctime.cn/ARCTIME_PRO_$version_WIN64.rar",
+                "extract_dir": "ARCTIME_PRO_$version_WIN64"
             }
         }
     }
