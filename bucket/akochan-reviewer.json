@@ -1,0 +1,25 @@
+{
+    "version": "0.6.0",
+    "description": "🀄️ Review your Tenhou or Mahjong Soul (Jantama) log with mahjong AI akochan. 麻雀 AI akochan と一緒に天鳳/雀魂の牌譜を検討しましょう！",
+    "homepage": "https://github.com/Equim-chan/akochan-reviewer",
+    "license": "Apache License 2.0",
+    "url": "https://github.com/Equim-chan/akochan-reviewer/releases/download/v0.6.0/akochan-reviewer-v0.6.0-windows-x86_64.zip",
+    "hash": "a3791aef3d686b80213ce41c5ff98a6094c51fabc6a1fe3d0668aa39eb2fd5b6",
+    "bin": [
+        [
+            "akochan-reviewer.exe",
+            "akochan-reviewer"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/Equim-chan/akochan-reviewer/releases",
+        "regex": "Equim-chan/akochan-reviewer/tree/v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Equim-chan/akochan-reviewer/releases/download/v$version/akochan-reviewer-v0.6.0-windows-x86_64.zip",
+        "hash": {
+            "url": "https://github.com/Equim-chan/akochan-reviewer/releases",
+            "regex": "<code>$sha256.*?"
+        }
+    }
+}
