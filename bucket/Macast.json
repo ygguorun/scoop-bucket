@@ -1,0 +1,50 @@
+{
+    "version": "0.64",
+    "description": "Macast is a cross-platform application which using mpv as DLNA Media Renderer.",
+    "homepage": "https://github.com/xfangfang/Macast",
+    "license": "GNU General Public License v3.0",
+    "url": "https://github.com/xfangfang/Macast/releases/download/v0.64/Macast-Windows-v0.64.exe#/Macast.exe",
+    "hash": "4c8ea297e4735772516071df09246bf8b49d2926c1f84b26004932f83821d0a3",
+    "installer": {
+        "script": [
+            "# handle runtime cache",
+            "if (!(Test-Path $persist_dir)) {",
+            "    New-Item $persist_dir -Type Directory -Force | Out-Null",
+            "}",
+            "$runtimeCache = \"$env:LOCALAPPDATA\\xfangfang\"",
+            "$runtimeCachePersist = \"$persist_dir\\appdata\"",
+            "if (Test-Path $runtimeCachePersist) {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "} else {",
+            "    if (Test-Path $runtimeCache) {",
+            "        Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "        New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "    }",
+            "}"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "$runtimeCache = \"$env:LOCALAPPDATA\\xfangfang\"",
+            "$runtimeCachePersist = \"$persist_dir\\appdata\"",
+            "if (!(Test-Path $runtimeCachePersist)) {",
+            "    Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "} else {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "}"
+        ]
+    },
+    "shortcuts": [
+        [
+            "Macast.exe",
+            "Macast"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/xfangfang/Macast"
+    },
+    "autoupdate": {
+        "url": "https://github.com/xfangfang/Macast/releases/download/v$version/Macast-Windows-v$version.exe#/Macast.exe"
+    }
+}
