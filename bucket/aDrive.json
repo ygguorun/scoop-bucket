@@ -4,7 +4,7 @@
     "homepage": "https://www.aliyundrive.com/",
     "license": "Unknown",
     "url": "https://yunpan.aliyun.com/downloads/apps/desktop/aDrive.exe#/dl.7z",
-    "hash": "0adcb8877e5e0cac3c376f4fb7894a75c2ece4f6c095aadc07b83721048e1cc6",
+    "hash": "9d62611e12971a397927ea3811a8a13b5fa062f707dfeb108cf0af7f21422c28",
     "installer": {
         "script": [
             "# handle runtime cache",
