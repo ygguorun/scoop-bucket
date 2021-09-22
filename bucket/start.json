@@ -1,10 +1,10 @@
 {
-    "version": "0.11.0.6580",
+    "version": "0.11.0.6659",
     "description": "云游戏, 让好玩触手可及",
     "homepage": "https://start.qq.com/",
     "license": "Unknown",
-    "url": "https://imgcdn.start.qq.com/cdn/win.client/installer/START-installer-v0.11.0.6580.exe#/dl.7z",
-    "hash": "md5:85966ce2067769a725244cb42bb7df96",
+    "url": "https://imgcdn.start.qq.com/cdn/win.client/installer/START-installer-v0.11.0.6659.exe#/dl.7z",
+    "hash": "md5:8408595b3eb77337b4667a4b97f087fc",
     "installer": {
         "script": [
             "Expand-7zipArchive \"$dir\\app.7z\" \"$dir\"",
