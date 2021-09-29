@@ -6,7 +6,7 @@ on:
       - master
 
   schedule:
-   - cron: 30 11,23 * * *
+   - cron: 30 11 * * *
 
 jobs:
   git-mirror:
