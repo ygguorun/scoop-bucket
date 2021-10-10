@@ -1,11 +1,23 @@
 {
-    "version": "2.6",
+    "version": "2.7",
     "description": "DD监控室",
     "homepage": "https://github.com/zhimingshenjun/DD_Monitor",
     "license": "GNU Lesser General Public License v2.1",
-    "url": "https://github.com/zhimingshenjun/DD_Monitor/releases/download/DD_Monitor2.6/DD.v2.6.VLC3.0.zip",
-    "hash": "4bd528128b09e6871f1fda176e61f39a633671168e3f815bf9fc0a2a6fddf5dd",
+    "url": [
+        "https://github.com/zhimingshenjun/DD_Monitor/releases/download/DD_Monitor2.6/DD.v2.6.VLC3.0.zip",
+        "https://github.com/zhimingshenjun/DD_Monitor/releases/download/DD_Monitor2.7/DD.2.7.zip"
+    ],
+    "hash": [
+        "4bd528128b09e6871f1fda176e61f39a633671168e3f815bf9fc0a2a6fddf5dd",
+        "DBFE1FB53A35D3CD76E4189CA19B179053CD46C447EF23FC7E3EDEECA1B618E5"
+    ],
     "extract_dir": "DD监控室v2.6 (VLC3.0内核)",
+    "installer": {
+        "script": [
+            "Remove-Item \"$dir\\DD监控室.exe\" -Force -Recurse",
+            "Rename-Item \"$dir\\DD监控室2.7启动器(请确保已下载软件本体再下这个).exe\" \"$dir\\DD监控室.exe\""
+        ]
+    },
     "shortcuts": [
         [
             "DD监控室.exe",
@@ -21,7 +33,9 @@
         "regex": "DD_Monitor([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/zhimingshenjun/DD_Monitor/releases/download/DD_Monitor$version/DD.v$version.VLC3.0.zip",
-        "extract_dir": "DD监控室v$version (VLC3.0内核)"
+        "url": [
+            "https://github.com/zhimingshenjun/DD_Monitor/releases/download/DD_Monitor2.6/DD.v2.6.VLC3.0.zip",
+            "https://github.com/zhimingshenjun/DD_Monitor/releases/download/DD_Monitor$version/DD.$version.zip"
+        ]
     }
 }
