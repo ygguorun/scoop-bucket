@@ -13,6 +13,7 @@ Self-use scoop bucket repository.
 - [**bingdian**](http://www.bingdian001.com) 冰点文库下载无需积分就可以自由下载百度文库和豆丁文库文档，无需注册和登录。下载的文档最终生成高清晰度的pdf格式文档。
 - [**ClashDotNetFramework**](https://github.com/ClashDotNetFramework/ClashDotNetFramework) A .NET Framework based GUI Proxy For Windows
 - [**ClashXW**](https://github.com/ysc3839/ClashXW) This project aims to implement a program with same function as ClashX, running in Windows.
+- [**CloudCompare**](https://github.com/ysc3839/ClashXW) CloudCompare is a 3D point cloud (and triangular mesh) processing software.
 - [**CloudflareSpeedTest**](https://github.com/XIU2/CloudflareSpeedTest) 测试 Cloudflare CDN 延迟和速度，获取最快 IP (IPv4+IPv6)！
 - [**compact_html**](https://github.com/EdenHell/compact_html) Embed image data directly to HTML files.
 - [**CopyTranslator**](https://github.com/CopyTranslator/CopyTranslator) Foreign language reading and translation assistant based on copy and translate.
