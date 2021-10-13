@@ -8,6 +8,7 @@
     },
     "url": "http://www.danielgm.net/cc/release/CloudCompare_v2.12.alpha_bin_x64.7z",
     "hash": "58de080429ea492b049242903c1faa7ed5a19635e61dc573039f21e3cdc19507",
+    "extract_dir": "CloudCompare_v2.12.alpha_bin_x64",
     "shortcuts": [
         [
             "CloudCompare.exe",
@@ -19,6 +20,7 @@
         "regex": "release: ([\\da-z.]+) "
     },
     "autoupdate": {
-        "url": "http://www.danielgm.net/cc/release/CloudCompare_v$version_bin_x64.7z"
+        "url": "http://www.danielgm.net/cc/release/CloudCompare_v$version_bin_x64.7z",
+        "extract_dir": "CloudCompare_v$version_bin_x64"
     }
 }
