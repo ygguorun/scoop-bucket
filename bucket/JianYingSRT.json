@@ -15,12 +15,5 @@
     "persist": [
         "config.ini",
         "image.config.ini"
-    ],
-    "checkver": {
-        "url": "https://guihet.com/?s=jianyingsrt",
-        "regex": "JianYingSRT.*?v([\\d.]+)"
-    },
-    "autoupdate": {
-        "url": "https://raw.githubusercontent.com/zhuping96119/scoop-attachment/master/JianYingSRT-v$version.zip"
-    }
+    ]
 }

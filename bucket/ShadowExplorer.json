@@ -11,13 +11,5 @@
             "ShadowExplorerPortable.exe",
             "ShadowExplorer"
         ]
-    ],
-    "checkver": {
-        "url": "https://www.shadowexplorer.com/downloads.html",
-        "regex": "<em>Version ([\\d.]+)</em>"
-    },
-    "autoupdate": {
-        "url": "https://www.shadowexplorer.com/uploads/ShadowExplorer-$version-portable.zip",
-        "extract_dir": "ShadowExplorerPortable-$version"
-    }
+    ]
 }

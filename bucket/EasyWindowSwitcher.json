@@ -10,9 +10,5 @@
             "EasyWindowSwitcher.exe",
             "Easy Window Switcher"
         ]
-    ],
-    "checkver": {
-        "url": "https://neosmart.net/EasySwitch",
-        "regex": "<span itemprop=\"softwareVersion\">([\\d.]+).*?</span>"
-    }
+    ]
 }
