@@ -1,16 +1,16 @@
 {
-    "version": "0.9.6",
+    "version": "0.9.8",
     "description": "Sandboxie community maintained version",
     "homepage": "https://github.com/sandboxie-plus/Sandboxie",
     "license": "GNU General Public License v3.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/0.9.6/Sandboxie-Plus-x86-v0.9.6.exe",
-            "hash": "8ec47017ef3b0de5fa211c96b9f9592f2b2b7f639470ecaf048b81808cf0c36b"
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/0.9.8/Sandboxie-Plus-x86-v0.9.8.exe",
+            "hash": "4f17dadeef71bbc5708caaeaf6833dca9efd1060d96fa3cdfb2922ad173b016d"
         },
         "64bit": {
-            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/0.9.6/Sandboxie-Plus-x64-v0.9.6.exe",
-            "hash": "12ba2e919271dff303a1d6e0abd6925ca43c029ef820c16788a22fe20cfd3c27"
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/0.9.8/Sandboxie-Plus-x64-v0.9.8.exe",
+            "hash": "b3cee6dfeba3cf81980474c240a6a099d5265fd3752520978ec57ff4a53c4284"
         }
     },
     "pre_install": [
