@@ -42,7 +42,8 @@
     ],
     "checkver": {
         "url": "https://github.com/moxcomic/majsoul-ex/releases",
-        "regex": "release-(?<release>[\\d.]+).*[\\s\\S].*Windows-([\\d.]+).*"
+        "regex": "majsoulex_win64_(\\d+)_(\\d+)_(\\d+).exe",
+        "replace": "${1}.${2}.${3}"
     },
     "autoupdate": {
         "architecture": {
