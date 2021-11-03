@@ -1,14 +1,14 @@
 {
-    "version": "2.12.alpha",
+    "version": "2.12.beta",
     "description": "CloudCompare and ccViewer currently run on Windows, macOS and Linux.",
     "homepage": "https://www.danielgm.net/cc/",
     "license": {
         "identifier": "Freeware",
         "url": "https://raw.githubusercontent.com/CloudCompare/CloudCompare/master/license.txt"
     },
-    "url": "http://www.danielgm.net/cc/release/CloudCompare_v2.12.alpha_bin_x64.7z",
-    "hash": "58de080429ea492b049242903c1faa7ed5a19635e61dc573039f21e3cdc19507",
-    "extract_dir": "CloudCompare_v2.12.alpha_bin_x64",
+    "url": "http://www.danielgm.net/cc/release/CloudCompare_v2.12.beta_bin_x64.7z",
+    "hash": "bac42b988ebefa9882e5a5428d1d22a8c756a98466f19365e2e02a6be2b43d71",
+    "extract_dir": "CloudCompare_v2.12.beta_bin_x64",
     "shortcuts": [
         [
             "CloudCompare.exe",
