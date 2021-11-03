@@ -30,22 +30,5 @@
             "/norestart"
         ]
     },
-    "checkver": {
-        "github": "https://github.com/ClashDotNetFramework/ClashDotNetFramework"
-    },
-    "autoupdate": {
-        "architecture": {
-            "32bit": {
-                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.$version.x86.Setup.exe"
-            },
-            "64bit": {
-                "url": "https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/download/v$version/Clash.NET.$version.x64.Setup.exe"
-            }
-        },
-        "hash": {
-            "url": "$baseurl/checksum",
-            "regex": "$basename.*$sha256"
-        }
-    },
     "notes": "Scoop doesn't persist your ClashDotNetFramework data, they are still storaged in '%HOMEDRIVE%%HOMEPATH%\\.config\\cdn'."
 }
