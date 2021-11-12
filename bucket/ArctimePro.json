@@ -1,18 +1,18 @@
 {
-    "version": "3.1",
+    "version": "3.1.1",
     "description": "简单、强大、高效的跨平台字幕制作软件",
     "homepage": "https://arctime.org",
     "license": "Freeware",
     "architecture": {
         "32bit": {
-            "url": "http://dl.arctime.cn/ARCTIME_PRO_3.1_WIN32.rar",
-            "hash": "b2286a584edffba498875f1cb92c09adafb4ca381bc18c714adea0053464091d",
-            "extract_dir": "ARCTIME_PRO_3.1_WIN32"
+            "url": "http://dl.arctime.cn/ARCTIME_PRO_3.1.1_WIN32.rar",
+            "hash": "69634c2a0976b7d4e8008ee1af3f7d7615a3f4a0618840a1a35ab4826fd668ce",
+            "extract_dir": "ARCTIME_PRO_3.1.1_WIN32"
         },
         "64bit": {
-            "url": "http://dl.arctime.cn/ARCTIME_PRO_3.1_WIN64.rar",
-            "hash": "ac740418f5653941c367c22301f68880ebed35fa2329c333d9a3ad36482f3336",
-            "extract_dir": "ARCTIME_PRO_3.1_WIN64"
+            "url": "http://dl.arctime.cn/ARCTIME_PRO_3.1.1_WIN64.rar",
+            "hash": "5b0422450748828a2b84a80270a9ad9fee0ef0c827e801e8a062b51aaf53420b",
+            "extract_dir": "ARCTIME_PRO_3.1.1_WIN64"
         }
     },
     "shortcuts": [
