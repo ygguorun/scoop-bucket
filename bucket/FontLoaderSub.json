@@ -16,7 +16,10 @@
             "FontLoaderSub"
         ]
     ],
-    "persist": ["fonts", "fc-subs.db"],
+    "persist": [
+        "fonts",
+        "fc-subs.db"
+    ],
     "checkver": {
         "github": "https://github.com/yzwduck/FontLoaderSub",
         "regex": "/releases/tag/(r\\d+)"
