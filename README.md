@@ -34,7 +34,6 @@ Self-use scoop bucket repository.
 - [**mahjong-helper**](https://github.com/EndlessCheng/mahjong-helper) 日本麻将助手：牌效+防守+记牌（支持雀魂、天凤）
 - [**majsoul-ex**](https://github.com/moxcomic/majsoul-ex) 支持全平台的第三方雀魂客户端, 支持安装自定义扩展
 - [**Malware-Patch**](https://github.com/the1812/Malware-Patch) 阻止中国流氓软件的管理员授权. / Prevent UAC authorization of Chinese malware.
-- [**MyDockFinder**](https://www.mydockfinder.com) 欢迎使用 MyDockFinder，体验极致模拟 Mac OS 系统桌面
 - [**NatTypeTester**](https://github.com/HMBSbige/NatTypeTester) 测试当前网络的 NAT 类型（STUN）
 - [**netflix-verify**](https://github.com/sjlleo/netflix-verify) 流媒体NetFlix解锁检测脚本 / A script used to determine whether your network can watch native Netflix movies or not
 - [**NegativeEncoder**](https://github.com/zyzsdy/NegativeEncoder) NegativeEncoder is a GUI tool for video encoding using QuickSync and NVENC.
@@ -67,5 +66,6 @@ These manifests have been removed from this bucket because there are better/main
 - [**BililiveStreamFileFixer**](https://github.com/Genteure/BililiveStreamFileFixer) have been integrated in `chawyehsu/dorado/bililiverecorder.json` since version 1.3.1
 - [**iFlyVoice**](https://srf.xunfei.cn/) There are some problems when checking or getting the latest version, temporarily removing.
 - [**KDEConnect**](https://kdeconnect.kde.org/): available in `chawyehsu/dorado` bucket as `kdeconnect`
+- [**MyDockFinder**](https://www.mydockfinder.com) It will be released on Steam on November 26, 2021.
 
 </details>
