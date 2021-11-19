@@ -66,6 +66,12 @@
             "}"
         ]
     },
+    "bin": [
+        [
+            "lx-music-desktop.exe",
+            "lx-music-desktop"
+        ]
+    ],
     "shortcuts": [
         [
             "lx-music-desktop.exe",
