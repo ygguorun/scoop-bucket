@@ -22,6 +22,7 @@ Self-use scoop bucket repository.
 - [**doggo**](https://github.com/mr-karan/doggo) Command-line DNS Client for Humans. Written in Golang
 - [**EasyWindowSwitcher**](https://neosmart.net/EasySwitch) Easy Window Switcher is a software that can bring the classic macOS window switching method to Windows. You only need to press the shortcut key "alt + `(button below ESC)" to switch between different windows of the same software.
 - [**EmbyTheater**](https://emby.media/emby-theater.html) EmbyTheater. Media browser for Emby
+- [**FileMonitor**](https://zhs.moo0.com/software/FileMonitor) Moo0 File Monitor lets you easily monitor the file access activities on your system. / Moo0文件监视器使你在系统总轻松地监视文件访问行为。
 - [**FontLoaderSub**](https://github.com/yzwduck/FontLoaderSub) OpenType font loader for subtitles (ASS/SSA). Copy from `kidonng/sushi/bucket/fontloadersub.json`
 - [**go-cqhttp**](https://github.com/Mrs4s/go-cqhttp) cqhttp 的 golang 实现，轻量、原生跨平台.
 - [**hash**](http://keir.net/hash.html) Hash is a small GUI tool designed to perform MD5, SHA1 and CRC32 hashing functions on a number of files.
