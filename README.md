@@ -20,6 +20,7 @@ Self-use scoop bucket repository.
 - [**DDMonitor**](https://github.com/zhimingshenjun/DD_Monitor) DD监控室
 - [**DocBox**](https://www.daokeyuedu.com/index.php) 极致 去繁 无广告 不加任何广告，为深度学习而生
 - [**doggo**](https://github.com/mr-karan/doggo) Command-line DNS Client for Humans. Written in Golang
+- [**DotNetVersions**](https://github.com/jmalarcon/DotNetVersions) Command line tool that shows the currently installed "classic" .NET versions in your system
 - [**EasyWindowSwitcher**](https://neosmart.net/EasySwitch) Easy Window Switcher is a software that can bring the classic macOS window switching method to Windows. You only need to press the shortcut key "alt + `(button below ESC)" to switch between different windows of the same software.
 - [**EmbyTheater**](https://emby.media/emby-theater.html) EmbyTheater. Media browser for Emby
 - [**FileMonitor**](https://zhs.moo0.com/software/FileMonitor) Moo0 File Monitor lets you easily monitor the file access activities on your system. / Moo0文件监视器使你在系统总轻松地监视文件访问行为。
