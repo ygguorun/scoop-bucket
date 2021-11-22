@@ -7,7 +7,6 @@ Self-use scoop bucket repository.
 - [**akochan-reviewer**](https://github.com/Equim-chan/akochan-reviewer) 🀄️ Review your Tenhou or Mahjong Soul (Jantama) log with mahjong AI akochan. 麻雀 AI akochan と一緒に天鳳/雀魂の牌譜を検討しましょう！
 - [**aliyunpan-xiaobaiyang**](https://github.com/liupan1890/aliyunpan) 一款第三方的阿里云盘客户端，支持 Windows、macOS
 - [**ArctimePro**](https://arctime.org) 简单、强大、高效的跨平台字幕制作软件
-- [**BBDown**](https://github.com/nilaoda/BBDown) 一款命令行式哔哩哔哩下载器. Bilibili Downloader.
 - [**BilibiliLiveRecordDownLoader**](https://github.com/HMBSbige/BilibiliLiveRecordDownLoader) Bilibili 直播录制与回放下载
 - [**bililive-go**](https://github.com/hr3lxphr6j/bililive-go) 一个直播录制工具
 - [**bingdian**](http://www.bingdian001.com) 冰点文库下载无需积分就可以自由下载百度文库和豆丁文库文档，无需注册和登录。下载的文档最终生成高清晰度的pdf格式文档。
@@ -65,9 +64,10 @@ Self-use scoop bucket repository.
 
 These manifests have been removed from this bucket because there are better/maintained alternatives in other buckets, or no longer installable via Scoop.
 
+- [**BBDown**](https://github.com/nilaoda/BBDown) available in `chawyehsu/dorado` bucket as [bbdown](https://github.com/chawyehsu/dorado/blob/master/bucket/bbdown.json)
 - [**BililiveStreamFileFixer**](https://github.com/Genteure/BililiveStreamFileFixer) have been integrated in `chawyehsu/dorado/bililiverecorder.json` since version 1.3.1
 - [**iFlyVoice**](https://srf.xunfei.cn/) There are some problems when checking or getting the latest version, temporarily removing.
-- [**KDEConnect**](https://kdeconnect.kde.org/): available in `chawyehsu/dorado` bucket as `kdeconnect`
+- [**KDEConnect**](https://kdeconnect.kde.org/): available in `chawyehsu/dorado` bucket as [kdeconnect](https://github.com/chawyehsu/dorado/blob/master/bucket/kdeconnect.json)
 - [**MyDockFinder**](https://www.mydockfinder.com) It will be released on Steam on November 26, 2021.
 
 </details>
