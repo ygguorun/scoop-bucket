@@ -10,7 +10,6 @@ Self-use scoop bucket repository.
 - [**BilibiliLiveRecordDownLoader**](https://github.com/HMBSbige/BilibiliLiveRecordDownLoader) Bilibili 直播录制与回放下载
 - [**bililive-go**](https://github.com/hr3lxphr6j/bililive-go) 一个直播录制工具
 - [**bingdian**](http://www.bingdian001.com) 冰点文库下载无需积分就可以自由下载百度文库和豆丁文库文档，无需注册和登录。下载的文档最终生成高清晰度的pdf格式文档。
-- [**ClashDotNetFramework**](https://github.com/ClashDotNetFramework/ClashDotNetFramework) A .NET Framework based GUI Proxy For Windows
 - [**ClashXW**](https://github.com/ysc3839/ClashXW) This project aims to implement a program with same function as ClashX, running in Windows.
 - [**CloudCompare**](https://github.com/ysc3839/ClashXW) CloudCompare is a 3D point cloud (and triangular mesh) processing software.
 - [**CloudflareSpeedTest**](https://github.com/XIU2/CloudflareSpeedTest) 测试 Cloudflare CDN 延迟和速度，获取最快 IP (IPv4+IPv6)！
@@ -66,6 +65,7 @@ These manifests have been removed from this bucket because there are better/main
 
 - [**BBDown**](https://github.com/nilaoda/BBDown) available in `chawyehsu/dorado` bucket as [bbdown](https://github.com/chawyehsu/dorado/blob/master/bucket/bbdown.json)
 - [**BililiveStreamFileFixer**](https://github.com/Genteure/BililiveStreamFileFixer) have been integrated in `chawyehsu/dorado/bililiverecorder.json` since version 1.3.1
+- [**ClashDotNetFramework**](https://github.com/ClashDotNetFramework/ClashDotNetFramework) has been deleted.
 - [**iFlyVoice**](https://srf.xunfei.cn/) There are some problems when checking or getting the latest version, temporarily removing.
 - [**KDEConnect**](https://kdeconnect.kde.org/): available in `chawyehsu/dorado` bucket as [kdeconnect](https://github.com/chawyehsu/dorado/blob/master/bucket/kdeconnect.json)
 - [**MyDockFinder**](https://www.mydockfinder.com) It will be released on Steam on November 26, 2021.
