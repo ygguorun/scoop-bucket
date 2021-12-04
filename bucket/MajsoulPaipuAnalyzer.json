@@ -1,0 +1,61 @@
+{
+    "version": "0.5.0",
+    "description": "雀魂牌谱分析工具",
+    "homepage": "https://github.com/zyr17/MajsoulPaipuAnalyzer",
+    "license": "MIT",
+    "url": "https://github.com/zyr17/MajsoulPaipuAnalyzer/releases/download/v0.5.0/MajsoulPaipuAnalyzer-win-x64.7z",
+    "hash": "2075fb739c0a2cb4e3f5a459e027b5a56857cdfc65069ed4a7193d9f188f4f9e",
+    "extract_dir": "MajsoulPaipuAnalyzer-win-x64",
+    "installer": {
+        "script": [
+            "# handle runtime cache",
+            "if (!(Test-Path $persist_dir)) {",
+            "    New-Item $persist_dir -Type Directory -Force | Out-Null",
+            "}",
+            "$runtimeCache = \"$env:APPDATA\\MajsoulPaipuAnalyzer\"",
+            "$runtimeCachePersist = \"$persist_dir\\appdata\"",
+            "if (Test-Path $runtimeCachePersist) {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "} else {",
+            "    if (Test-Path $runtimeCache) {",
+            "        Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "        New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "    }",
+            "}"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "$runtimeCache = \"$env:APPDATA\\MajsoulPaipuAnalyzer\"",
+            "$runtimeCachePersist = \"$persist_dir\\appdata\"",
+            "if (!(Test-Path $runtimeCachePersist)) {",
+            "    Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "} else {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "}"
+        ]
+    },
+    "bin": [
+        [
+            "PaipuAnalyzer.exe",
+            "PaipuAnalyzer"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "MajsoulPaipuCrawler.exe",
+            "MajsoulPaipuCrawler"
+        ],
+        [
+            "PaipuAnalyzer.exe",
+            "PaipuAnalyzer"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/zyr17/MajsoulPaipuAnalyzer"
+    },
+    "autoupdate": {
+        "url": "https://github.com/zyr17/MajsoulPaipuAnalyzer/releases/download/v$version/MajsoulPaipuAnalyzer-win-x64.7z"
+    }
+}
