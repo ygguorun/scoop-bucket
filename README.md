@@ -28,6 +28,7 @@ Self-use scoop bucket repository.
 - [**JianYingSRT**](https://guihet.com/jianying.html) 用于剪映中包含字幕信息的 Json 文件提取导出转换为 .srt 格式
 - [**katrain**](https://github.com/sanderland/katrain) Improve your Baduk skills by training with KataGo!
 - [**Legendary**](https://github.com/derrod/legendary) Legendary - A free and open-source replacement for the Epic Games Launcher
+- [**LinkEase**](https://www.linkease.com) 易有云提供全平台的数据互通，带你享受P2P的极速体验。随时随地备份你的照片、文件，轻松打造属于你的私有云服务。
 - [**lx-music-desktop**](https://github.com/lyswhut/lx-music-desktop) 一个基于 electron 的音乐软件
 - [**LyricTools**](https://gitee.com/ying32/MakeLyric/) 支持qrc、krc、trc、网易云音乐的歌词相互转，支持输出krc、qrc、trc、网易云音乐、srt、smi、lrc、ksc、ssa、foobar2000插件eslyric格式
 - [**Macast**](https://github.com/xfangfang/Macast) Macast is a cross-platform application which using mpv as DLNA Media Renderer.
