@@ -43,6 +43,7 @@ Self-use scoop bucket repository.
 - [**noMeiryoUI**](https://github.com/Tatsu-syo/noMeiryoUI) No!! MeiryoUI is Windows system font setting tool on Windows 8.1/10.
 - [**officebox**](http://www.wofficebox.com) 万彩办公大师是一款办公必备的小工具百宝箱。软件里集合了60+个小工具，一个软件即可搞定90%的工作需求。
 - [**PotPlayer-old**](https://potplayer.daum.net) Highly customizable media player, this version is the last version without advertisements.
+- [**RegexMatchTracer**](http://www.regexlab.com/zh/mtracer) 正则表达式工具 Match Tracer 是一款用来编写和测试正则表达式的工具软件。 本软件通过可视化的界面，可以协助你快速、正确地写出复杂的正则表达式。
 - [**RevokeMsgPatcher**](https://github.com/huiyadanli/RevokeMsgPatcher) A hex editor for WeChat/QQ/TIM - PC版微信/QQ/TIM防撤回补丁（我已经看到了，撤回也没用了）
 - [**RustDesk**](https://rustdesk.com/) Yet another remote desktop software
 - [**Sandboxie-Plus**](https://github.com/sandboxie-plus/Sandboxie) Sandboxie community maintained version
