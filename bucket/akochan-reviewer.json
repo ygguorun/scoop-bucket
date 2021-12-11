@@ -8,13 +8,18 @@
     "bin": [
         [
             "akochan-reviewer.exe",
-            "akochan-reviewer"
+            "akochan-reviewer",
+            "--akochan-dir",
+            "\"$dir\\akochan\"",
+            "--tactics-config",
+            "\"$dir\\tactics.json\""
         ]
     ],
     "checkver": {
         "url": "https://github.com/Equim-chan/akochan-reviewer/releases",
         "regex": "Equim-chan/akochan-reviewer/tree/v([\\d.]+)"
     },
+    "persist": "tactics.json",
     "autoupdate": {
         "url": "https://github.com/Equim-chan/akochan-reviewer/releases/download/v$version/akochan-reviewer-v$version-windows-x86_64.zip",
         "hash": {
