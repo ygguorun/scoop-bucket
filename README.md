@@ -14,6 +14,7 @@ Self-use scoop bucket repository.
 - [**CloudCompare**](https://github.com/ysc3839/ClashXW) CloudCompare is a 3D point cloud (and triangular mesh) processing software.
 - [**CloudflareSpeedTest**](https://github.com/XIU2/CloudflareSpeedTest) 测试 Cloudflare CDN 延迟和速度，获取最快 IP (IPv4+IPv6)！
 - [**compact_html**](https://github.com/EdenHell/compact_html) Embed image data directly to HTML files.
+- [**copy-translator-rust**](https://github.com/zu1k/copy-translator) 简单、轻量、好用的划词翻译软件，利用DeepL翻译，无需注册api token
 - [**CopyTranslator**](https://github.com/CopyTranslator/CopyTranslator) Foreign language reading and translation assistant based on copy and translate.
 - [**DDMonitor**](https://github.com/zhimingshenjun/DD_Monitor) DD监控室
 - [**DocBox**](https://www.daokeyuedu.com/index.php) 极致 去繁 无广告 不加任何广告，为深度学习而生
