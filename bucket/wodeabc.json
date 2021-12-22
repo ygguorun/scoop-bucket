@@ -1,12 +1,12 @@
 {
-    "version": "6.10.1",
+    "version": "6.11.0",
     "description": "一个简单、高效的办公助手。集成几十种文件批量处理功能，如：批量修改替换Word、Excel、PPT 和 PDF 及文本文件的内容、文件和文件夹的名称、格式转换、图片压缩、按顺序编号、生成文件、拆分合并文档等等。",
     "homepage": "https://www.wodeabc.com",
     "license": "Unknown",
     "architecture": {
         "32bit": {
-            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/ia32/wodeabc-installer-32bit-6_10_1.exe#/dl.7z",
-            "hash": "fa0ace87ffb70bafc92f9917cf02d345c9df59646c1eb4830569ccab12fb7949",
+            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/ia32/wodeabc-installer-32bit-6_11_0.exe#/dl.7z",
+            "hash": "b1b98c378194bcb2241aa838a2503b660837fbcb21d95e873e3d1d78372c4185",
             "installer": {
                 "script": [
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
@@ -29,8 +29,8 @@
             }
         },
         "64bit": {
-            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-6_10_1.exe#/dl.7z",
-            "hash": "5d068b6619871141e295391c9ab549a2cbc6668f22c540a20b19090348e5903e",
+            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-6_11_0.exe#/dl.7z",
+            "hash": "859f9bea2314acec710c4d052725be559f8e0f61b0c74caeb8cf040c774c7006",
             "installer": {
                 "script": [
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -71,16 +71,17 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.wodeabc.com/article/show/8002136",
-        "regex": "v([\\d.]+)"
+        "url": "https://www.wodeabc.com/download",
+        "regex": "wodeabc-installer-64bit-(?<trueversion>(\\d+)_(\\d+)_(\\d+)).exe",
+        "replace": "$1.$2.$3"
     },
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/ia32/wodeabc-installer-32bit-$underscoreVersion.exe#/dl.7z"
+                "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/ia32/wodeabc-installer-32bit-$matchTrueversion.exe#/dl.7z"
             },
             "64bit": {
-                "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-$underscoreVersion.exe#/dl.7z"
+                "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-$matchTrueversion.exe#/dl.7z"
             }
         }
     }
