@@ -3,6 +3,7 @@
     "description": "OpenType font loader for subtitles (ASS/SSA)",
     "homepage": "https://github.com/yzwduck/FontLoaderSub",
     "license": "GPL-2.0-only",
+    "notes": "Place your fonts under \"$dir\\fonts\" to persist them.",
     "url": "https://github.com/yzwduck/FontLoaderSub/releases/download/r6/FontLoaderSub-r6.7z",
     "hash": "095c4ad9472ae4a354d2c9438086248ff7097176bae029d38bd87037eed0de8d",
     "pre_install": [
@@ -26,6 +27,5 @@
     },
     "autoupdate": {
         "url": "https://github.com/yzwduck/FontLoaderSub/releases/download/$version/FontLoaderSub-$version.7z"
-    },
-    "notes": "Place your fonts under \"$dir\\fonts\" to persist them."
+    }
 }

@@ -12,9 +12,7 @@
             "NatTypeTester"
         ]
     ],
-    "checkver": {
-        "github": "https://github.com/HMBSbige/NatTypeTester"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/HMBSbige/NatTypeTester/releases/download/$version/NatTypeTester-generic-$version.7z"
     }

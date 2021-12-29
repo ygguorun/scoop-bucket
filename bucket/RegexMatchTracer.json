@@ -18,10 +18,7 @@
             "Regex Match Tracer"
         ]
     ],
-    "checkver": {
-        "url": "http://www.regexlab.com/zh/mtracer",
-        "regex": "Match Tracer（v([\\d.]+)）"
-    },
+    "checkver": "Match Tracer（v([\\d.]+)）",
     "autoupdate": {
         "url": "http://www.regexlab.com/download/mtracer/MTracer.zip"
     }

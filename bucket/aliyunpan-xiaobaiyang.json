@@ -44,9 +44,7 @@
             "阿里云盘小白羊版"
         ]
     ],
-    "checkver": {
-        "github": "https://github.com/liupan1890/aliyunpan"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/liupan1890/aliyunpan/releases/download/v$version/Win.v$version.7z"
     }

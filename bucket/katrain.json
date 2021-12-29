@@ -46,9 +46,7 @@
             "DebugKaTrain"
         ]
     ],
-    "checkver": {
-        "github": "https://github.com/sanderland/katrain"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/sanderland/katrain/releases/download/$version/KaTrain.zip"
     }

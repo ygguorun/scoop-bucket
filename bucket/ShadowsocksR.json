@@ -42,9 +42,7 @@
         "user.rule",
         "user-rule.txt"
     ],
-    "checkver": {
-        "github": "https://github.com/HMBSbige/ShadowsocksR-Windows"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/$version/ShadowsocksR-$version.7z",
         "hash": {

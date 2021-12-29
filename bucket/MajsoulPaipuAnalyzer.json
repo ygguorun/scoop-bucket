@@ -56,9 +56,7 @@
         "data",
         "config.json"
     ],
-    "checkver": {
-        "github": "https://github.com/zyr17/MajsoulPaipuAnalyzer"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/zyr17/MajsoulPaipuAnalyzer/releases/download/v$version/MajsoulPaipuAnalyzer-win-x64.7z"
     }

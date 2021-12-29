@@ -42,9 +42,7 @@
         ]
     ],
     "post_install": "Remove-Item -Force -Recurse \"$dir\\`$PLUGINSDIR\"",
-    "checkver": {
-        "github": "https://github.com/zyzsdy/NegativeEncoder"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/zyzsdy/NegativeEncoder/releases/download/v$version/NegativeEncoderSetup_v$version.exe#/dl.7z"
     }

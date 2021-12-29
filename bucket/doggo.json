@@ -10,9 +10,7 @@
         }
     },
     "bin": "doggo.exe",
-    "checkver": {
-        "github": "https://github.com/mr-karan/doggo"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {

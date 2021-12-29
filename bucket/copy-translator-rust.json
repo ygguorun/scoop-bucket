@@ -12,9 +12,7 @@
         ]
     ],
     "persist": "settings.toml",
-    "checkver": {
-        "github": "https://github.com/zu1k/copy-translator"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/zu1k/copy-translator/releases/download/v$version/copy-translator_x86-64_windows.zip"
     }

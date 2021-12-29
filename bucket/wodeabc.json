@@ -4,12 +4,12 @@
     "homepage": "https://www.wodeabc.com",
     "license": "Unknown",
     "architecture": {
-        "32bit": {
-            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/ia32/wodeabc-installer-32bit-6_12_0.exe#/dl.7z",
-            "hash": "9a32bb63fc1a84da1d5c4a3ef4c95fe8d974071281404d195e3d3103e3c9bb29",
+        "64bit": {
+            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-6_12_0.exe#/dl.7z",
+            "hash": "a8066c8c4d804b5d5ed14139992555592ca3527457f3dfe20640f507c043d72c",
             "installer": {
                 "script": [
-                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                     "# handle runtime cache",
                     "if (!(Test-Path $persist_dir)) {",
                     "    New-Item $persist_dir -Type Directory -Force | Out-Null",
@@ -28,12 +28,12 @@
                 ]
             }
         },
-        "64bit": {
-            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-6_12_0.exe#/dl.7z",
-            "hash": "a8066c8c4d804b5d5ed14139992555592ca3527457f3dfe20640f507c043d72c",
+        "32bit": {
+            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/ia32/wodeabc-installer-32bit-6_12_0.exe#/dl.7z",
+            "hash": "9a32bb63fc1a84da1d5c4a3ef4c95fe8d974071281404d195e3d3103e3c9bb29",
             "installer": {
                 "script": [
-                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
                     "# handle runtime cache",
                     "if (!(Test-Path $persist_dir)) {",
                     "    New-Item $persist_dir -Type Directory -Force | Out-Null",
@@ -77,11 +77,11 @@
     },
     "autoupdate": {
         "architecture": {
-            "32bit": {
-                "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/ia32/wodeabc-installer-32bit-$matchTrueversion.exe#/dl.7z"
-            },
             "64bit": {
                 "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-$matchTrueversion.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/ia32/wodeabc-installer-32bit-$matchTrueversion.exe#/dl.7z"
             }
         }
     }

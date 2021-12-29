@@ -36,9 +36,7 @@
         ]
     },
     "bin": "legendary.exe",
-    "checkver": {
-        "github": "https://github.com/derrod/legendary"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/derrod/legendary/releases/download/$version/legendary.exe"
     }

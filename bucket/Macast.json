@@ -41,9 +41,7 @@
             "Macast"
         ]
     ],
-    "checkver": {
-        "github": "https://github.com/xfangfang/Macast"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/xfangfang/Macast/releases/download/v$version/Macast-Windows-v$version.exe#/Macast.exe"
     }

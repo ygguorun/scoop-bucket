@@ -6,6 +6,7 @@
         "identifier": "Freeware",
         "url": "https://potplayer.daum.net/publicRelation"
     },
+    "notes": "PotPlayer Mini is recommended.",
     "architecture": {
         "64bit": {
             "url": "https://www.videohelp.com/download/PotPlayerSetup64-1.7.18958.exe#/dl.7z",
@@ -65,6 +66,5 @@
         "PotPlayer64.ini",
         "PotPlayerMini.ini",
         "PotPlayerMini64.ini"
-    ],
-    "notes": "PotPlayer Mini is recommended."
+    ]
 }

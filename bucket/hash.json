@@ -11,7 +11,5 @@
             "Hash"
         ]
     ],
-    "checkver": {
-        "regex": "Hash ([\\d.]+) ZIP"
-    }
+    "checkver": "Hash ([\\d.]+) ZIP"
 }

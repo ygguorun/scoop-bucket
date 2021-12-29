@@ -11,8 +11,5 @@
             "MusicTag"
         ]
     ],
-    "checkver": {
-        "url": "https://www.cnblogs.com/vinlxc/p/11347744.html",
-        "regex": "<p>([\\d.]+)</p>"
-    }
+    "checkver": "<p>([\\d.]+)</p>"
 }

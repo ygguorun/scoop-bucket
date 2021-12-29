@@ -11,9 +11,7 @@
             "大拍档剪辑助手"
         ]
     ],
-    "checkver": {
-        "regex": "v.*?([\\d.]+)</small>"
-    },
+    "checkver": "v.*?([\\d.]+)</small>",
     "autoupdate": {
         "url": "https://dl-1258309466.cos.ap-guangzhou.myqcloud.com/releases/$version/%E5%A4%A7%E6%8B%8D%E6%A1%A3%E5%89%AA%E8%BE%91%E5%8A%A9%E6%89%8B$version-windows%E5%85%8D%E5%AE%89%E8%A3%85.rar#/dl.rar"
     }

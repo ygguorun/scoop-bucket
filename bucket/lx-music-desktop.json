@@ -4,12 +4,12 @@
     "homepage": "https://github.com/lyswhut/lx-music-desktop",
     "license": "Apache License 2.0",
     "architecture": {
-        "32bit": {
+        "64bit": {
             "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v1.15.3/lx-music-desktop-v1.15.3-x86_64-Setup.exe#/dl.7z",
             "hash": "sha512:0c2a01796456109efce2e494d653293f010838c1788b4ba6c26b731df464044cec47b5d7f8bf2607bf8cd2465254a41c910be16ee9fdfa642f3a63f6eb22c1ac",
             "installer": {
                 "script": [
-                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                     "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse",
                     "# handle runtime cache",
                     "if (!(Test-Path $persist_dir)) {",
@@ -29,12 +29,12 @@
                 ]
             }
         },
-        "64bit": {
+        "32bit": {
             "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v1.15.3/lx-music-desktop-v1.15.3-x86_64-Setup.exe#/dl.7z",
             "hash": "sha512:0c2a01796456109efce2e494d653293f010838c1788b4ba6c26b731df464044cec47b5d7f8bf2607bf8cd2465254a41c910be16ee9fdfa642f3a63f6eb22c1ac",
             "installer": {
                 "script": [
-                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
                     "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse",
                     "# handle runtime cache",
                     "if (!(Test-Path $persist_dir)) {",
@@ -78,19 +78,17 @@
             "洛雪音乐助手桌面版"
         ]
     ],
-    "checkver": {
-        "github": "https://github.com/lyswhut/lx-music-desktop"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
-            "32bit": {
+            "64bit": {
                 "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v$version/lx-music-desktop-v$version-x86_64-Setup.exe#/dl.7z",
                 "hash": {
                     "url": "$baseurl/latest.yml",
                     "regex": "sha512: $base64"
                 }
             },
-            "64bit": {
+            "32bit": {
                 "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v$version/lx-music-desktop-v$version-x86_64-Setup.exe#/dl.7z",
                 "hash": {
                     "url": "$baseurl/latest.yml",

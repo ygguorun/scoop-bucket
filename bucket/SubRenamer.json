@@ -11,9 +11,7 @@
             "SubRenamer"
         ]
     ],
-    "checkver": {
-        "github": "https://github.com/qwqcode/SubRenamer"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/qwqcode/SubRenamer/releases/download/$version/SubRenamer.v$majorVersion.$minorVersion.exe#/SubRenamer.exe"
     }
