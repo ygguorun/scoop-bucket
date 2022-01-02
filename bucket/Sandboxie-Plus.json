@@ -1,17 +1,17 @@
 {
-    "version": "1.0.6",
+    "version": "1.0.5.1",
     "description": "Sandboxie community maintained version",
     "homepage": "https://github.com/sandboxie-plus/Sandboxie",
     "license": "GNU General Public License v3.0",
     "notes": "The shortcuts are located in \"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\Sandboxie-Plus\\\"",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/1.0.6/Sandboxie-Plus-x64-v1.0.6.exe",
-            "hash": "4122aa1076ef4754c73dc2dbd29850c5f658efcbc9665da308da07c3b1a17b11"
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/1.0.5.1/Sandboxie-Plus-x64-v1.0.5.exe",
+            "hash": "795c5c27676afd36fae891b60b98c7a45af24a4a8def948715185678c75e7f98"
         },
         "32bit": {
-            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/1.0.6/Sandboxie-Plus-x86-v1.0.6.exe",
-            "hash": "92ff07cd68dd59ba32866750d4b3facb757a4b3b2815a824a6c6cbac392f3011"
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/1.0.5.1/Sandboxie-Plus-x86-v1.0.5.exe",
+            "hash": "af9e86b8dfafe2ad0f40f008e090d0db2ec4647d84f21f064150f7f3a8c4feaa"
         }
     },
     "pre_install": [
