@@ -62,7 +62,6 @@ Self-use scoop bucket repository.
 - [**triangula**](https://github.com/RH12503/triangula) Generate high-quality triangulated art from images.
 - [**WhyNotWin11**](https://github.com/rcmaehl/WhyNotWin11) Detection Script to help identify why your PC isn't Windows 11 ready
 - [**WindowTop**](https://github.com/BiGilSoft/WindowTop) Set window on top, make it dark, transparent and more
-- [**wodeabc**](https://www.wodeabc.com) 一个简单、高效的办公助手。集成几十种文件批量处理功能，如：批量修改替换Word、Excel、PPT 和 PDF 及文本文件的内容、文件和文件夹的名称、格式转换、图片压缩、按顺序编号、生成文件、拆分合并文档等等。
 - [**大拍档剪辑助手**](http://spdpd.net) 大拍档剪辑助手是整合了视频剪辑中非常实用的功能于一体的桌面程序。
 
 <details>
@@ -76,5 +75,6 @@ These manifests have been removed from this bucket because there are better/main
 - [**iFlyVoice**](https://srf.xunfei.cn/) There are some problems when checking or getting the latest version, temporarily removing.
 - [**KDEConnect**](https://kdeconnect.kde.org/): available in `chawyehsu/dorado` bucket as [kdeconnect](https://github.com/chawyehsu/dorado/blob/master/bucket/kdeconnect.json)
 - [**MyDockFinder**](https://www.mydockfinder.com) It will be released on Steam on November 26, 2021.
+- [**wodeabc**](https://www.wodeabc.com) Its official website is not available.
 
 </details>
