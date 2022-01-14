@@ -1,10 +1,10 @@
 {
-    "version": "2021-10-24",
+    "version": "2022-01-13",
     "description": "易有云提供全平台的数据互通，带你享受P2P的极速体验。随时随地备份你的照片、文件，轻松打造属于你的私有云服务。",
     "homepage": "https://www.linkease.com",
     "license": "Unknown",
     "url": "https://fw.koolcenter.com/binary/LinkEase/Client/LinkEaseWin.zip",
-    "hash": "md5:2989129bf5066951526c45c346851ea8",
+    "hash": "12d92264c679e1d6019112b3c86c35a818b1a46a417e567c74db9c737ee4a360",
     "installer": {
         "script": [
             "# handle runtime cache",
