@@ -1,12 +1,12 @@
 {
-    "version": "1.16.0",
+    "version": "1.17.0",
     "description": "一个基于 electron 的音乐软件",
     "homepage": "https://github.com/lyswhut/lx-music-desktop",
     "license": "Apache License 2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v1.16.0/lx-music-desktop-v1.16.0-x86_64-Setup.exe#/dl.7z",
-            "hash": "sha512:a1fab037abb4f62995533d89de6ef1919b93db00072aeed1be864bf318f6af9b92281469befe5421d9b5c21f2f394d9640ff6be2022298fd0449af9d98f1236e",
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v1.17.0/lx-music-desktop-v1.17.0-x86_64-Setup.exe#/dl.7z",
+            "hash": "sha512:fcfb7df1194d76615f6f7aa09f10528a5b3e9d00f5404957a2689b0c20be7b959828ff41a98bd92e397a0bf5b174ddad2c1e93a516510c9db821c74fb7f46830",
             "installer": {
                 "script": [
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -30,8 +30,8 @@
             }
         },
         "32bit": {
-            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v1.16.0/lx-music-desktop-v1.16.0-x86_64-Setup.exe#/dl.7z",
-            "hash": "sha512:a1fab037abb4f62995533d89de6ef1919b93db00072aeed1be864bf318f6af9b92281469befe5421d9b5c21f2f394d9640ff6be2022298fd0449af9d98f1236e",
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v1.17.0/lx-music-desktop-v1.17.0-x86_64-Setup.exe#/dl.7z",
+            "hash": "sha512:fcfb7df1194d76615f6f7aa09f10528a5b3e9d00f5404957a2689b0c20be7b959828ff41a98bd92e397a0bf5b174ddad2c1e93a516510c9db821c74fb7f46830",
             "installer": {
                 "script": [
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
