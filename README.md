@@ -60,6 +60,7 @@ Self-use scoop bucket repository.
 - [**TeambitionProjectWeb**](https://www.52pojie.cn/thread-1348072-1-1.html) Teambition项目直链解析，无需内测码，支持直链列目录加密
 - [**texlive-small**](https://tug.org/texlive/) TeX Live is a cross-platform, free software distribution for the TeX typesetting system. Manifest refers to `dorado/bucket/texlive.json`.
 - [**triangula**](https://github.com/RH12503/triangula) Generate high-quality triangulated art from images.
+- [**upgit**](https://github.com/pluveto) Another Typora image uploader.
 - [**WhyNotWin11**](https://github.com/rcmaehl/WhyNotWin11) Detection Script to help identify why your PC isn't Windows 11 ready
 - [**WindowTop**](https://github.com/BiGilSoft/WindowTop) Set window on top, make it dark, transparent and more
 - [**wodeabc**](https://www.wodeabc.com) 一个简单、高效的办公助手。集成几十种文件批量处理功能，如：批量修改替换Word、Excel、PPT 和 PDF 及文本文件的内容、文件和文件夹的名称、格式转换、图片压缩、按顺序编号、生成文件、拆分合并文档等等。
