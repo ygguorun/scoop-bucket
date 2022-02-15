@@ -41,7 +41,6 @@ Self-use scoop bucket repository.
 - [**NatTypeTester**](https://github.com/HMBSbige/NatTypeTester) 测试当前网络的 NAT 类型（STUN）
 - [**netflix-verify**](https://github.com/sjlleo/netflix-verify) 流媒体NetFlix解锁检测脚本 / A script used to determine whether your network can watch native Netflix movies or not
 - [**NegativeEncoder**](https://github.com/zyzsdy/NegativeEncoder) NegativeEncoder is a GUI tool for video encoding using QuickSync and NVENC.
-- [**noMeiryoUI**](https://github.com/Tatsu-syo/noMeiryoUI) No!! MeiryoUI is Windows system font setting tool on Windows 8.1/10.
 - [**officebox**](http://www.wofficebox.com) 万彩办公大师是一款办公必备的小工具百宝箱。软件里集合了60+个小工具，一个软件即可搞定90%的工作需求。
 - [**PDFPatcher**](https://github.com/wmjordan/PDFPatcher) PDF 补丁丁是一个 PDF 处理工具。
 - [**PotPlayer-old**](https://potplayer.daum.net) Highly customizable media player, this version is the last version without advertisements.
@@ -78,5 +77,7 @@ These manifests have been removed from this bucket because there are better/main
 - [**MyDockFinder**](https://www.mydockfinder.com) It will be released on Steam on November 26, 2021.
 - [**SarasaGothic-ttc**](https://github.com/be5invis/Sarasa-Gothic) Sarasa Gothic / 更纱黑体 / 更紗黑體 / 更紗ゴシック / 사라사 고딕
 - [**SarasaGothicRegular-ttc**](https://github.com/be5invis/Sarasa-Gothic) Sarasa Gothic / 更纱黑体 / 更紗黑體 / 更紗ゴシック / 사라사 고딕
+- [**noMeiryoUI**](https://github.com/Tatsu-syo/noMeiryoUI) available in `chawyehsu/dorado` bucket as [nomeiryoui](https://github.com/chawyehsu/dorado/blob/master/bucket/nomeiryoui.json)
+
 
 </details>
