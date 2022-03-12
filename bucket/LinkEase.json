@@ -4,7 +4,7 @@
     "homepage": "https://www.linkease.com",
     "license": "Unknown",
     "url": "https://fw.koolcenter.com/binary/LinkEase/Client/LinkEaseWin.zip",
-    "hash": "md5:ae541fe145c6e7207330437b3b601ba1",
+    "hash": "02b97a1dd7683dbbc8dc768821a100607b6efddae1b36b07baa102d8f925de2a",
     "installer": {
         "script": [
             "# handle runtime cache",
@@ -63,8 +63,7 @@
     "autoupdate": {
         "url": "https://fw.koolcenter.com/binary/LinkEase/Client/LinkEaseWin.zip",
         "hash": {
-            "url": "https://fw.koolcenter.com/binary/LinkEase/Client/?hash=/binary/LinkEase/Client/LinkEaseWin.zip",
-            "regex": "$md5"
+            "url": "https://fw.koolcenter.com/binary/LinkEase/Client/?hash=/binary/LinkEase/Client/LinkEaseWin.zip"
         }
     }
 }
