@@ -24,6 +24,8 @@ Self-use scoop bucket repository.
 - [**EmbyTheater**](https://emby.media/emby-theater.html) EmbyTheater. Media browser for Emby
 - [**FileMonitor**](https://zhs.moo0.com/software/FileMonitor) Moo0 File Monitor lets you easily monitor the file access activities on your system. / Moo0文件监视器使你在系统总轻松地监视文件访问行为。
 - [**FontLoaderSub**](https://github.com/yzwduck/FontLoaderSub) OpenType font loader for subtitles (ASS/SSA). Copy from `kidonng/sushi/bucket/fontloadersub.json`
+- [**gluttonyFLIF**](http://nullice.com/archives/2033) 转换 PNG 为最强无损格式 FLIF。FLIF 是比 WebP、BPG 、PNG 无损压缩比更高的最强无损图片格式
+- [**gluttonyPNG**](http://nullice.com/archives/1998) 大批量 PNG 图片压缩工具。快速无损压缩大批量 PNG 图片，支持保存进度，断点续压
 - [**go-cqhttp**](https://github.com/Mrs4s/go-cqhttp) cqhttp 的 golang 实现，轻量、原生跨平台.
 - [**hash**](http://keir.net/hash.html) Hash is a small GUI tool designed to perform MD5, SHA1 and CRC32 hashing functions on a number of files.
 - [**JianYingSRT**](https://guihet.com/jianying.html) 用于剪映中包含字幕信息的 Json 文件提取导出转换为 .srt 格式
