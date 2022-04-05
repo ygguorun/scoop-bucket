@@ -1,10 +1,10 @@
 {
-    "version": "0.5.1",
+    "version": "0.5.2",
     "description": "雀魂牌谱分析工具",
     "homepage": "https://github.com/zyr17/MajsoulPaipuAnalyzer",
     "license": "MIT",
-    "url": "https://github.com/zyr17/MajsoulPaipuAnalyzer/releases/download/v0.5.1/MajsoulPaipuAnalyzer-win-x64.7z",
-    "hash": "58b2056eecef29a573b16df87b31161886b8b29d55c299a4a09592bc22881291",
+    "url": "https://github.com/zyr17/MajsoulPaipuAnalyzer/releases/download/v0.5.2/MajsoulPaipuAnalyzer-win-x64.7z",
+    "hash": "8cca09abd65fe375edb7f6eca87ff875684e5b784787c7012da5cfa3cd32f789",
     "extract_dir": "MajsoulPaipuAnalyzer-win-x64",
     "installer": {
         "script": [
