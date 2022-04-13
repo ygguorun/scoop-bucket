@@ -57,7 +57,6 @@ Self-use scoop bucket repository.
 - [**silk2mp3**](https://kn007.net/topics/batch-convert-silk-v3-audio-files-to-mp3-in-windows/) Decode silk v3 audio files (like wechat amr, aud files, qq slk files) and convert to other format (like mp3).
 - [**start**](https://start.qq.com/) 云游戏, 让好玩触手可及
 - [**SubRenamer**](https://github.com/qwqcode/SubRenamer) 番剧字幕文件自动化一键批量重命名（改名）工具：自动匹配，正则过滤，手动精选，一键操作；Rename Subtitles Automatically to Match Videos Easily through the SubRenamer Tool.
-- [**TeambitionProjectWeb**](https://www.52pojie.cn/thread-1348072-1-1.html) Teambition项目直链解析，无需内测码，支持直链列目录加密
 - [**texlive-small**](https://tug.org/texlive/) TeX Live is a cross-platform, free software distribution for the TeX typesetting system. Manifest refers to `dorado/bucket/texlive.json`.
 - [**triangula**](https://github.com/RH12503/triangula) Generate high-quality triangulated art from images.
 - [**upgit**](https://github.com/pluveto) Another Typora image uploader.
@@ -81,6 +80,7 @@ These manifests have been removed from this bucket because there are better/main
 - [**SarasaGothic-ttc**](https://github.com/be5invis/Sarasa-Gothic) Sarasa Gothic / 更纱黑体 / 更紗黑體 / 更紗ゴシック / 사라사 고딕
 - [**SarasaGothicRegular-ttc**](https://github.com/be5invis/Sarasa-Gothic) Sarasa Gothic / 更纱黑体 / 更紗黑體 / 更紗ゴシック / 사라사 고딕
 - [**noMeiryoUI**](https://github.com/Tatsu-syo/noMeiryoUI) available in `chawyehsu/dorado` bucket as [nomeiryoui](https://github.com/chawyehsu/dorado/blob/master/bucket/nomeiryoui.json)
+- [**TeambitionProjectWeb**](https://www.52pojie.cn/thread-1348072-1-1.html) Teambition项目直链解析，无需内测码，支持直链列目录加密
 
 
 </details>
