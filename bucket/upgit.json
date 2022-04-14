@@ -1,16 +1,16 @@
 {
-    "version": "0.2.14",
+    "version": "0.2.15",
     "description": "Another Typora image uploader.",
     "homepage": "https://github.com/pluveto/upgit",
     "license": "MIT License",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pluveto/upgit/releases/download/v0.2.14/upgit_win_amd64.exe#/upgit.exe",
-            "hash": "9e21ffe47242d53375f6656ff01d39a0704efcc20e95046d1839e7bc54fb93f7"
+            "url": "https://github.com/pluveto/upgit/releases/download/v0.2.15/upgit_win_amd64.exe#/upgit.exe",
+            "hash": "b38aed73925b45471ae47b6cd3176e290e6b9f17fca4f8990402b48c727f7b94"
         },
         "32bit": {
-            "url": "https://github.com/pluveto/upgit/releases/download/v0.2.14/upgit_win_386.exe#/upgit.exe",
-            "hash": "9f6fd03f2707d403a24669b2489cc22d06c417bb8d22d35d48f7a9de54d7baba"
+            "url": "https://github.com/pluveto/upgit/releases/download/v0.2.15/upgit_win_386.exe#/upgit.exe",
+            "hash": "5a69eb4ad73c97aaac36ab58226daa83d2c455e4e4750d764b02828e72ec1667"
         }
     },
     "pre_install": [
