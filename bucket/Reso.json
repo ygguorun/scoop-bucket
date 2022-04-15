@@ -4,5 +4,11 @@
     "homepage": "http://www.bcheck.net/apps/reso.htm",
     "license": "Unknown",
     "url": "http://www.bcheck.net/apps/reso7.exe#/reso.exe",
-    "hash": "6CFADFE19B656ACFD9DE9BD2BFF609E33E4D33299BA34BE779586AABE318252E"
+    "hash": "6CFADFE19B656ACFD9DE9BD2BFF609E33E4D33299BA34BE779586AABE318252E",
+    "shortcuts": [
+        [
+            "reso.exe",
+            "Reso"
+        ]
+    ]
 }
