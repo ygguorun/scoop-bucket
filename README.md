@@ -38,6 +38,7 @@ Self-use scoop bucket repository.
 - [**Macast**](https://github.com/xfangfang/Macast) Macast is a cross-platform application which using mpv as DLNA Media Renderer.
 - [**mahjong-helper**](https://github.com/EndlessCheng/mahjong-helper) 日本麻将助手：牌效+防守+记牌（支持雀魂、天凤）
 - [**MajsoulPaipuAnalyzer**](https://github.com/zyr17/MajsoulPaipuAnalyzer) 雀魂牌谱分析工具
+- [**MajsoulPlus**](https://github.com/MajsoulPlus/majsoul-plus) 雀魂Plus——雀魂麻将Majsoul专用浏览器，提供了一些专有特性
 - [**Malware-Patch**](https://github.com/the1812/Malware-Patch) 阻止中国流氓软件的管理员授权. / Prevent UAC authorization of Chinese malware.
 - [**MusicTag**](https://www.cnblogs.com/vinlxc/p/11347744.html) 『音乐标签』是一款可以编辑歌曲的标题，专辑，艺术家，歌词，封面等信息的应用程序， 支持FLAC, APE, WAV, AIFF, WV, TTA, MP3, MP4, M4A, OGG, MPC, OPUS, WMA, DSF, DFF等音频格式，绿色无广告，无任何功能限制。
 - [**NatTypeTester**](https://github.com/HMBSbige/NatTypeTester) 测试当前网络的 NAT 类型（STUN）
