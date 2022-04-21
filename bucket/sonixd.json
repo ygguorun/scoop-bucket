@@ -1,10 +1,10 @@
 {
-    "version": "0.15.0",
+    "version": "0.15.1",
     "description": "A full-featured Subsonic/Jellyfin compatible desktop music player",
     "homepage": "https://github.com/jeffvli/sonixd",
     "license": "GNU General Public License v3.0",
-    "url": "https://github.com/jeffvli/sonixd/releases/download/v0.15.0/Sonixd-0.15.0-win-x64.exe#/dl.7z",
-    "hash": "sha512:e37f4e96db1949f0f6b2b008e891e9d4dcac723f1404ecbedf3bf5280bf794400e9ef978e97a9c7f02ae0776fd8feca1ddf39c21fbc2bfb94c0d3e494a3e118d",
+    "url": "https://github.com/jeffvli/sonixd/releases/download/v0.15.1/Sonixd-0.15.1-win-x64.exe#/dl.7z",
+    "hash": "sha512:2fc21f1715976d96ec28d304f87412df2e3a3fd86d44bfaca201423653f2bba91985b0a9aebb7180f0c16ce6830f42c1194134f7da7444a8425bad3a1d50edd6",
     "installer": {
         "script": [
             "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
