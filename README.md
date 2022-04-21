@@ -56,6 +56,7 @@ Self-use scoop bucket repository.
 - [**ShadowsocksR**](https://github.com/HMBSbige/ShadowsocksR-Windows) An Internet censorship circumventing tunnel tool, forked from shadowsocksR, maintained now by HMBSbige.   
 - [**ShanaEncoder**](https://shana.pe.kr) ShanaEncoder is audio/video encoding program based on FFmpeg.
 - [**silk2mp3**](https://kn007.net/topics/batch-convert-silk-v3-audio-files-to-mp3-in-windows/) Decode silk v3 audio files (like wechat amr, aud files, qq slk files) and convert to other format (like mp3).
+- [**Sonixd**](https://github.com/jeffvli/sonixd) A full-featured Subsonic/Jellyfin compatible desktop music player
 - [**start**](https://start.qq.com/) 云游戏, 让好玩触手可及
 - [**SubRenamer**](https://github.com/qwqcode/SubRenamer) 番剧字幕文件自动化一键批量重命名（改名）工具：自动匹配，正则过滤，手动精选，一键操作；Rename Subtitles Automatically to Match Videos Easily through the SubRenamer Tool.
 - [**texlive-small**](https://tug.org/texlive/) TeX Live is a cross-platform, free software distribution for the TeX typesetting system. Manifest refers to `dorado/bucket/texlive.json`.
