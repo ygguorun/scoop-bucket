@@ -1,0 +1,18 @@
+{
+    "version": "1.3.4",
+    "description": "对Git仓库大文件进行扫描、清理，并重写提交历史的Git拓展工具。",
+    "homepage": "https://gitee.com/oschina/git-repo-clean",
+    "license": "MulanPSL-2.0",
+    "url": "https://gitee.com/oschina/git-repo-clean/attach_files/1029863/download/git-repo-clean-1.3.4-Windows-64.zip",
+    "hash": "47668759123f1c31ae7f4f096b2d7852543a512fe1abca14e2345ed8e927d4e7",
+    "extract_dir": "releases/1.3.4/Windows-64",
+    "bin": "git-repo-clean.exe",
+    "checkver": {
+        "url": "https://gitee.com/oschina/git-repo-clean/releases",
+        "regex": "/(?<path>.*?)/git-repo-clean-([\\d.]+)-Windows-64.zip"
+    },
+    "autoupdate": {
+        "url": "https://gitee.com/$matchPath/git-repo-clean-$version-Windows-64.zip",
+        "extract_dir": "releases/$version/Windows-64"
+    }
+}
