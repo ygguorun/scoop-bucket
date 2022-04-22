@@ -61,7 +61,6 @@ Self-use scoop bucket repository.
 - [**start**](https://start.qq.com/) 云游戏, 让好玩触手可及
 - [**SubRenamer**](https://github.com/qwqcode/SubRenamer) 番剧字幕文件自动化一键批量重命名（改名）工具：自动匹配，正则过滤，手动精选，一键操作；Rename Subtitles Automatically to Match Videos Easily through the SubRenamer Tool.
 - [**TerminusPlayer**](https://github.com/Terminus-Media/jellyfin-media-player) 本播放器是终点站大佬基于 [Jellyfin-media-player](https://github.com/jellyfin/jellyfin-media-player) 项目 修改的一款播放器
-- [**texlive-small**](https://tug.org/texlive/) TeX Live is a cross-platform, free software distribution for the TeX typesetting system. Manifest refers to `dorado/bucket/texlive.json`.
 - [**triangula**](https://github.com/RH12503/triangula) Generate high-quality triangulated art from images.
 - [**upgit**](https://github.com/pluveto) Another Typora image uploader.
 - [**WhyNotWin11**](https://github.com/rcmaehl/WhyNotWin11) Detection Script to help identify why your PC isn't Windows 11 ready
@@ -86,6 +85,7 @@ These manifests have been removed from this bucket because there are better/main
 - [**noMeiryoUI**](https://github.com/Tatsu-syo/noMeiryoUI) available in `chawyehsu/dorado` bucket as [nomeiryoui](https://github.com/chawyehsu/dorado/blob/master/bucket/nomeiryoui.json)
 - [**TeambitionProjectWeb**](https://www.52pojie.cn/thread-1348072-1-1.html) Teambition项目直链解析，无需内测码，支持直链列目录加密
 - [**majsoul-ex**](https://github.com/moxcomic/majsoul-ex) 支持全平台的第三方雀魂客户端, 支持安装自定义扩展
+- [**texlive-small**](https://tug.org/texlive/) TeX Live is a cross-platform, free software distribution for the TeX typesetting system. Manifest refers to `dorado/bucket/texlive.json`.
 
 
 </details>
