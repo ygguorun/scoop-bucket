@@ -60,6 +60,7 @@ Self-use scoop bucket repository.
 - [**Sonixd**](https://github.com/jeffvli/sonixd) A full-featured Subsonic/Jellyfin compatible desktop music player
 - [**start**](https://start.qq.com/) 云游戏, 让好玩触手可及
 - [**SubRenamer**](https://github.com/qwqcode/SubRenamer) 番剧字幕文件自动化一键批量重命名（改名）工具：自动匹配，正则过滤，手动精选，一键操作；Rename Subtitles Automatically to Match Videos Easily through the SubRenamer Tool.
+- [**TerminusPlayer**](https://github.com/Terminus-Media/jellyfin-media-player) 本播放器是终点站大佬基于 [Jellyfin-media-player](https://github.com/jellyfin/jellyfin-media-player) 项目 修改的一款播放器
 - [**texlive-small**](https://tug.org/texlive/) TeX Live is a cross-platform, free software distribution for the TeX typesetting system. Manifest refers to `dorado/bucket/texlive.json`.
 - [**triangula**](https://github.com/RH12503/triangula) Generate high-quality triangulated art from images.
 - [**upgit**](https://github.com/pluveto) Another Typora image uploader.
