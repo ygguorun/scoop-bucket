@@ -12,9 +12,5 @@
             "gluttonyFLIF"
         ]
     ],
-    "checkver": "v([\\d.]+)",
-    "persist": "gluttonyFLIF_Data",
-    "autoupdate": {
-        "url": "http://cdn-nullice-old-download.nullice.com/gluttonyFLIF.zip"
-    }
+    "persist": "gluttonyFLIF_Data"
 }

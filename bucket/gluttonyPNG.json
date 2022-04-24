@@ -12,9 +12,5 @@
             "gluttonyPNG"
         ]
     ],
-    "checkver": "v([\\d.]+)",
-    "persist": "gluttonyPNG_Data",
-    "autoupdate": {
-        "url": "http://cdn-nullice-old-download.nullice.com/gluttonyPNG_$version.zip"
-    }
+    "persist": "gluttonyPNG_Data"
 }
