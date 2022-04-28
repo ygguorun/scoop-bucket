@@ -22,6 +22,7 @@ Self-use scoop bucket repository.
 - [**DotNetVersions**](https://github.com/jmalarcon/DotNetVersions) Command line tool that shows the currently installed "classic" .NET versions in your system
 - [**EasyWindowSwitcher**](https://neosmart.net/EasySwitch) Easy Window Switcher is a software that can bring the classic macOS window switching method to Windows. You only need to press the shortcut key "alt + `(button below ESC)" to switch between different windows of the same software.
 - [**EmbyTheater**](https://emby.media/emby-theater.html) EmbyTheater. Media browser for Emby
+- [**Effidit**](https://effidit.qq.com) Effidit 编辑器是一款由腾讯出品，带有 AI 辅助写作功能的文本编辑工具
 - [**FileMonitor**](https://zhs.moo0.com/software/FileMonitor) Moo0 File Monitor lets you easily monitor the file access activities on your system. / Moo0文件监视器使你在系统总轻松地监视文件访问行为。
 - [**FontLoaderSub**](https://github.com/yzwduck/FontLoaderSub) OpenType font loader for subtitles (ASS/SSA). Copy from `kidonng/sushi/bucket/fontloadersub.json`
 - [**git-repo-clean**](https://gitee.com/oschina/git-repo-clean) 对Git仓库大文件进行扫描、清理，并重写提交历史的Git拓展工具。

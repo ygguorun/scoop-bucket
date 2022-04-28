@@ -1,0 +1,51 @@
+{
+    "version": "0.1.0",
+    "description": "Effidit 编辑器是一款由腾讯出品，带有 AI 辅助写作功能的文本编辑工具",
+    "homepage": "https://effidit.qq.com",
+    "license": "Unknown",
+    "url": "https://effidit.qq.com/effidit-v0.1.0-zh-setup.msi",
+    "hash": "cf4ece0a76894ad4a938b7c30bfc25ef29392793e0aae6c79f96383cfd7db71e",
+    "installer": {
+        "script": [
+            "# handle runtime cache",
+            "if (!(Test-Path $persist_dir)) {",
+            "    New-Item $persist_dir -Type Directory -Force | Out-Null",
+            "}",
+            "$runtimeCache = \"$env:APPDATA\\Tencent\\Effidit\"",
+            "$runtimeCachePersist = \"$persist_dir\\appdata\"",
+            "if (Test-Path $runtimeCachePersist) {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "} else {",
+            "    if (Test-Path $runtimeCache) {",
+            "        Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "        New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "    }",
+            "}"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "$runtimeCache = \"$env:APPDATA\\Tencent\\Effidit\"",
+            "$runtimeCachePersist = \"$persist_dir\\appdata\"",
+            "if (!(Test-Path $runtimeCachePersist)) {",
+            "    Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "} else {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "}"
+        ]
+    },
+    "shortcuts": [
+        [
+            "Effidit.exe",
+            "Effidit"
+        ]
+    ],
+    "checkver": {
+        "url": "https://effidit.qq.com/js/app.26002156118edd8e2278.js",
+        "regex": "effidit-v([\\d.]+)-zh-setup.msi"
+    },
+    "autoupdate": {
+        "url": "https://effidit.qq.com/effidit-v$version-zh-setup.msi"
+    }
+}
