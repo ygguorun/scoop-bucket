@@ -1,6 +1,6 @@
 {
     "version": "0.1.0",
-    "description": "Effidit 编辑器是一款由腾讯出品，带有 AI 辅助写作功能的文本编辑工具",
+    "description": "文涌编辑器（Effidit）是一款带有AI辅助写作功能的文本编辑工具，由腾讯AI Lab开发。",
     "homepage": "https://effidit.qq.com",
     "license": "Unknown",
     "url": "https://effidit.qq.com/effidit-v0.1.0-zh-setup.msi",
