@@ -30,7 +30,6 @@ Self-use scoop bucket repository.
 - [**gluttonyPNG**](http://nullice.com/archives/1998) 大批量 PNG 图片压缩工具。快速无损压缩大批量 PNG 图片，支持保存进度，断点续压
 - [**go-cqhttp**](https://github.com/Mrs4s/go-cqhttp) cqhttp 的 golang 实现，轻量、原生跨平台.
 - [**hash**](http://keir.net/hash.html) Hash is a small GUI tool designed to perform MD5, SHA1 and CRC32 hashing functions on a number of files.
-- [**Internet-Download-Manager**](http://internetdownloadmanager.com/index.html) Internet Download Manager (IDM) is a tool to increase download speeds by up to 5 times, resume and schedule downloads. Modified from [Ryanjiena/scoop-apps](https://github.com/Ryanjiena/scoop-apps)
 - [**JianYingSRT**](https://guihet.com/jianying.html) 用于剪映中包含字幕信息的 Json 文件提取导出转换为 .srt 格式
 - [**katrain**](https://github.com/sanderland/katrain) Improve your Baduk skills by training with KataGo!
 - [**Legendary**](https://github.com/derrod/legendary) Legendary - A free and open-source replacement for the Epic Games Launcher
