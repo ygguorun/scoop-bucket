@@ -66,6 +66,7 @@ Self-use scoop bucket repository.
 - [**upgit**](https://github.com/pluveto) Another Typora image uploader.
 - [**WhyNotWin11**](https://github.com/rcmaehl/WhyNotWin11) Detection Script to help identify why your PC isn't Windows 11 ready
 - [**WindowTop**](https://github.com/BiGilSoft/WindowTop) Set window on top, make it dark, transparent and more
+- [**WinFontPlus**](https://silight.hatenablog.jp/entry/2016/10/01/191252) A tool to enhance font display on Windows.
 - [**wodeabc**](https://www.wodeabc.com) 一个简单、高效的办公助手。集成几十种文件批量处理功能，如：批量修改替换Word、Excel、PPT 和 PDF 及文本文件的内容、文件和文件夹的名称、格式转换、图片压缩、按顺序编号、生成文件、拆分合并文档等等。
 - [**大拍档剪辑助手**](http://spdpd.net) 大拍档剪辑助手是整合了视频剪辑中非常实用的功能于一体的桌面程序。
 - [**worsttrace**](https://wtrace.app) A simple and naive traceroute tool with GeoIP function.
