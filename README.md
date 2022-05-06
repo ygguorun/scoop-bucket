@@ -61,6 +61,7 @@ Self-use scoop bucket repository.
 - [**start**](https://start.qq.com/) 云游戏, 让好玩触手可及
 - [**SubRenamer**](https://github.com/qwqcode/SubRenamer) 番剧字幕文件自动化一键批量重命名（改名）工具：自动匹配，正则过滤，手动精选，一键操作；Rename Subtitles Automatically to Match Videos Easily through the SubRenamer Tool.
 - [**TerminusPlayer**](https://github.com/Terminus-Media/jellyfin-media-player) 本播放器是终点站大佬基于 [Jellyfin-media-player](https://github.com/jellyfin/jellyfin-media-player) 项目 修改的一款播放器
+- [**Thunder**](https://www.ghxi.com/thunder11green.html) 迅雷11 绿色精简版
 - [**triangula**](https://github.com/RH12503/triangula) Generate high-quality triangulated art from images.
 - [**upgit**](https://github.com/pluveto) Another Typora image uploader.
 - [**WhyNotWin11**](https://github.com/rcmaehl/WhyNotWin11) Detection Script to help identify why your PC isn't Windows 11 ready
