@@ -1,28 +1,13 @@
 {
-    "version": "1.3.1",
+    "version": "1.3.2",
     "description": "阿里云盘 WebDAV 服务",
     "homepage": "https://github.com/messense/aliyundrive-webdav",
     "license": "MIT License",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v1.3.1/aliyundrive-webdav-v1.3.1.windows-x64.zip",
-            "hash": "9f5c14b35171e5ad0d8714157b491817edb36856d7ad6829027ca9ac964296ce"
-        },
-        "32bit": {
-            "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v1.3.1/aliyundrive-webdav-v1.3.1.windows-x86.zip",
-            "hash": "8272765cb16adacefd60d01d9256e6587009f3b4ea943dd5f2059bab764c5b22"
-        }
-    },
+    "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v1.3.2/aliyundrive-webdav-v1.3.2.x86_64-pc-windows-msvc.zip",
+    "hash": "72bed20667a9bf049ef76b6a0ad3c96164339974bc16daec559fc3073cd614c7",
     "bin": "aliyundrive-webdav.exe",
     "checkver": "github",
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v$version/aliyundrive-webdav-v$version.windows-x64.zip"
-            },
-            "32bit": {
-                "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v$version/aliyundrive-webdav-v$version.windows-x86.zip"
-            }
-        }
+        "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v$version/aliyundrive-webdav-v$version.x86_64-pc-windows-msvc.zip"
     }
 }
