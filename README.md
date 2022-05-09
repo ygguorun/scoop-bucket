@@ -65,6 +65,7 @@ Self-use scoop bucket repository.
 - [**Thunder**](https://www.ghxi.com/thunder11green.html) 迅雷11 绿色精简版
 - [**triangula**](https://github.com/RH12503/triangula) Generate high-quality triangulated art from images.
 - [**upgit**](https://github.com/pluveto) Another Typora image uploader.
+- [**Videomanager**](https://github.com/hunmer/VideoManager) 视频的裁剪,标记与搜索结合一体的软件
 - [**WhyNotWin11**](https://github.com/rcmaehl/WhyNotWin11) Detection Script to help identify why your PC isn't Windows 11 ready
 - [**WindowTop**](https://github.com/BiGilSoft/WindowTop) Set window on top, make it dark, transparent and more
 - [**WinFontPlus**](https://silight.hatenablog.jp/entry/2016/10/01/191252) A tool to enhance font display on Windows.
