@@ -64,6 +64,8 @@ Self-use scoop bucket repository.
 - [**TerminusPlayer**](https://github.com/Terminus-Media/jellyfin-media-player) 本播放器是终点站大佬基于 [Jellyfin-media-player](https://github.com/jellyfin/jellyfin-media-player) 项目 修改的一款播放器
 - [**Thunder**](https://www.ghxi.com/thunder11green.html) 迅雷11 绿色精简版
 - [**triangula**](https://github.com/RH12503/triangula) Generate high-quality triangulated art from images.
+- **ttfname3** ttc, ttf, otf 字体文件属性修改工具
+- **UniteTTC** 解包/打包 TTC 文件的小工具
 - [**upgit**](https://github.com/pluveto) Another Typora image uploader.
 - [**Videomanager**](https://github.com/hunmer/VideoManager) 视频的裁剪,标记与搜索结合一体的软件
 - [**WhyNotWin11**](https://github.com/rcmaehl/WhyNotWin11) Detection Script to help identify why your PC isn't Windows 11 ready
