@@ -48,6 +48,7 @@ Self-use scoop bucket repository.
 - [**NegativeEncoder**](https://github.com/zyzsdy/NegativeEncoder) NegativeEncoder is a GUI tool for video encoding using QuickSync and NVENC.
 - [**officebox**](http://www.wofficebox.com) 万彩办公大师是一款办公必备的小工具百宝箱。软件里集合了60+个小工具，一个软件即可搞定90%的工作需求。
 - [**PDFPatcher**](https://github.com/wmjordan/PDFPatcher) PDF 补丁丁是一个 PDF 处理工具。
+- [**PingFang**](https://blog.dsrkafuu.net/post/2020/extract-sf-pingfang) MacOS 苹方字体
 - [**PotPlayer-old**](https://potplayer.daum.net) Highly customizable media player, this version is the last version without advertisements.
 - [**RegexMatchTracer**](http://www.regexlab.com/zh/mtracer) 正则表达式工具 Match Tracer 是一款用来编写和测试正则表达式的工具软件。 本软件通过可视化的界面，可以协助你快速、正确地写出复杂的正则表达式。
 - [**Reso**](http://www.bcheck.net/apps/reso.htm) Make a shortcut to run an app at your favorite resolution.
