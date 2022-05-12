@@ -56,6 +56,7 @@ Self-use scoop bucket repository.
 - [**RustDesk**](https://rustdesk.com/) Yet another remote desktop software
 - [**Sandboxie-Plus**](https://github.com/sandboxie-plus/Sandboxie) Sandboxie community maintained version
 - [**ShadowExplorer**](https://www.shadowexplorer.com/) ShadowExplorer allows you to browse the Shadow Copies created by the Windows Vista / 7 / 8 / 10 Volume Shadow Copy Service. 从系统还原点卷影文件还原特定文件。
+- [**scoop-search-multisource**](https://github.com/plicit/scoop-search-multisource) Search Scoop buckets: local, remote, zips, html
 - [**ShadowsocksR**](https://github.com/HMBSbige/ShadowsocksR-Windows) An Internet censorship circumventing tunnel tool, forked from shadowsocksR, maintained now by HMBSbige.   
 - [**ShanaEncoder**](https://shana.pe.kr) ShanaEncoder is audio/video encoding program based on FFmpeg.
 - [**silk2mp3**](https://kn007.net/topics/batch-convert-silk-v3-audio-files-to-mp3-in-windows/) Decode silk v3 audio files (like wechat amr, aud files, qq slk files) and convert to other format (like mp3).
