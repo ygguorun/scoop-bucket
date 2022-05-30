@@ -1,12 +1,12 @@
 {
-    "version": "6.22.0",
+    "version": "6.22.1",
     "description": "一个简单、高效的办公助手。集成几十种文件批量处理功能，如：批量修改替换Word、Excel、PPT 和 PDF 及文本文件的内容、文件和文件夹的名称、格式转换、图片压缩、按顺序编号、生成文件、拆分合并文档等等。",
     "homepage": "https://www.wodeabc.com",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-6_22_0.exe#/dl.7z",
-            "hash": "f9325e464e23a4ddbee8db8617b55dd57ea42b06f67685c22f89e0f8c245dfaf",
+            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/x64/wodeabc-installer-64bit-6_22_1.exe#/dl.7z",
+            "hash": "e87bdec57ce836832478914434e3f4ea566f784cf9b9e93a5417a30a32fc137b",
             "installer": {
                 "script": [
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -29,8 +29,8 @@
             }
         },
         "32bit": {
-            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/ia32/wodeabc-installer-32bit-6_22_0.exe#/dl.7z",
-            "hash": "3d9bd14cb0b9905d05d28e6e27c45edc986ca68f41119e0c583a840a5287cc50",
+            "url": "https://cdn2.wodeabc.com/file/upload/600134/files/update/ia32/wodeabc-installer-32bit-6_22_1.exe#/dl.7z",
+            "hash": "55a4c72d00a131f652625fee11f292b53756ecbe7908749e053437f6d8cfd839",
             "installer": {
                 "script": [
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
