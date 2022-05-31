@@ -44,7 +44,6 @@ Self-use scoop bucket repository.
 - [**MajsoulPlus**](https://github.com/MajsoulPlus/majsoul-plus) 雀魂Plus——雀魂麻将Majsoul专用浏览器，提供了一些专有特性
 - [**Malware-Patch**](https://github.com/the1812/Malware-Patch) 阻止中国流氓软件的管理员授权. / Prevent UAC authorization of Chinese malware.
 - [**MusicTag**](https://www.cnblogs.com/vinlxc/p/11347744.html) 『音乐标签』是一款可以编辑歌曲的标题，专辑，艺术家，歌词，封面等信息的应用程序， 支持FLAC, APE, WAV, AIFF, WV, TTA, MP3, MP4, M4A, OGG, MPC, OPUS, WMA, DSF, DFF等音频格式，绿色无广告，无任何功能限制。
-- [**NatTypeTester**](https://github.com/HMBSbige/NatTypeTester) 测试当前网络的 NAT 类型（STUN）
 - [**netflix-verify**](https://github.com/sjlleo/netflix-verify) 流媒体NetFlix解锁检测脚本 / A script used to determine whether your network can watch native Netflix movies or not
 - [**NegativeEncoder**](https://github.com/zyzsdy/NegativeEncoder) NegativeEncoder is a GUI tool for video encoding using QuickSync and NVENC.
 - [**officebox**](http://www.wofficebox.com) 万彩办公大师是一款办公必备的小工具百宝箱。软件里集合了60+个小工具，一个软件即可搞定90%的工作需求。
@@ -95,6 +94,7 @@ These manifests have been removed from this bucket because there are better/main
 - [**TeambitionProjectWeb**](https://www.52pojie.cn/thread-1348072-1-1.html) Teambition项目直链解析，无需内测码，支持直链列目录加密
 - [**majsoul-ex**](https://github.com/moxcomic/majsoul-ex) 支持全平台的第三方雀魂客户端, 支持安装自定义扩展
 - [**texlive-small**](https://tug.org/texlive/) TeX Live is a cross-platform, free software distribution for the TeX typesetting system. Manifest refers to `dorado/bucket/texlive.json`.
+- [**NatTypeTester**](https://github.com/HMBSbige/NatTypeTester) available in `chawyehsu/dorado` bucket as [nattypetester](https://github.com/chawyehsu/dorado/blob/master/bucket/nattypetester.json)
 
 
 </details>
