@@ -1,10 +1,10 @@
 {
-    "version": "2.1.19",
+    "version": "2.1.20",
     "description": "API 文档、API 调试、API Mock、API 自动化测试",
     "homepage": "https://www.apifox.cn",
     "license": "Unknown",
-    "url": "http://cdn.apifox.cn/download/2.1.19/Apifox-2.1.19.exe#/dl.7z",
-    "hash": "sha512:20b8b61737a75b92a2919e27d557790cc50dea014158f097077921808de3c6250c7d09ca695ccc5bff9eb8a924926e1ef1a03fb698ecf48305ed14157c60b065",
+    "url": "http://cdn.apifox.cn/download/2.1.20/Apifox-2.1.20.exe#/dl.7z",
+    "hash": "sha512:db8dff3265f91a434ac919dda5b8d9732af4b1cebe001917f83b88e072b634852c6e6def9e9796a36d3adbd191f1a4ff762c406e372a48dad9d1c11648e11dd2",
     "installer": {
         "script": [
             "# Expand-7zipArchive",
