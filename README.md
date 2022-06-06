@@ -3,6 +3,7 @@ Self-use scoop bucket repository.
 
 ### All manifests
 
+- [**163MusicLyrics**](https://github.com/jitwxs/163MusicLyrics) Windows 云音乐歌词获取【网易云、QQ音乐】
 - [**aDrive**](https://www.aliyundrive.com/) 阿里云盘是一款速度快、不打扰、够安全、易于分享的网盘，由阿里巴巴集团出品
 - [**akochan-reviewer**](https://github.com/Equim-chan/akochan-reviewer) 🀄️ Review your Tenhou or Mahjong Soul (Jantama) log with mahjong AI akochan. 麻雀 AI akochan と一緒に天鳳/雀魂の牌譜を検討しましょう！
 - [**aliyunpan-xiaobaiyang**](https://github.com/liupan1890/aliyunpan) 一款第三方的阿里云盘客户端，支持 Windows、macOS

@@ -1,0 +1,24 @@
+{
+    "version": "4.4",
+    "description": "Windows 云音乐歌词获取【网易云、QQ音乐】",
+    "homepage": "https://github.com/jitwxs/163MusicLyrics",
+    "license": "Apache License 2.0",
+    "url": [
+        "https://github.com/jitwxs/163MusicLyrics/releases/download/v4.4/v4.4-green.zip",
+        "https://github.com/jitwxs/163MusicLyrics/releases/download/v4.2/IpaDic.zip"
+    ],
+    "hash": [
+        "462b614d5a6f007e56da584fd29692e2541a8fffe1a9f9f90633969f66c61ddd",
+        "c88ca6b0f964e3e83d1cd4af80bed5bce45a4083d9b1eedc2e25f36adabb0a52"
+    ],
+    "shortcuts": [
+        [
+            "MusicLyricApp.exe",
+            "MusicLyricApp"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v$version/v$version-green.zip"
+    }
+}
