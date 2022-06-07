@@ -17,8 +17,8 @@
     ],
     "persist": "tactics.json",
     "checkver": {
-        "url": "https://github.com/Equim-chan/akochan-reviewer/releases",
-        "regex": "Equim-chan/akochan-reviewer/tree/v([\\d.]+)"
+        "url": "https://github.com/Equim-chan/mjai-reviewer/releases",
+        "regex": "Equim-chan/mjai-reviewer/tree/v([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/Equim-chan/akochan-reviewer/releases/download/v$version/akochan-reviewer-v$version-windows-x86_64.zip",
