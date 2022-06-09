@@ -42,7 +42,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://effidit.qq.com/js/app.26002156118edd8e2278.js",
+        "url": "https://effidit.qq.com/js/app.70fefabd3c687d16196c.js",
         "regex": "effidit-v([\\d.]+)-zh-setup.msi"
     },
     "autoupdate": {
