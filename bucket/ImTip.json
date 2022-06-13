@@ -1,10 +1,10 @@
 {
-    "version": "3.1",
+    "version": "3.2",
     "description": "通用输入法状态（中/英、全/半角、标点、大写）提示",
     "homepage": "https://imtip.aardio.com",
     "license": "MIT License",
     "url": "https://imtip.aardio.com/update/ImTip.7z",
-    "hash": "68e13586fe01db54602a0b2a91e615ebc83c18d36005188ce9b20ee47f5edd97",
+    "hash": "1a0a64ad6cd38c58aa28941bd07c284effb3010b9092066831005d26be5105ad",
     "shortcuts": [
         [
             "ImTip.exe",
