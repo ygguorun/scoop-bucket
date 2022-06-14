@@ -35,6 +35,11 @@
             "}"
         ]
     },
+    "bin": [
+        "Libs/NVEncC64.exe",
+        "Libs/QSVEncC64.exe",
+        "Libs/VCEEncC64.exe"
+    ],
     "shortcuts": [
         [
             "NEbin\\NegativeEncoder.exe",
