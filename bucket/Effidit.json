@@ -1,10 +1,10 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "文涌编辑器（Effidit）是一款带有AI辅助写作功能的文本编辑工具，由腾讯AI Lab开发。",
     "homepage": "https://effidit.qq.com",
     "license": "Unknown",
-    "url": "https://effidit.qq.com/effidit-v0.1.0-zh-setup.msi",
-    "hash": "cf4ece0a76894ad4a938b7c30bfc25ef29392793e0aae6c79f96383cfd7db71e",
+    "url": "https://effidit.qq.com/effidit-v0.1.1-zh-setup.msi",
+    "hash": "7dab948d0b3a0b7153088265c127bf8996e11bab6fecb0ca591a93baa58f815f",
     "installer": {
         "script": [
             "# handle runtime cache",
@@ -42,7 +42,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://effidit.qq.com/js/app.70fefabd3c687d16196c.js",
+        "url": "https://effidit_checkver.233366.xyz",
         "regex": "effidit-v([\\d.]+)-zh-setup.msi"
     },
     "autoupdate": {
