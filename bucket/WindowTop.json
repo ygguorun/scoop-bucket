@@ -1,13 +1,13 @@
 {
-    "version": "5.12.5",
+    "version": "5.13.0",
     "description": "Set window on top, make it dark, transparent and more",
     "homepage": "https://github.com/BiGilSoft/WindowTop",
     "license": {
         "identifier": "Unknown",
         "url": "https://github.com/BiGilSoft/WindowTop/blob/master/LICENSE"
     },
-    "url": "https://github.com/BiGilSoft/WindowTop/releases/download/v5.12.5/WindowTop.v5.12.5.Portable.zip",
-    "hash": "19ec65c67da03a2845f1c3adf8465b5c521343023bec7cbd6f447c129f17cbcd",
+    "url": "https://github.com/BiGilSoft/WindowTop/releases/download/v5.13.0/WindowTop.v5.13.0.Portable.zip",
+    "hash": "5c985fd4c303f26281aee7596bd75aec8d1e3aa662aa7aa07bb34ab1cb5fb966",
     "shortcuts": [
         [
             "WindowTop.exe",
