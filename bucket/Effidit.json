@@ -42,8 +42,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://effidit_checkver.233366.xyz",
-        "regex": "effidit-v([\\d.]+)-zh-setup.msi"
+        "url": "https://scoop_checkver.233366.xyz/effidit",
+        "jsonpath": "$.version"
     },
     "autoupdate": {
         "url": "https://effidit.qq.com/effidit-v$version-zh-setup.msi"
