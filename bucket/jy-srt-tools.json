@@ -14,7 +14,7 @@
         "392fa58a7f8e21bc1dbdc85282c12b13c6bb4e55a72a7063d61592340fededc9",
         "7f44f7d137ed846b192b64e9e75e19fb90905919ad00cbf03b4bf8e53b191363"
     ],
-    "pre_install": "Set-Content -Path \"$dir\\jy-srt-tools.bat\" -Value \"@echo off`njava -jar `\"$dir\\jy-srt-tools.jar`\"`npause`n\"",
+    "pre_install": "Set-Content -Path \"$dir\\jy-srt-tools.bat\" -Value \"@echo off`njava -jar `\"$dir\\jy-srt-tools.jar`\"\"",
     "bin": "jy-srt-tools.bat",
     "shortcuts": [
         [
