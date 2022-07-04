@@ -1,10 +1,10 @@
 {
-    "version": "1.7.0",
+    "version": "1.7.1",
     "description": "阿里云盘 WebDAV 服务",
     "homepage": "https://github.com/messense/aliyundrive-webdav",
     "license": "MIT License",
-    "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v1.7.0/aliyundrive-webdav-v1.7.0.x86_64-pc-windows-msvc.zip",
-    "hash": "29d0210a7c6b396ae50a1a293e14b9adcd45091f18a69b73a85978fe289e7cdc",
+    "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v1.7.1/aliyundrive-webdav-v1.7.1.x86_64-pc-windows-msvc.zip",
+    "hash": "990bde2860513859c1c77c53a784b29a380a3c8608affd6ed8e9720df50471f3",
     "bin": "aliyundrive-webdav.exe",
     "checkver": "github",
     "autoupdate": {
