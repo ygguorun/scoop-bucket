@@ -7,9 +7,7 @@
     "hash": "003061bf990d77409cf7d6d79131874291e4208fb8d34769ce66c9aa5cd4600e",
     "extract_dir": "DD监控室v2.9",
     "installer": {
-        "script": [
-            "Rename-Item \"$dir\\DD监控室2.9.exe\" \"$dir\\DD监控室.exe\""
-        ]
+        "script": "Rename-Item \"$dir\\DD监控室2.9.exe\" \"$dir\\DD监控室.exe\""
     },
     "shortcuts": [
         [

@@ -1,7 +1,7 @@
 {
     "version": "2.3.290",
-    "homepage": "https://github.com/jackychu0830/jy-srt-tools",
     "description": "剪映字幕工具箱",
+    "homepage": "https://github.com/jackychu0830/jy-srt-tools",
     "license": "Apache License 2.0",
     "suggest": {
         "Java Runtime Environment": "java/adoptopenjdk-hotspot-jre"
