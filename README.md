@@ -71,7 +71,6 @@ Self-use scoop bucket repository.
 - **UniteTTC** 解包/打包 TTC 文件的小工具
 - [**upgit**](https://github.com/pluveto) Another Typora image uploader.
 - [**Videomanager**](https://github.com/hunmer/VideoManager) 视频的裁剪,标记与搜索结合一体的软件
-- [**WhyNotWin11**](https://github.com/rcmaehl/WhyNotWin11) Detection Script to help identify why your PC isn't Windows 11 ready
 - [**WindowTop**](https://github.com/BiGilSoft/WindowTop) Set window on top, make it dark, transparent and more
 - [**WinFontPlus**](https://silight.hatenablog.jp/entry/2016/10/01/191252) A tool to enhance font display on Windows.
 - [**wodeabc**](https://www.wodeabc.com) 一个简单、高效的办公助手。集成几十种文件批量处理功能，如：批量修改替换Word、Excel、PPT 和 PDF 及文本文件的内容、文件和文件夹的名称、格式转换、图片压缩、按顺序编号、生成文件、拆分合并文档等等。
@@ -96,6 +95,7 @@ These manifests have been removed from this bucket because there are better/main
 - [**majsoul-ex**](https://github.com/moxcomic/majsoul-ex) 支持全平台的第三方雀魂客户端, 支持安装自定义扩展
 - [**texlive-small**](https://tug.org/texlive/) TeX Live is a cross-platform, free software distribution for the TeX typesetting system. Manifest refers to `dorado/bucket/texlive.json`.
 - [**NatTypeTester**](https://github.com/HMBSbige/NatTypeTester) available in `chawyehsu/dorado` bucket as [nattypetester](https://github.com/chawyehsu/dorado/blob/master/bucket/nattypetester.json)
+- [**WhyNotWin11**](https://github.com/rcmaehl/WhyNotWin11) Detection Script to help identify why your PC isn't Windows 11 ready
 
 
 </details>
