@@ -1,5 +1,5 @@
 {
-    "version": "1.5.fix1",
+    "version": "1.5",
     "description": "A hex editor for WeChat/QQ/TIM - PC版微信/QQ/TIM防撤回补丁（我已经看到了，撤回也没用了）",
     "homepage": "https://github.com/huiyadanli/RevokeMsgPatcher",
     "license": "GNU General Public License v3.0",
