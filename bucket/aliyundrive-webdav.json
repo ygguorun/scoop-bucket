@@ -1,11 +1,11 @@
 {
-    "version": "1.8.3",
+    "version": "1.8.4",
     "description": "阿里云盘 WebDAV 服务",
     "homepage": "https://github.com/messense/aliyundrive-webdav",
     "license": "MIT License",
     "notes": "Scoop doesn't persist your aliyundrive-webdav data, they are still storaged in '%LOCALAPPDATA%\\aliyundrive-webdav'.",
-    "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v1.8.3/aliyundrive-webdav-v1.8.3.x86_64-pc-windows-msvc.zip",
-    "hash": "0cb391a4ff791933e9c00d1a474ce868457dc49e59808141f38bb248bf613b04",
+    "url": "https://github.com/messense/aliyundrive-webdav/releases/download/v1.8.4/aliyundrive-webdav-v1.8.4.x86_64-pc-windows-msvc.zip",
+    "hash": "e1bda757af70b3c1993399d889139ec3cd7d55903d87f3008c54536e88c33fd4",
     "bin": "aliyundrive-webdav.exe",
     "checkver": "github",
     "autoupdate": {
