@@ -51,6 +51,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/MicroCBer/BetterNCM/releases/download/0.2.0/betterncm.dll"
+        "url": "https://github.com/MicroCBer/BetterNCM/releases/download/$version/betterncm.dll"
     }
 }
