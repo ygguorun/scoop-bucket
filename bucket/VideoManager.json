@@ -1,10 +1,10 @@
 {
-    "version": "1.2.2",
+    "version": "1.2.5",
     "description": "视频的裁剪,标记与搜索结合一体的软件",
     "homepage": "https://github.com/hunmer/VideoManager",
     "license": "Creative Commons Zero v1.0 Universal",
-    "url": "https://github.com/hunmer/VideoManager/releases/download/v1.2.2/videoManager.Setup.1.2.2.64bit.exe#/dl.7z",
-    "hash": "e54e07d6414a86e5a246e0fa4bc178f9b14b045a48202451b986d0989de03f43",
+    "url": "https://github.com/hunmer/VideoManager/releases/download/v1.2.5/videoManager.Setup.1.2.5.64bit.exe#/dl.7z",
+    "hash": "665b17b21e06c1e0bfa10713a19cd1799d91076ce3b9ad35ed443b83039608f5",
     "installer": {
         "script": [
             "# Expand-7zipArchive",
