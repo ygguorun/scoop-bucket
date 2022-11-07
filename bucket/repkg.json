@@ -13,7 +13,7 @@
     ],
     "checkver": {
         "url": "https://github.com/notscuffed/repkg/releases",
-        "regex": "RePKG v([\\w-.]+)<"
+        "regex": "RePKG v([\\w-.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/notscuffed/repkg/releases/download/v$version/RePKG.zip"
