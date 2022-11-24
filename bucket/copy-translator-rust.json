@@ -1,5 +1,5 @@
 {
-    "version": "0.4.1",
+    "version": "0.4.2",
     "description": "简单、轻量、好用的划词翻译软件，利用DeepL翻译，无需注册api token",
     "homepage": "https://github.com/zu1k/copy-translator",
     "license": "GNU General Public License v3.0",
