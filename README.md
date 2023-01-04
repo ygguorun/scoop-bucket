@@ -20,7 +20,6 @@ Self-use scoop bucket repository.
 - [**CopyTranslator**](https://github.com/CopyTranslator/CopyTranslator) Foreign language reading and translation assistant based on copy and translate.
 - [**DDMonitor**](https://github.com/zhimingshenjun/DD_Monitor) DD监控室
 - [**DocBox**](https://www.daokeyuedu.com/index.php) 极致 去繁 无广告 不加任何广告，为深度学习而生
-- [**doggo**](https://github.com/mr-karan/doggo) Command-line DNS Client for Humans. Written in Golang
 - [**DotNetVersions**](https://github.com/jmalarcon/DotNetVersions) Command line tool that shows the currently installed "classic" .NET versions in your system
 - [**EasyWindowSwitcher**](https://neosmart.net/EasySwitch) Easy Window Switcher is a software that can bring the classic macOS window switching method to Windows. You only need to press the shortcut key "alt + `(button below ESC)" to switch between different windows of the same software.
 - [**EmbyTheater**](https://emby.media/emby-theater.html) EmbyTheater. Media browser for Emby
@@ -96,6 +95,7 @@ These manifests have been removed from this bucket because there are better/main
 - [**texlive-small**](https://tug.org/texlive/) TeX Live is a cross-platform, free software distribution for the TeX typesetting system. Manifest refers to `dorado/bucket/texlive.json`.
 - [**NatTypeTester**](https://github.com/HMBSbige/NatTypeTester) available in `chawyehsu/dorado` bucket as [nattypetester](https://github.com/chawyehsu/dorado/blob/master/bucket/nattypetester.json)
 - [**WhyNotWin11**](https://github.com/rcmaehl/WhyNotWin11) Detection Script to help identify why your PC isn't Windows 11 ready
+- [**doggo**](https://github.com/mr-karan/doggo) Command-line DNS Client for Humans. Written in Golang
 
 
 </details>
