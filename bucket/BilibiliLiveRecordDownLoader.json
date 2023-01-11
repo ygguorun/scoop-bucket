@@ -37,17 +37,17 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases/download/$version/BilibiliLiveRecordDownLoader-Win64-$version.7z",
+                "url": "https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases/download/$version/BilibiliLiveRecordDownLoader-win-x64-$version.7z",
                 "hash": {
                     "url": "https://api.github.com/repos/HMBSbige/BilibiliLiveRecordDownLoader/releases/latest",
-                    "regex": "body.*Win64-.*?$sha256"
+                    "regex": "body.*win-x64-.*?$sha256"
                 }
             },
             "32bit": {
-                "url": "https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases/download/$version/BilibiliLiveRecordDownLoader-Win32-$version.7z",
+                "url": "https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases/download/$version/BilibiliLiveRecordDownLoader-win-x86-$version.7z",
                 "hash": {
                     "url": "https://api.github.com/repos/HMBSbige/BilibiliLiveRecordDownLoader/releases/latest",
-                    "regex": "body.*Win32-.*?$sha256"
+                    "regex": "body.*win-x86-.*?$sha256"
                 }
             }
         }
