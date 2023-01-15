@@ -28,7 +28,7 @@
             "        }",
             "    }",
             "}",
-            "@(\"$env:HOMEPATH\\betterncm\") | ForEach-Object { PersistsFolder $_ }",
+            "@(\"C:\\betterncm\") | ForEach-Object { PersistsFolder $_ }",
             "# install",
             "New-Item $scoopdir\\apps\\neteasemusic\\current\\msimg32.dll -Type HardLink -Target $dir\\BetterNCMII.dll | Out-Null"
         ]
@@ -44,7 +44,7 @@
             "        Remove-Item $folder -Force -Recurse -ErrorAction SilentlyContinue",
             "    }",
             "}",
-            "@(\"$env:HOMEPATH\\betterncm\") | ForEach-Object { PersistsFolder $_ }",
+            "@(\"C:\\betterncm\") | ForEach-Object { PersistsFolder $_ }",
             "# uninstall",
             "Remove-Item -Force $scoopdir\\apps\\neteasemusic\\current\\msimg32.dll | Out-Null"
         ]
