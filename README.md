@@ -95,7 +95,7 @@ These manifests have been removed from this bucket because there are better/main
 - [**NatTypeTester**](https://github.com/HMBSbige/NatTypeTester) available in `chawyehsu/dorado` bucket as [nattypetester](https://github.com/chawyehsu/dorado/blob/master/bucket/nattypetester.json)
 - [**WhyNotWin11**](https://github.com/rcmaehl/WhyNotWin11) Detection Script to help identify why your PC isn't Windows 11 ready
 - [**doggo**](https://github.com/mr-karan/doggo) Command-line DNS Client for Humans. Written in Golang
-- [**大拍档剪辑助手**](http://spdpd.net) 大拍档剪辑助手是整合了视频剪辑中非常实用的功能于一体的桌面程序。available in `chawyehsu/dorado` bucket as [nattypetester](https://github.com/chawyehsu/dorado/blob/master/bucket/spdpd-assistant.json)
+- [**大拍档剪辑助手**](http://spdpd.net) 大拍档剪辑助手是整合了视频剪辑中非常实用的功能于一体的桌面程序。available in `chawyehsu/dorado` bucket as [spdpd-assistant](https://github.com/chawyehsu/dorado/blob/master/bucket/spdpd-assistant.json)
 
 
 
