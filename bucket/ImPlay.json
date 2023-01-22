@@ -1,10 +1,10 @@
 {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A Cross-Platform Desktop Media Player",
     "homepage": "https://github.com/tsl0922/ImPlay",
     "license": "GNU General Public License v2.0",
-    "url": "https://github.com/tsl0922/ImPlay/releases/download/1.0.3/ImPlay-win64.zip",
-    "hash": "51d9bc55bbfce9de3addd11bd63a1cc039d76d3e1c209e1bbe244bfac3e97a5c",
+    "url": "https://github.com/tsl0922/ImPlay/releases/download/1.0.4/ImPlay-win64.zip",
+    "hash": "27c63ecfd0b32f3bbbfee10b9f9134115e82677987b2268c32d98608c53094fc",
     "installer": {
         "script": [
             "# handle runtime cache",
