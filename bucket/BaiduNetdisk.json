@@ -46,8 +46,8 @@
             "}",
             "@(\"$env:APPDATA\\Baidu\",\"$env:APPDATA\\BaiduYunGuanjia\",\"$env:APPDATA\\BaiduYunKernel\") | ForEach-Object { PersistsFolder $_ }",
             "#  cancel associated browser call items",
-            "Invoke-ExternalCommand regsvr32 -ArgumentList @('/s', \"$dir\\npYunWebDetect.dll\") -RunAs | Out-Null",
-            "Invoke-ExternalCommand \"$dir\\YunDetectService.exe\" -ArgumentList @(\"reg\") -RunAs | Out-Null"
+            "Invoke-ExternalCommand regsvr32 -ArgumentList @('/s', '/u', \"$dir\\npYunWebDetect.dll\") -RunAs | Out-Null",
+            "Invoke-ExternalCommand \"$dir\\YunDetectService.exe\" -ArgumentList @(\"unreg\") -RunAs | Out-Null"
         ]
     },
     "shortcuts": [
