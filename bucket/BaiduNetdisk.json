@@ -1,10 +1,10 @@
 {
-    "version": "7.29.1.1",
+    "version": "7.29.2.1",
     "description": "百度网盘 PC 版",
     "homepage": "https://yun.baidu.com",
     "license": "Unknown",
-    "url": "https://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.29.1.1.exe#/dl.7z",
-    "hash": "3bc49c5f75feec926131c14a4d1b76b07fffe3d9ea9944fed10cf6d1a6c7a94c",
+    "url": "https://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.29.2.1.exe#/dl.7z",
+    "hash": "3eddfac1cf1f757af86fcd073819bfbb804c138ff1d556b63947a18809e70631",
     "installer": {
         "script": [
             "# handle runtime cache",
