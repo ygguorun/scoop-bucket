@@ -1,12 +1,12 @@
 {
     "##": "Renaming .7z to .7z_ so that the archive will not be automatically extracted by Scoop.",
-    "version": "18.d1",
+    "version": "19.0d5e3",
     "homepage": "https://blog.dsrkafuu.net/post/2020/extract-sf-pingfang",
     "license": "Unknown",
-    "url": "https://od.233366.xyz/api/raw/?path=/Download/software/PingFang-Mod-18.d1.7z#/dl.7z_",
-    "hash": "47265acd3d35789d281aaaa5196cc13014776dd2cf91574a173c51a3709a3383",
+    "url": "https://od.233366.xyz/api/raw/?path=/Download/software/PingFang-Mod-19.0d5e3.7z#/dl.7z_",
+    "hash": "25510dca3c2893050b71483372458e67b28a814ed2d107e1c25647e621fef472",
     "pre_install": [
-        "Invoke-ExternalCommand 7z -ArgumentList('e', \"`\"$dir\\dl.7z_`\"\", \"`\"-p@dsrkafuu`\"\", \"`\"-o$dir`\"\", 'PingFang-Mod-18.d1\\PingFangTC*.otf') | Out-Null",
+        "Invoke-ExternalCommand 7z -ArgumentList('e', \"`\"$dir\\dl.7z_`\"\", \"`\"-pdsrkafuu.net`\"\", \"`\"-o$dir`\"\", 'PingFang-Mod-19.0d5e3\\PingFang-Mod-19.0d5e3-TC*.otf') | Out-Null",
         "Remove-Item \"$dir\\dl.7z_\""
     ],
     "installer": {
@@ -41,7 +41,7 @@
             "}",
             "$registryRoot = if ($global) { \"HKLM\" } else { \"HKCU\" }",
             "$registryKey = \"${registryRoot}:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\"",
-            "Get-ChildItem $dir -Filter 'PingFangTC*' | ForEach-Object {",
+            "Get-ChildItem $dir -Filter 'PingFang-Mod-19.0d5e3-TC*' | ForEach-Object {",
             "    $value = if ($global) { $_.Name } else { \"$fontInstallDir\\$($_.Name)\" }",
             "    New-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $value -Force | Out-Null",
             "    Copy-Item $_.FullName -Destination $fontInstallDir",
@@ -50,7 +50,7 @@
     },
     "pre_uninstall": [
         "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
-        "Get-ChildItem $dir -Filter 'PingFangTC*' | ForEach-Object {",
+        "Get-ChildItem $dir -Filter 'PingFang-Mod-19.0d5e3-TC*' | ForEach-Object {",
         "    Get-ChildItem $fontInstallDir -Filter $_.Name | ForEach-Object {",
         "        try {",
         "            Rename-Item $_.FullName $_.FullName -ErrorVariable LockError -ErrorAction Stop",
@@ -80,7 +80,7 @@
             "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
             "$registryRoot = if ($global) { \"HKLM\" } else { \"HKCU\" }",
             "$registryKey = \"${registryRoot}:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\"",
-            "Get-ChildItem $dir -Filter 'PingFangTC*' | ForEach-Object {",
+            "Get-ChildItem $dir -Filter 'PingFang-Mod-19.0d5e3-TC*' | ForEach-Object {",
             "    Remove-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
             "    Remove-Item \"$fontInstallDir\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
