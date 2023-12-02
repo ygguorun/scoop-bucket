@@ -11,7 +11,7 @@
             "if (!(Test-Path $persist_dir)) {",
             "    New-Item $persist_dir -Type Directory -Force | Out-Null",
             "}",
-            "$runtimeCache = \"$env:HOMEPATH\\TMSpeechLogs\"",
+            "$runtimeCache = \"$env:HOMEPATH\\Documents\\TMSpeechLogs\"",
             "$runtimeCachePersist = \"$persist_dir\\appdata\"",
             "if (Test-Path $runtimeCachePersist) {",
             "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
@@ -26,7 +26,7 @@
     },
     "uninstaller": {
         "script": [
-            "$runtimeCache = \"$env:HOMEPATH\\TMSpeechLogs\"",
+            "$runtimeCache = \"$env:HOMEPATH\\Documents\\TMSpeechLogs\"",
             "$runtimeCachePersist = \"$persist_dir\\appdata\"",
             "if (!(Test-Path $runtimeCachePersist)) {",
             "    Move-Item $runtimeCache $runtimeCachePersist -Force",
