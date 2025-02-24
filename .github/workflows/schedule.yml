@@ -8,6 +8,24 @@ jobs:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@main
+    - name: Create scoop config file
+      shell: pwsh
+      run: |
+        $configPath = Join-Path $env:USERPROFILE ".config\scoop"
+        $configFile = Join-Path $configPath "config.json"
+        $null = New-Item -ItemType Directory -Path $configPath -Force
+        @{
+          private_hosts = @(
+            @{
+              match   = "https://cdn2.wodeabc.com/*"
+              headers = "Referer=https://www.wodeabc.com/"
+            }
+          )
+          last_update  = (Get-Date -Format "o")
+          scoop_branch = "master"
+          scoop_repo   = "https://github.com/ScoopInstaller/Scoop"
+        } | ConvertTo-Json -Depth 10 | Set-Content -Path $configFile
+        Get-Content $configFile
     - name: Excavate
       uses: ScoopInstaller/GithubActions@main
       env:
