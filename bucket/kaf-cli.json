@@ -1,5 +1,5 @@
 {
-    "version": "1.3.8",
+    "version": "1.3.9",
     "description": "把 txt 文本转成 epub 和 mobi 电子书的命令行工具(原 TmdTextEpub)",
     "homepage": "https://github.com/ystyle/kaf-cli",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ystyle/kaf-cli/releases/download/v1.3.8/kaf-cli_v1.3.8_windows_386.zip",
-            "hash": "33630a505d77c51de8d3e7aa57f0e77e35b23c1ea4b0654f4b652e84ce2080bf"
+            "url": "https://github.com/ystyle/kaf-cli/releases/download/v1.3.9/kaf-cli_v1.3.9_windows_386.zip",
+            "hash": "7a97724dc3c181960d62c7b95563f159e4301c73754a2e51bd9891e7d34ed2c3"
         },
         "32bit": {
-            "url": "https://github.com/ystyle/kaf-cli/releases/download/v1.3.8/kaf-cli_v1.3.8_windows_amd64.zip",
-            "hash": "038d9e7a2ed0d50c87af4beb262f857e3d8c2c9761f1fe377c0171bcd0343fc0"
+            "url": "https://github.com/ystyle/kaf-cli/releases/download/v1.3.9/kaf-cli_v1.3.9_windows_amd64.zip",
+            "hash": "9e340ac29399926ee1f45d32e2457236f24b90a236cd10e0cb29f6c9e01598dc"
         }
     },
     "bin": [
