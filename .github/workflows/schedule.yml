@@ -6,6 +6,7 @@ jobs:
   excavate:
     name: Excavate
     runs-on: windows-latest
+    timeout-minutes: 10
     steps:
     - uses: actions/checkout@main
     - name: Create scoop config file
