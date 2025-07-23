@@ -1,10 +1,10 @@
 {
-    "version": "1.4.1",
+    "version": "1.4.0",
     "description": "Yet another remote desktop software",
     "homepage": "https://rustdesk.com",
     "license": "GNU General Public License v3.0",
-    "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.1/rustdesk-1.4.1-x86_64.exe",
-    "hash": "a8fcc981c937bbcee82593a16b1a4fecce43ba73ef30108e0f92613adb6f6d17",
+    "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.0/rustdesk-1.4.0-x86_64.exe",
+    "hash": "118d2ca9c9388a7f781ae56c0bfe1e765e7c3272312bea5569b4cb5710d8c419",
     "installer": {
         "script": [
             "Move-Item $dir\\rust* $dir\\RustDesk.exe",
