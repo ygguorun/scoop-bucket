@@ -11,8 +11,8 @@
             "Duplicate Searcher"
         ]
     ],
-    "checkver": "version=([\\d.]+)",
+    "checkver": "download_duplicate_searcher\\?id=zip&amp;sid=(?<sid>.*)&amp;version=(?<version>[\\d.]+)",
     "autoupdate": {
-        "url": "https://software.233366.xyz/api/raw/?path=/DupFilesSearchAndLink_$version.zip#/dl.7z"
+        "url": "https://malich.org/download_duplicate_searcher?id=zip&sid=$matchSid&version=$version#/dl.zip"
     }
 }
