@@ -1,10 +1,10 @@
 {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Windows 输入法中英状态指示器",
     "homepage": "https://github.com/HaujetZhao/IME_Indicator",
     "license": "Unknown",
-    "url": "https://github.com/HaujetZhao/IME_Indicator/releases/download/v0.2.0/IME-Indicator.exe",
-    "hash": "c3007c1b03488f46803bca5536631ecade0a8cba71fb2f206499090e57bdd883",
+    "url": "https://github.com/HaujetZhao/IME_Indicator/releases/download/v0.2.1/IME-Indicator.exe",
+    "hash": "4e827ba2eeb1edd4779c03ab89255bc3abdc89de67d289a70a99a9185e9803b1",
     "installer": {
         "script": [
             "# Generate default config.toml",
