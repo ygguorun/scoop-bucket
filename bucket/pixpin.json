@@ -18,10 +18,10 @@
         "History"
     ],
     "checkver": {
-        "url": "https://pixpin.cn/download",
-        "regex": "download.pixpin.cn/(?<prefix>.*?)_(?<version>[\\d.]+).exe"
+        "url": "https://pixpin.cn/download/index.txt",
+        "regex": "PixPin_cn_zh-cn_([\\d.]+).zip"
     },
     "autoupdate": {
-        "url": "https://download.pixpin.cn/$matchPrefix_$version.zip"
+        "url": "https://download.pixpin.cn/PixPin_cn_zh-cn_$version.zip"
     }
 }
