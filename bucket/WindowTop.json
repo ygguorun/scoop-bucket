@@ -1,13 +1,13 @@
 {
-    "version": "5.29.2",
+    "version": "5.30.0",
     "description": "Set window on top, make it dark, transparent and more",
     "homepage": "https://github.com/WindowTop/WindowTop-App",
     "license": {
         "identifier": "Unknown",
         "url": "https://github.com/WindowTop/WindowTop-App/blob/master/LICENSE"
     },
-    "url": "https://github.com/WindowTop/WindowTop-App/releases/download/5.29/WindowTop.v5.29.2.Portable.zip",
-    "hash": "971fbba9f5a27fdd23cc193ce4ad1da3b8340a76e7241c21f4c06c0573120365",
+    "url": "https://github.com/WindowTop/WindowTop-App/releases/download/5.30/WindowTop.v5.30.0.Portable.zip",
+    "hash": "cf9f8aae2b60ff0d887e8a8973e62e841aadb184cddc7f3172bd1917807082a0",
     "shortcuts": [
         [
             "WindowTop.exe",
