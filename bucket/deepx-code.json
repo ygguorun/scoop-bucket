@@ -1,10 +1,10 @@
 {
-    "version": "0.2.73",
+    "version": "0.2.75",
     "description": "DeepSeek-native terminal coding agent with code graph, OCR, TUI, WebUI and MCP support",
     "homepage": "https://github.com/itmisx/deepx-code",
     "license": "MIT",
-    "url": "https://github.com/itmisx/deepx-code/releases/download/v0.2.73/deepx_0.2.73_windows_amd64.zip",
-    "hash": "dd02384ee5c38f2eb651c64097c4b72d6e42988fc0c29fc9a36e1761919d88e6",
+    "url": "https://github.com/itmisx/deepx-code/releases/download/v0.2.75/deepx_0.2.75_windows_amd64.zip",
+    "hash": "8d79790465ff87ec79e931818fe1c1a032a304a1d9dcc8408e3b4aebd0993261",
     "bin": "deepx.exe",
     "checkver": "github",
     "autoupdate": {
