@@ -1,10 +1,10 @@
 {
-    "version": "0.14.1",
+    "version": "0.14.2",
     "description": "Live streaming recorder written in Rust!",
     "homepage": "https://github.com/oneliverec/OneLiveRec",
     "license": "Unknown",
-    "url": "https://github.com/oneliverec/OneLiveRec/releases/download/v0.14.1/orec-0.14.1-x86_64-pc-windows-msvc.zip",
-    "hash": "cd1b5922e1f13261fecb95bc16f209876360759df928cfd5b1c5526cbd5a8960",
+    "url": "https://github.com/oneliverec/OneLiveRec/releases/download/v0.14.2/orec-0.14.2-x86_64-pc-windows-msvc.zip",
+    "hash": "5cf5116c9ac90356886291ed70f7c3c4eacf697a9c5dc552fac84eceb7f52f0b",
     "bin": "orec.exe",
     "checkver": "github",
     "autoupdate": {
