@@ -32,6 +32,18 @@
             "}"
         ]
     },
+    "post_install": [
+        "$node = \"$dir\\runtime\\node.exe\"",
+        "$cli = \"$dir\\bin\\ttskill.js\"",
+        "$listUrl = \"https://skills.tiantianfunds.com/ai-smart-skill-service/openapi/skill-package/list?env=prod\"",
+        "$items = @((Invoke-RestMethod $listUrl).data.items)",
+        "foreach ($item in $items) {",
+        "    & $node $cli skill install $item.skill_id --env prod 2>&1 | Out-Null",
+        "    if ($LASTEXITCODE -eq 0) { Write-Host \"ttskill: installed $($item.skill_id)\" } else { Write-Host \"ttskill: failed to install $($item.skill_id)\" }",
+        "}",
+        "$installed = (& $node $cli skill list --json | ConvertFrom-Json)",
+        "if (@($installed.skills).Count -lt $items.Count) { Write-Host \"ttskill: synced fewer skill packages than expected; run 'ttskill skill install <skill_id>' to retry\" } else { Write-Host \"ttskill: synced $(@($installed.skills).Count) business skill packages\" }"
+    ],
     "checkver": {
         "url": "https://skills.tiantianfunds.com/ai-smart-skill-service/openapi/base-package/resolve?platform=win32&arch=x64&env=prod",
         "jsonpath": "$.data.version"
